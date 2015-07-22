@@ -15,14 +15,14 @@
 
     <script id="vertex-shader-twist" type="x-shader/x-vertex">
     attribute vec4 vPosition;
-    attribute float vTheta;
-    attribute float vD;
+    uniform float theta;
+    uniform float d;
 
     void main()
     {
         float x = vPosition.x;
         float y = vPosition.y;
-        float angle = vD * radians(vTheta) * sqrt(x * x + y * y);
+        float angle = d * radians(theta) * sqrt(x * x + y * y);
 
         float xTwist = x * cos(angle) - y * sin(angle);
         float yTwist = x * sin(angle) + y * cos(angle);

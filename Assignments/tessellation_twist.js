@@ -113,16 +113,16 @@ function drawCanvas(canvasId, vertexId, modeStr, points) {
     gl.vertexAttribPointer(vPosition, 2, gl.FLOAT, false, 0, 0);
     gl.enableVertexAttribArray(vPosition);
 
-    var vTheta = gl.getAttribLocation(program, "vTheta");
-    if (vTheta >= 0) {
+    var thetaLoc = gl.getUniformLocation(program, "theta");
+    if (thetaLoc) {
         var theta = Number(document.getElementById("rotationInput").value);
-        gl.vertexAttrib1f(vTheta, theta);
+        gl.uniform1f(thetaLoc, theta);
     }
 
-    var vD = gl.getAttribLocation(program, "vD");
-    if (vD >= 0) {
+    var dLoc = gl.getUniformLocation(program, "d");
+    if (dLoc) {
         var d = Number(document.getElementById("twistInput").value);
-        gl.vertexAttrib1f(vD, d);
+        gl.uniform1f(dLoc, d);
     }
 
     render(gl, mode, points.length);
