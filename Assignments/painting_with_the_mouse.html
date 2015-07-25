@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+<head>
+    <title>Painting with the Mouse</title>
+
+    <script id="vertex-shader" type="x-shader/x-vertex">
+    attribute vec4 vPosition;
+    
+    uniform vec4 color;
+
+    varying vec4 fColor;
+
+    void main()
+    {
+        gl_Position = vPosition;
+        fColor = color;
+    }
+    </script>
+
+    <script id="fragment-shader" type="x-shader/x-fragment">
+    precision mediump float;
+
+    varying vec4 fColor;
+
+    void main()
+    {
+        gl_FragColor = fColor;
+    }
+    </script>
+
+    <script type="text/javascript" src="../Common/webgl-utils.js"></script>
+    <script type="text/javascript" src="../Common/initShaders.js"></script>
+    <script type="text/javascript" src="../Common/MV.js"></script>
+    <script type="text/javascript" src="painting_with_the_mouse.js"></script>
+
+    <style type="text/css">
+        section {
+            display: inline-block;
+            vertical-align: top;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h3>Drawing Area:</h3>
+        <canvas id="gl-canvas" width="512" height="512">
+            Oops ... your browser doesn't support the HTML5 canvas element
+        </canvas>
+    </section>
+    <section>
+        <h3>Drawing Color:</h3>
+        <div style="height: 3em;">
+            <div id="drawingColor" style="width: 2em; height: 2em; border: solid rgb(80%, 80%, 80%); border-radius: 50%; margin: auto; background-color: red;"></div>
+        </div>
+
+        <p>
+            <form>
+                R = 
+                <strong><output id="rOutput" for="rInput">255</output></strong>
+                <br/>
+                (0<input id="rInput" type="range" min="0" max="255" value="255"/>255)
+            </form>
+            <form>
+                G = 
+                <strong><output id="gOutput" for="gInput">0</output></strong>
+                <br/>
+                (0<input id="gInput" type="range" min="0" max="255" value="0"/>255)
+            </form>
+            <form>
+                B = 
+                <strong><output id="bOutput" for="bInput">0</output></strong>
+                <br/>
+                (0<input id="bInput" type="range" min="0" max="255" value="0"/>255)
+            </form>
+            <form>
+                Alpha = 
+                <strong><output id="alphaOutput" for="alphaInput">1</output></strong>
+                <br/>
+                (0<input id="alphaInput" type="range" min="0" max="1" step="0.1" value="1"/>1)
+            </form>
+        </p>
+
+        <p>
+            <scan style="vertical-align: top;">Predefined Color:</scan>
+            <select id="predefined-color" size="8">
+                <option value="0,0,0,1">Black</option>
+                <option value="255,255,255,1">White</option>
+                <option value="255,0,0,1">Red</option>
+                <option value="0,255,0,1">Green</option>
+                <option value="0,0,255,1">Blue</option>
+                <option value="0,255,255,1">Cyan</option>
+                <option value="255,0,255,1">Magenta</option>
+                <option value="255,255,0,1">Yellow</option>
+            </select>
+        </p>
+    </section>
+    <section>
+        <h3>Line Width:</h3>
+        <div style="height: 3em;">
+            <div id="lineWidth" style="height: 1px; border: solid rgb(80%, 80%, 80%); background-color: red;"></div>
+        </div>
+
+        <p>
+            <form>
+                Width = 
+                <strong><output id="widthOutput" for="widthInput">1</output></strong>
+                <br/>
+                (1<input id="widthInput" type="range" min="1" max="7" value="1"/>7)
+            </form>
+        </p>
+    </section>
+</body>
+</html>
