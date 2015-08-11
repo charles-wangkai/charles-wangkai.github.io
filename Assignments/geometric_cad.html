@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+<head>
+    <title>Geometric CAD</title>
+
+    <script id="vertex-shader" type="x-shader/x-vertex">
+    attribute vec4 vPosition;
+
+    uniform mat4 transformationMatrix;
+    uniform mat4 modelViewMatrix;
+    uniform mat4 projectionMatrix;
+
+    void main() {
+        gl_Position = projectionMatrix * modelViewMatrix * transformationMatrix * vPosition;
+    }
+    </script>
+
+    <script id="fragment-shader" type="x-shader/x-fragment">
+    precision mediump float;
+
+    uniform vec4 color;
+
+    void main()
+    {
+        gl_FragColor = color;
+    }
+    </script>
+
+    <script type="text/javascript" src="../Common/webgl-utils.js"></script>
+    <script type="text/javascript" src="../Common/initShaders.js"></script>
+    <script type="text/javascript" src="../Common/MV.js"></script>
+    <script type="text/javascript" src="geometric_cad.js"></script>
+
+    <style type="text/css">
+        section {
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 1em;
+        }
+        table {
+            width: 100%;
+        }
+        button {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h3>Canvas:</h3>
+        <p style="position: relative;">
+            <canvas id="gl-canvas" width="512" height="512" style="border-radius: 50%;">
+                Oops ... your browser doesn't support the HTML5 canvas element
+            </canvas>
+            <canvas id="text-canvas" width="512" height="512" style="position: absolute; left: 0; top: 0;">
+                Oops ... your browser doesn't support the HTML5 canvas element
+            </canvas>
+        </p>
+    </section>
+
+    <section>
+        <h3>Creation:</h3>
+        <p>
+            <scan style="vertical-align: top;">Type:</scan>
+            <select id="type" size="3">
+                <option value="sphere" selected="selected">Sphere</option>
+                <option value="cone">Cone</option>
+                <option value="cylinder">Cylinder</option>
+            </select>
+        </p>
+        <p>
+            <button id="create" type="button">Create</button>
+        </p>
+    </section>
+
+    <section>
+        <h3>Transformation:</h3>
+        <p>
+            <scan style="vertical-align: top;">Created Objects:</scan>
+            <select id="objects">
+            </select>
+        </p>
+        <p>
+            Translation:
+            <table>
+                <tr>
+                    <td></td>
+                    <td><button class="transformation" type="button" value="translation 0,1,0">↑</button></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><button class="transformation" type="button" value="translation -1,0,0">↖</button></td>
+                    <td></td>
+                    <td><button class="transformation" type="button" value="translation 0,0,-1">↗</button></td>
+                </tr>
+                <tr>
+                    <td><button class="transformation" type="button" value="translation 0,0,1">↙</button></td>
+                    <td></td>
+                    <td><button class="transformation" type="button" value="translation 1,0,0">↘</button></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button class="transformation" type="button" value="translation 0,-1,0">↓</button></td>
+                    <td></td>
+                </tr>
+            </table>
+        </p>
+        <p>
+            Rotation:
+            <table>
+                <tr>
+                    <td><button class="transformation" type="button" value="rotation 15 1,0,0">↺ about +X</button></td>
+                    <td><button class="transformation" type="button" value="rotation -15 1,0,0">↻ about +X</button></td>
+                </tr>
+                <tr>
+                    <td><button class="transformation" type="button" value="rotation 15 0,1,0">↺ about +Y</button></td>
+                    <td><button class="transformation" type="button" value="rotation -15 0,1,0">↻ about +Y</button></td>
+                </tr>
+                <tr>
+                    <td><button class="transformation" type="button" value="rotation 15 0,0,1">↺ about +Z</button></td>
+                    <td><button class="transformation" type="button" value="rotation -15 0,0,1">↻ about +Z</button></td>
+                </tr>
+            </table>
+        </p>
+        <p>
+            Scale:
+            <table>
+                <tr>
+                    <td><button class="transformation" type="button" value="scale 1.25">o -> O</button></td>
+                    <td><button class="transformation" type="button" value="scale 0.8">O -> o</button></td>
+                </tr>
+            </table>
+        </p>
+    </section>
+</body>
+</html>
