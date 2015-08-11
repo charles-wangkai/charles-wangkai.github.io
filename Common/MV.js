@@ -394,7 +394,7 @@ function rotateZ(theta) {
 
 //----------------------------------------------------------------------------
 
-function scale( x, y, z )
+function scalem( x, y, z )
 {
     if ( Array.isArray(x) && x.length == 3 ) {
         z = x[2];
