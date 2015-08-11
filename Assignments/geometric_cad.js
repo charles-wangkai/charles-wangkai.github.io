@@ -1,8 +1,8 @@
 "use strict";
 
-const AXIS_FACTOR = 5;
+var AXIS_FACTOR = 5;
 
-const AXIS_POINTS = [
+var AXIS_POINTS = [
     scaleAxis(vec3(0, 0, 0)), scaleAxis(vec3(1, 0, 0)),
     scaleAxis(vec3(0.98, -0.02, 0)), scaleAxis(vec3(1, 0, 0)),
     scaleAxis(vec3(0.98, 0.02, 0)), scaleAxis(vec3(1, 0, 0)),
@@ -14,26 +14,26 @@ const AXIS_POINTS = [
     scaleAxis(vec3(0, 0, 0)), scaleAxis(vec3(0, 0, 1)),
     scaleAxis(vec3(-0.02, 0, 0.98)), scaleAxis(vec3(0, 0, 1)),
     scaleAxis(vec3(0.02, 0, 0.98)), scaleAxis(vec3(0, 0, 1))];
-const AXIS_COLOR = vec4(0, 0, 0, 1);
+var AXIS_COLOR = vec4(0, 0, 0, 1);
 
-const EYE = scaleAxis(vec3(1, 1, 1));
-const AT = scaleAxis(vec3(0, 0, 0));
-const UP = scaleAxis(vec3(0, 1, 0));
-const MODEL_VIEW_MATRIX = lookAt(EYE, AT, UP);
+var EYE = scaleAxis(vec3(1, 1, 1));
+var AT = scaleAxis(vec3(0, 0, 0));
+var UP = scaleAxis(vec3(0, 1, 0));
+var MODEL_VIEW_MATRIX = lookAt(EYE, AT, UP);
 
-const FOVY = 75;
-const ASPECT = 1;
-const NEAR = scaleAxis(0.01);
-const FAR = scaleAxis(4);
-const PROJECTION_MATRIX = perspective(FOVY, ASPECT, NEAR, FAR);
+var FOVY = 75;
+var ASPECT = 1;
+var NEAR = scaleAxis(0.01);
+var FAR = scaleAxis(4);
+var PROJECTION_MATRIX = perspective(FOVY, ASPECT, NEAR, FAR);
 
-const SUBDIVISION = 15;
+var SUBDIVISION = 15;
 
-const SPHERE_TEMPLATE = buildSphereTemplate();
-const CONE_TEMPLATE = buildConeTemplate();
-const CYLINDER_TEMPLATE = buildCylinderTemplate();
+var SPHERE_TEMPLATE = buildSphereTemplate();
+var CONE_TEMPLATE = buildConeTemplate();
+var CYLINDER_TEMPLATE = buildCylinderTemplate();
 
-const SELECTED_COLOR = vec4(1, 1, 1, 1);
+var SELECTED_COLOR = vec4(1, 1, 1, 1);
 
 var gl;
 
