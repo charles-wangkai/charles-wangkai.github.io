@@ -1,0 +1,273 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+<head>
+    <title>Adding Lighting</title>
+
+    <script id="vertex-shader-color" type="x-shader/x-vertex">
+    attribute vec4 vPosition;
+
+    uniform mat4 transformationMatrix;
+    uniform mat4 modelViewMatrix;
+    uniform mat4 projectionMatrix;
+
+    void main() {
+        gl_Position = projectionMatrix * modelViewMatrix * transformationMatrix * vPosition;
+    }
+    </script>
+
+    <script id="fragment-shader-color" type="x-shader/x-fragment">
+    precision mediump float;
+
+    uniform vec3 color;
+
+    void main()
+    {
+        gl_FragColor.rgb = color;
+        gl_FragColor.a = 1.0;
+    }
+    </script>
+
+
+    <script id="vertex-shader-light" type="x-shader/x-vertex">
+    const int LIGHT_NUM = 2;
+
+    attribute vec4 vPosition;
+    attribute vec4 vNormal;
+
+    varying vec3 N;
+    varying vec3 L[LIGHT_NUM];
+    varying float d[LIGHT_NUM];
+    varying vec3 E;
+
+    uniform mat4 transformationMatrix;
+    uniform mat4 modelViewMatrix;
+    uniform mat4 projectionMatrix;
+    uniform vec4 lightPositions[LIGHT_NUM];
+    uniform vec4 eyePosition;
+
+    void main() {
+        vec3 pos = (modelViewMatrix * transformationMatrix * vPosition).xyz;
+
+        N = normalize((modelViewMatrix * transformationMatrix * vNormal).xyz);
+        for (int i = 0; i < LIGHT_NUM; i++) {
+            vec3 l = (modelViewMatrix * lightPositions[i]).xyz - pos;
+            L[i] = normalize(l);
+            d[i] = length(l);
+        }
+        E = normalize((modelViewMatrix * eyePosition).xyz - pos);
+
+        gl_Position = projectionMatrix * modelViewMatrix * transformationMatrix * vPosition;
+    }
+    </script>
+
+    <script id="fragment-shader-light" type="x-shader/x-fragment">
+    precision mediump float;
+
+    const int LIGHT_NUM = 2;
+
+    varying vec3 N;
+    varying vec3 L[LIGHT_NUM];
+    varying float d[LIGHT_NUM];
+    varying vec3 E;
+
+    uniform vec3 ambientProduct;
+    uniform vec3 diffuseProducts[LIGHT_NUM];
+    uniform vec3 specularProducts[LIGHT_NUM];
+    uniform float materialShininess;
+    uniform float a;
+    uniform float b;
+    uniform float c;
+
+    void main()
+    {
+        vec3 color = vec3(0.0);
+
+        for (int i = 0; i < LIGHT_NUM; i++) {
+            float distanceTerm = 1.0 / (a + b * d[i] + c * d[i] * d[i]);
+
+            vec3 H = normalize(L[i] + E);
+
+            vec3 ambient = ambientProduct;
+            vec3 diffuse = diffuseProducts[i] * max(dot(L[i], N), 0.0);
+            vec3 specular;
+            if (dot(L[i], N) >= 0.0) {
+                specular = specularProducts[i] * pow(max(dot(N, H), 0.0), materialShininess);
+            } else {
+                specular = vec3(0.0);
+            }
+
+            color += ambient + diffuse * distanceTerm + specular * distanceTerm;
+        }
+
+        gl_FragColor.rgb = color;
+        gl_FragColor.a = 1.0;
+    }
+    </script>
+
+    <script type="text/javascript" src="../Common/webgl-utils.js"></script>
+    <script type="text/javascript" src="../Common/initShaders.js"></script>
+    <script type="text/javascript" src="../Common/MV.js"></script>
+    <script type="text/javascript" src="lighting.js"></script>
+
+    <style type="text/css">
+        section {
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 3em;
+        }
+        table {
+            width: 100%;
+        }
+        button {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h3>Canvas:</h3>
+        <p style="position: relative;">
+            <canvas id="gl-canvas" width="512" height="512" style="border-radius: 50%;">
+                Oops ... your browser doesn't support the HTML5 canvas element
+            </canvas>
+            <canvas id="text-canvas" width="512" height="512" style="position: absolute; left: 0; top: 0;">
+                Oops ... your browser doesn't support the HTML5 canvas element
+            </canvas>
+        </p>
+    </section>
+
+    <section>
+        <h3>Light Control:</h3>
+        <p>
+            <input id="distance" type="checkbox" checked="checked"/> Distance Attenuation
+        </p>
+        <p>
+            <scan style="vertical-align: top;">Lights:</scan>
+            <select id="lights" size="2">
+                <option selected="selected">Light1 (red)</option>
+                <option>Light2 (blue)</option>
+            </select>
+        </p>
+        <p>
+            <input id="enabled" type="checkbox" checked="checked"/> Turn On / Off
+        </p>
+        <p>
+            Moving Path:
+            <br/>
+            <input type="radio" name="path" value="line"/> Line
+            <input type="radio" name="path" value="circle" checked="checked"/> Circle
+        </p>
+        <p>
+            Moving along Axis:
+            <br/>
+            <input type="radio" name="axis" value="1,0,0"/> X
+            <input type="radio" name="axis" value="0,1,0" checked="checked"/> Y
+            <input type="radio" name="axis" value="0,0,1"/> Z
+        </p>
+        <p>
+            Translation:
+            <table>
+                <tr>
+                    <td></td>
+                    <td><button class="transformation" type="button" value="light translation 0,1,0">↑</button></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><button class="transformation" type="button" value="light translation -1,0,0">↖</button></td>
+                    <td></td>
+                    <td><button class="transformation" type="button" value="light translation 0,0,-1">↗</button></td>
+                </tr>
+                <tr>
+                    <td><button class="transformation" type="button" value="light translation 0,0,1">↙</button></td>
+                    <td></td>
+                    <td><button class="transformation" type="button" value="light translation 1,0,0">↘</button></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button class="transformation" type="button" value="light translation 0,-1,0">↓</button></td>
+                    <td></td>
+                </tr>
+            </table>
+        </p>
+        <p>
+            Rotation:
+            <table>
+                <tr>
+                    <td><button class="transformation" type="button" value="light rotation 15 1,0,0">↺ about +X</button></td>
+                    <td><button class="transformation" type="button" value="light rotation -15 1,0,0">↻ about +X</button></td>
+                </tr>
+                <tr>
+                    <td><button class="transformation" type="button" value="light rotation 15 0,1,0">↺ about +Y</button></td>
+                    <td><button class="transformation" type="button" value="light rotation -15 0,1,0">↻ about +Y</button></td>
+                </tr>
+                <tr>
+                    <td><button class="transformation" type="button" value="light rotation 15 0,0,1">↺ about +Z</button></td>
+                    <td><button class="transformation" type="button" value="light rotation -15 0,0,1">↻ about +Z</button></td>
+                </tr>
+            </table>
+        </p>
+    </section>
+
+    <section>
+        <h3>Object Control:</h3>
+        <p>
+            <scan style="vertical-align: top;">Objects:</scan>
+            <select id="objects">
+            </select>
+        </p>
+        <p>
+            Translation:
+            <table>
+                <tr>
+                    <td></td>
+                    <td><button class="transformation" type="button" value="object translation 0,1,0">↑</button></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><button class="transformation" type="button" value="object translation -1,0,0">↖</button></td>
+                    <td></td>
+                    <td><button class="transformation" type="button" value="object translation 0,0,-1">↗</button></td>
+                </tr>
+                <tr>
+                    <td><button class="transformation" type="button" value="object translation 0,0,1">↙</button></td>
+                    <td></td>
+                    <td><button class="transformation" type="button" value="object translation 1,0,0">↘</button></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button class="transformation" type="button" value="object translation 0,-1,0">↓</button></td>
+                    <td></td>
+                </tr>
+            </table>
+        </p>
+        <p>
+            Rotation:
+            <table>
+                <tr>
+                    <td><button class="transformation" type="button" value="object rotation 15 1,0,0">↺ about +X</button></td>
+                    <td><button class="transformation" type="button" value="object rotation -15 1,0,0">↻ about +X</button></td>
+                </tr>
+                <tr>
+                    <td><button class="transformation" type="button" value="object rotation 15 0,1,0">↺ about +Y</button></td>
+                    <td><button class="transformation" type="button" value="object rotation -15 0,1,0">↻ about +Y</button></td>
+                </tr>
+                <tr>
+                    <td><button class="transformation" type="button" value="object rotation 15 0,0,1">↺ about +Z</button></td>
+                    <td><button class="transformation" type="button" value="object rotation -15 0,0,1">↻ about +Z</button></td>
+                </tr>
+            </table>
+        </p>
+        <p>
+            Scale:
+            <table>
+                <tr>
+                    <td><button class="transformation" type="button" value="object scale 1.25">o -> O</button></td>
+                    <td><button class="transformation" type="button" value="object scale 0.8">O -> o</button></td>
+                </tr>
+            </table>
+        </p>
+    </section>
+</body>
+</html>
