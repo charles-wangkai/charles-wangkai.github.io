@@ -23,7 +23,7 @@ var SUBDIVISION = 256;
 var SPHERE_TEMPLATE = buildSphereTemplate();
 
 var CHECKERBOARD_TEXTURE_SIZE = 256;
-var CHECKERBOARD_CELL_SIZE = 8;
+var CHECKERBOARD_CELL_SIZE = 32;
 
 var ANIMATION2TEXT = {true: "►", false: "Ⅱ"};
 
