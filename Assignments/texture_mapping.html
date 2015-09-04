@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+<head>
+    <title>Texture Mapping to a Sphere</title>
+
+    <script id="vertex-shader" type="x-shader/x-vertex">
+    attribute vec4 vPosition;
+    attribute vec2 vTexCoord;
+
+    varying vec2 fTexCoord;
+
+    uniform mat4 transformationMatrix;
+    uniform mat4 modelViewMatrix;
+    uniform mat4 projectionMatrix;
+
+    void main() {
+        gl_Position = projectionMatrix * modelViewMatrix * transformationMatrix * vPosition;
+        fTexCoord = vTexCoord;
+    }
+    </script>
+
+    <script id="fragment-shader" type="x-shader/x-fragment">
+    precision mediump float;
+
+    varying vec2 fTexCoord;
+
+    uniform sampler2D tex;
+
+    void main()
+    {
+        gl_FragColor = texture2D(tex, fTexCoord);
+    }
+    </script>
+
+    <script type="text/javascript" src="../Common/webgl-utils.js"></script>
+    <script type="text/javascript" src="../Common/initShaders.js"></script>
+    <script type="text/javascript" src="../Common/MV.js"></script>
+    <script type="text/javascript" src="texture_mapping.js"></script>
+
+    <style type="text/css">
+        section {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        td {
+            text-align: center;
+        }
+        button {
+            width: 3em;
+        }
+    </style>
+</head>
+<body>
+    <div style="padding-bottom: 0.5em; border-style: none none dotted none; border-color: LightGray;">
+        <scan style="vertical-align: top;">Texture Image:</scan>
+        <select id="textureId" size="2">
+            <option value="checkerboard">Checkerboard</option>
+            <option value="map" selected="selected">Map</option>
+        </select>
+    </div>
+    <div>
+        <section>
+            <h3>"Longitude-Latitude" Projection:</h3>
+            <canvas id="gl-canvas-lnglat" width="400" height="400">
+                Oops ... your browser doesn't support the HTML5 canvas element
+            </canvas>
+        </section>
+        <section>
+            <table>
+                <tr>
+                    <td></td>
+                    <td><button id="up" class="transformation" value="-5 x" type="button">↑</button></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><button class="transformation" value="-5 y" type="button">←</button></td>
+                    <td><button id="animation" type="button">Ⅱ</button></td>
+                    <td><button class="transformation" value="5 y" type="button">→</button></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button id="down" class="transformation" value="5 x" type="button">↓</button></td>
+                    <td></td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <!-- http://paulbourke.net/geometry/transformationprojection/ -->
+            <h3>"Mercator" Projection:</h3>
+            <canvas id="gl-canvas-mercator" width="400" height="400">
+                Oops ... your browser doesn't support the HTML5 canvas element
+            </canvas>
+        </section>
+    </div>
+    <img id="map" src="earth_m.jpg" hidden="hidden"/>
+</body>
+</html>
