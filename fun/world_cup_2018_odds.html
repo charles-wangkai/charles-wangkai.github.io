@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/annotations.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+        <script type="text/javascript">
+            $(function () {
+                var getUrlParameter = function(key) {
+                    return new URL(window.location.href).searchParams.get(key);
+                };
+
+                var computeEarnAmount = function(otherTotal, sameTotal, betAmount) {
+                    var result = otherTotal * betAmount / (betAmount + sameTotal);
+                    return Math.round(result * 100) / 100;
+                };
+
+                var buildData = function(otherTotal, sameTotal) {
+                    var data = [0];
+                    for (var betAmount = 1; betAmount <= 550; betAmount++) {
+                        var earnAmount = computeEarnAmount(otherTotal, sameTotal, betAmount);
+
+                        data.push({x: betAmount, y: earnAmount, id: String(betAmount)});
+                    }
+                    return data;
+                };
+
+                var buildLabels = function(otherTotal, sameTotal) {
+                    var labels = [];
+                    var betAmounts = [1, 2, 5, 10, 20, 50, 100, 200, 500];
+                    for (var i = 0; i < betAmounts.length; i++) {
+                        var betAmount = betAmounts[i];
+                        var earnAmount = computeEarnAmount(otherTotal, sameTotal, betAmount);
+
+                        labels.push({point: String(betAmount), text: '押 ' + betAmount + ' 元<br/>赢 ' + earnAmount + ' 元'});
+                    }
+                    return labels;
+                };
+
+                var draw = function(data, labels) {
+                    Highcharts.chart("container", {
+                        title: {
+                            text: "世界杯竞猜 (百观版) 投注赔率图"
+                        },
+                        xAxis: {
+                            title: {
+                                text: "我的加注金额 (元)"
+                            }
+                        },
+                        yAxis: {
+                            title: {
+                                text: "赢钱金额 (元)"
+                            }
+                        },
+                        series: [{
+                            showInLegend: false,
+                            name: "赢钱金额 (元)",
+                            data: data
+                        }],
+                        annotations: [{
+                            labels: labels
+                        }],
+                        credits: {
+                            enabled: false
+                        }
+                    });
+                };
+
+                var otherTotal = parseInt(getUrlParameter("other_total"));
+                var sameTotal = parseInt(getUrlParameter("same_total"));
+
+                $("#other_span").html(otherTotal);
+                $("#same_span").html(sameTotal);
+
+                $("#formula").html("$$赢钱金额 = 其它结果已下注总额 (" + otherTotal + " 元) \\times {我的加注金额 \\over {我的加注金额 + 相同结果已下注总额 (" + sameTotal + " 元)}}$$");
+
+                var data = buildData(otherTotal, sameTotal);
+                var labels = buildLabels(otherTotal, sameTotal);
+                draw(data, labels);
+            });
+        </script>
+    </head>
+    <body>
+        <div id="container" style="width:100%; height:400px;"></div>
+
+        <p id="formula"></p>
+    </body>
+</html>
