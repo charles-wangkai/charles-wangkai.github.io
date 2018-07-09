@@ -1,5 +1,9 @@
 ![Portrait](https://charles-wangkai.github.io/favicon-96x96.png)
 
+# Assignments for Coursera [Game Development](https://www.coursera.org/learn/game-development)
+
+* [Solar System Simulation](http://charles-wangkai.github.io/unity3d/WebGL/Solar%20System/index.html)
+
 # Assignments for Coursera [WebGL](https://www.coursera.org/course/webgl)
 
 * [Tessellation and Twist](http://charles-wangkai.github.io/Assignments/tessellation_twist.html)
