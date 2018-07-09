@@ -1,4 +1,6 @@
-# Assignments for Coursera [Interactive Computer Graphics with WebGL](https://www.coursera.org/course/webgl)
+![Portrait](https://charles-wangkai.github.io/favicon-96x96.png)
+
+# Assignments for Coursera [WebGL](https://www.coursera.org/course/webgl)
 
 * [Tessellation and Twist](http://charles-wangkai.github.io/Assignments/tessellation_twist.html)
 
