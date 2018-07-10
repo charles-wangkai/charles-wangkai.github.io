@@ -14,9 +14,12 @@
                     return new URL(window.location.href).searchParams.get(key);
                 };
 
+                var round = function(amount) {
+                    return Math.round(amount * 100) / 100;
+                };
+
                 var computeEarnAmount = function(otherTotal, sameTotal, betAmount) {
-                    var result = otherTotal * betAmount / (betAmount + sameTotal);
-                    return Math.round(result * 100) / 100;
+                    return round(otherTotal * betAmount / (betAmount + sameTotal));
                 };
 
                 var buildData = function(otherTotal, sameTotal) {
@@ -73,7 +76,7 @@
                 var otherTotal = parseFloat(getUrlParameter("other_total"));
                 var sameTotal = parseFloat(getUrlParameter("same_total"));
 
-                $("#formula").html("$$赢钱金额 = 其它结果已下注总额 (" + otherTotal + " 元) \\times {我的加注金额 \\over {我的加注金额 + 相同结果已下注总额 (" + sameTotal + " 元)}}$$");
+                $("#formula").html("$$赢钱金额 = 其它结果已下注总额 (" + round(otherTotal) + " 元) \\times {我的加注金额 \\over {我的加注金额 + 相同结果已下注总额 (" + round(sameTotal) + " 元)}}$$");
 
                 var data = buildData(otherTotal, sameTotal);
                 var labels = buildLabels(otherTotal, sameTotal);
