@@ -70,8 +70,8 @@
                     });
                 };
 
-                var otherTotal = parseInt(getUrlParameter("other_total"));
-                var sameTotal = parseInt(getUrlParameter("same_total"));
+                var otherTotal = parseFloat(getUrlParameter("other_total"));
+                var sameTotal = parseFloat(getUrlParameter("same_total"));
 
                 $("#formula").html("$$赢钱金额 = 其它结果已下注总额 (" + otherTotal + " 元) \\times {我的加注金额 \\over {我的加注金额 + 相同结果已下注总额 (" + sameTotal + " 元)}}$$");
 
