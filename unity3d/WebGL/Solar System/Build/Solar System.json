@@ -2,12 +2,12 @@
 "companyName": "DefaultCompany",
 "productName": "Solar System",
 "dataUrl": "Solar System.data.unityweb",
-"asmCodeUrl": "Solar System.asm.code.unityweb",
-"asmMemoryUrl": "Solar System.asm.memory.unityweb",
-"asmFrameworkUrl": "Solar System.asm.framework.unityweb",
+"wasmCodeUrl": "Solar System.wasm.code.unityweb",
+"wasmFrameworkUrl": "Solar System.wasm.framework.unityweb",
 "TOTAL_MEMORY": 268435456,
 "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
 "splashScreenStyle": "Dark",
-"backgroundColor": "#231F20"
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
 }
