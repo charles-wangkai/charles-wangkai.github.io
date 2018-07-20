@@ -1,12 +1,12 @@
-![Portrait](https://charles-wangkai.github.io/favicon-96x96.png)
+[![Portrait](https://charles-wangkai.github.io/favicon-96x96.png)](https://github.com/charles-wangkai)
 
-## Assignments for Coursera [Game Development](https://www.coursera.org/learn/game-development) Course
+## Assignments for Coursera "Game Development" Course
 
 * [Solar System](http://charles-wangkai.github.io/unity3d/WebGL/Solar%20System/index.html)
 
 * [Roller Madness](http://charles-wangkai.github.io/unity3d/WebGL/Roller%20Madness/index.html)
 
-## Assignments for Coursera [WebGL](https://www.coursera.org/course/webgl) Course
+## Assignments for Coursera "WebGL" Course
 
 * [Tessellation and Twist](http://charles-wangkai.github.io/Assignments/tessellation_twist.html)
 
@@ -29,3 +29,29 @@
 * [Ping++ BigData Oncall Calendar](http://charles-wangkai.github.io/pingxx/bigdata-oncall-calendar.html)
 
 * [Moving Boxes](http://charles-wangkai.github.io/moving_boxes.html)
+
+## Certificates
+
+* Coursera
+    
+    * Machine Learning: [Certificate](http://charles-wangkai.github.io/certificates/certificate_machine_learning.pdf)
+
+    * Getting and Cleaning Data: [Certificate](http://charles-wangkai.github.io/certificates/certificate_getting_and_cleaning_data.pdf)
+
+    * Finding Hidden Messages in DNA (Bioinformatics I): [Certificate](http://charles-wangkai.github.io/certificates/certificate_bioinformatics_1.pdf)
+
+    * Interactive Computer Graphics with WebGL: [Certificate](http://charles-wangkai.github.io/certificates/certificate_webgl.pdf)
+
+    * R Programming: [Certificate](http://charles-wangkai.github.io/certificates/certificate_r_programming.pdf)
+
+    * The Data Scientist's Toolbox: [Certificate](http://charles-wangkai.github.io/certificates/certificate_data_scientist_toolbox.pdf)
+
+    * Model Thinking: [Certificate](http://charles-wangkai.github.io/certificates/certificate_model_thinking.pdf)
+
+    * Introduction to Finance: [Certificate](http://charles-wangkai.github.io/certificates/certificate_finance.pdf)
+
+    * Computer Programming: [Certificate](http://charles-wangkai.github.io/certificates/certificate_computer_programming.pdf)
+
+* edX
+
+    * Paradigms of Computer Programming: [Certificate](https://courses.edx.org/certificates/c952c7addbe34438a45c316752969049)
