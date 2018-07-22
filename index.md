@@ -6,6 +6,8 @@
 
 * [Roller Madness](http://charles-wangkai.github.io/unity3d/WebGL/Roller%20Madness/index.html)
 
+* [Box Shooter](http://charles-wangkai.github.io/unity3d/WebGL/Box%20Shooter/index.html)
+
 ## Assignments for Coursera "WebGL" Course
 
 * [Tessellation and Twist](http://charles-wangkai.github.io/Assignments/tessellation_twist.html)
