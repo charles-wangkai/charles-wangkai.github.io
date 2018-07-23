@@ -38,6 +38,8 @@
     
     * Machine Learning: [Certificate](http://charles-wangkai.github.io/certificates/certificate_machine_learning.pdf)
 
+    * Introduction to Game Development: [Certificate](http://charles-wangkai.github.io/certificates/certificate_game_development.pdf)
+
     * Getting and Cleaning Data: [Certificate](http://charles-wangkai.github.io/certificates/certificate_getting_and_cleaning_data.pdf)
 
     * Finding Hidden Messages in DNA (Bioinformatics I): [Certificate](http://charles-wangkai.github.io/certificates/certificate_bioinformatics_1.pdf)
