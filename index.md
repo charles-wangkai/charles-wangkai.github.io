@@ -1,3 +1,5 @@
+[Resume](/resume/kai_wang_resume.pdf)
+
 ## Unity (Course Assignments)
 
 * [Solar System](/unity3d/Solar%20System/index.html)
@@ -57,5 +59,3 @@
 * edX
 
     * Paradigms of Computer Programming: [Certificate](https://courses.edx.org/certificates/c952c7addbe34438a45c316752969049)
-
-## [Resume](/resume/kai_wang_resume.pdf)
