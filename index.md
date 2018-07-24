@@ -1,5 +1,3 @@
-[![Portrait](https://avatars0.githubusercontent.com/u/8757419)](https://github.com/charles-wangkai)
-
 ## Assignments for Coursera "Game Development" Course
 
 * [Solar System](/unity3d/Solar%20System/index.html)
