@@ -1,4 +1,4 @@
-[![Portrait](https://charles-wangkai.github.io/favicon-96x96.png)](https://github.com/charles-wangkai)
+[![Portrait](https://avatars0.githubusercontent.com/u/8757419)](https://github.com/charles-wangkai)
 
 ## Assignments for Coursera "Game Development" Course
 
