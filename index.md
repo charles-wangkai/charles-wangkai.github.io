@@ -1,4 +1,4 @@
-# Assignments for Coursera "Game Development" Course
+# Unity (Course Assignments)
 
 * [Solar System](/unity3d/Solar%20System/index.html)
 
@@ -6,7 +6,7 @@
 
 * [Box Shooter](/unity3d/Box%20Shooter/index.html)
 
-# Assignments for Coursera "WebGL" Course
+#  WebGL (Course Assignments)
 
 * [Tessellation and Twist](/webgl/tessellation_twist.html)
 
