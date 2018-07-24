@@ -2,23 +2,23 @@
 
 ## Assignments for Coursera "Game Development" Course
 
-* [Solar System](http://charles-wangkai.github.io/unity3d/WebGL/Solar%20System/index.html)
+* [Solar System](http://charles-wangkai.github.io/unity3d/Solar%20System/index.html)
 
-* [Roller Madness](http://charles-wangkai.github.io/unity3d/WebGL/Roller%20Madness/index.html)
+* [Roller Madness](http://charles-wangkai.github.io/unity3d/Roller%20Madness/index.html)
 
-* [Box Shooter](http://charles-wangkai.github.io/unity3d/WebGL/Box%20Shooter/index.html)
+* [Box Shooter](http://charles-wangkai.github.io/unity3d/Box%20Shooter/index.html)
 
 ## Assignments for Coursera "WebGL" Course
 
-* [Tessellation and Twist](http://charles-wangkai.github.io/Assignments/tessellation_twist.html)
+* [Tessellation and Twist](http://charles-wangkai.github.io/webgl/tessellation_twist.html)
 
-* [Painting with the Mouse](http://charles-wangkai.github.io/Assignments/painting_with_the_mouse.html)
+* [Painting with the Mouse](http://charles-wangkai.github.io/webgl/painting_with_the_mouse.html)
 
-* [Geometric CAD](http://charles-wangkai.github.io/Assignments/geometric_cad.html)
+* [Geometric CAD](http://charles-wangkai.github.io/webgl/geometric_cad.html)
 
-* [Adding Lighting](http://charles-wangkai.github.io/Assignments/lighting.html)
+* [Adding Lighting](http://charles-wangkai.github.io/webgl/lighting.html)
 
-* [Texture Mapping to a Sphere](http://charles-wangkai.github.io/Assignments/texture_mapping.html)
+* [Texture Mapping to a Sphere](http://charles-wangkai.github.io/webgl/texture_mapping.html)
 
 ## Fun
 
@@ -28,9 +28,9 @@
 
 ## Others
 
-* [Ping++ BigData Oncall Calendar](http://charles-wangkai.github.io/pingxx/bigdata-oncall-calendar.html)
+* [Ping++ BigData Oncall Calendar](http://charles-wangkai.github.io/others/pingxx_bigdata_oncall_calendar.html)
 
-* [Moving Boxes](http://charles-wangkai.github.io/moving_boxes.html)
+* [Moving Boxes](http://charles-wangkai.github.io/others/moving_boxes.html)
 
 ## Certificates
 
