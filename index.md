@@ -1,4 +1,4 @@
-# Unity (Course Assignments)
+## Unity (Course Assignments)
 
 * [Solar System](/unity3d/Solar%20System/index.html)
 
@@ -6,7 +6,7 @@
 
 * [Box Shooter](/unity3d/Box%20Shooter/index.html)
 
-#  WebGL (Course Assignments)
+##  WebGL (Course Assignments)
 
 * [Tessellation and Twist](/webgl/tessellation_twist.html)
 
@@ -18,19 +18,19 @@
 
 * [Texture Mapping to a Sphere](/webgl/texture_mapping.html)
 
-# Fun
+## Fun
 
 * [Probability of Poker Point Sum](/fun/pokers.html)
 
 * [Odds Graph](/fun/world_cup_2018_odds.html?other_total=200.0&same_total=185.0) (Used in [Slack App for FIFA World Cup 2018 Bets](https://github.com/charles-wangkai/betbot_worldcup2018))
 
-# Others
+## Others
 
 * [Ping++ BigData Oncall Calendar](/others/pingxx_bigdata_oncall_calendar.html)
 
 * [Moving Boxes](/others/moving_boxes.html)
 
-# Certificates
+## Certificates
 
 * Coursera
     
@@ -58,4 +58,4 @@
 
     * Paradigms of Computer Programming: [Certificate](https://courses.edx.org/certificates/c952c7addbe34438a45c316752969049)
 
-# [Resume](/resume/kai_wang_resume.pdf)
+## [Resume](/resume/kai_wang_resume.pdf)
