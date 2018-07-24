@@ -59,3 +59,5 @@
 * edX
 
     * Paradigms of Computer Programming: [Certificate](https://courses.edx.org/certificates/c952c7addbe34438a45c316752969049)
+
+## [Resume](http://charles-wangkai.github.io/resume/kai_wang_resume.pdf)

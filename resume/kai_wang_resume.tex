@@ -1,0 +1,113 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+\usepackage{hyperref}
+
+% Set applicant's personal data for header
+\name{Kai Wang}
+\address{Shoupakou North St, 100055 \linebreak Xicheng District, Beijing, China}
+\contacts{(+86) 13811539414 \linebreak charles.wangkai@gmail.com}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{Big Data Engineer}{Ping++}{Dec 2015 – Nov 2017}
+			Growth Intelligence
+			\begin{itemize}
+				\item Implemented ETL for payments, ID mapping, BI, internal stats. (Aliyun MaxCompute, SQL, Java)
+				\item Initiated and developed a web crawler to scan company information from web pages. (Python)
+				\item Implemented a sales amount prediction application based on machine learning. (Xgboost, Python, Shell Script)
+				\item Developed fast algorithms to decrypt millions of hashed IMEI IDs. (Java, AWS EC2)
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{SDE}{Amazon, China}{Apr 2014 – Oct 2014}
+			MFNCOD (Merchant Fulfillment Network, Cash On Delivery)
+			\begin{itemize}
+				\item Implemented the integration of ship track information from the carrier Best Express into Amazon China MFN. (Java, JSON, Git)
+				\item Enhanced the internal tool used by the operational team. (Ruby on Rails)
+				\item Achieved 90\%+ code coverage. (Unit Test)
+				\item Made Data Warehouse reports on a regular basis for operational monitoring. (SQL)
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Software Engineer}{IBM, China Development Lab}{Jul 2009 – Apr 2014}
+			Entitled Software
+			\begin{itemize}
+				\item Redesigned the output of report generation from HTML to XML/XSLT, which separates the content and style for easy support of report presentation in different styles.
+				\item Initiated and developed a test data builder tool for simplifying test data copy across environments, saving manual work by 85\%. (JDBC, Gson, jQuery, ZeroClipboard)
+				\item Initiated and developed a web viewer for displaying the hierarchy of underlying decision making tree, reducing the number of switches between UI panels by 80\%. (jsTree, Flexigrid, RESTful API)
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Beijing}{Beijing University of Technology}{Sep 2002 – Jul 2009}
+			\begin{itemize}
+				\item M.Eng. Degree in Computer Applied Technology, Jul 2009. GPA: 3.5
+				\item B.Eng. Degree in Computer Science and Technology, Jul 2006. GPA: 3.6
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Additional Experience and Awards}
+		\begin{cvsubsection}{}{}{}
+			\begin{itemize}
+				\item \textbf{GitHub Account:} \url{https://github.com/charles-wangkai}
+				\item \textbf{Google Distributed Code Jam (2016):} Advanced to Round 2. Ranked 175th. (ID: goalboy1015)
+				\item \textbf{Google Code Jam (2014):} Advanced to Round 2. Ranked 670th. (ID: goalboy1015)
+				\item \textbf{IBM CDL I/O Contest (2013):} A 3-day hackathon. Ranked 5th out of 64 projects. Developed a mobile app for reading analytics and recommendations.
+				\item \textbf{Project Euler (\url{https://projecteuler.net}):} Level 13. Solved 325 problems. (ID: goalboy)
+				\item \textbf{HackerRank ProjectEuler+ Contest (\url{https://www.hackerrank.com/projecteuler}:} Ranked top 4 out of 70000+ participants. (ID: goalboy)
+				\item \textbf{Topcoder - College Tour Beijing (2008):} Second Prize. Ranked 15th. (ID: GOALBOY)
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}
+			\begin{itemize}
+				\item Java; Python; SQL; Shell; C/C++/Obj-C; HTML/CSS/Javascript; R; Octave/MATLAB; Haskell
+				\item Hadoop; Android/iOS Programming; Ruby on Rails; WebGL
+				\item Algorithms; Machine Learning
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Favorite IT Books}
+		\begin{cvsubsection}{}{}{}
+			\begin{itemize}
+				\item Programming Pearls, 2nd Edition (Did all the exercises)
+				\item The Mythical Man-Month, Anniversary Edition
+				\item Clean Code
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}
