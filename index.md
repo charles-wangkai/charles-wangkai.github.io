@@ -2,11 +2,11 @@
 
 ## Unity (Course Assignments)
 
-* [Solar System](/unity3d/Solar%20System/index.html)
+* [Solar System](/unity/Solar%20System/index.html)
 
-* [Roller Madness](/unity3d/Roller%20Madness/index.html)
+* [Roller Madness](/unity/Roller%20Madness/index.html)
 
-* [Box Shooter](/unity3d/Box%20Shooter/index.html)
+* [Box Shooter](/unity/Box%20Shooter/index.html)
 
 ##  WebGL (Course Assignments)
 
