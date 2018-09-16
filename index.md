@@ -40,6 +40,8 @@
 
     * Introduction to Game Development: [Certificate](/certificates/certificate_game_development.pdf)
 
+    * Bootstrap 4: [Certificate](/certificates/certificate_bootstrap.pdf)
+
     * Getting and Cleaning Data: [Certificate](/certificates/certificate_getting_and_cleaning_data.pdf)
 
     * Finding Hidden Messages in DNA (Bioinformatics I): [Certificate](/certificates/certificate_bioinformatics_1.pdf)
