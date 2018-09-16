@@ -1,6 +1,6 @@
 [Resume](/resume/kai_wang_resume.pdf)
 
-## Unity (Course Assignments)
+## Unity
 
 * [Solar System](/unity/Solar%20System/index.html)
 
@@ -8,7 +8,11 @@
 
 * [Box Shooter](/unity/Box%20Shooter/index.html)
 
-##  WebGL (Course Assignments)
+## Web Application
+
+* [Restaurant](https://wangkai-confusion.herokuapp.com) (based on Bootstrap)
+
+## WebGL
 
 * [Tessellation and Twist](/webgl/tessellation_twist.html)
 
