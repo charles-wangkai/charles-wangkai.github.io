@@ -10,7 +10,9 @@
 
 ## Web Application
 
--   [Restaurant](https://wangkai-confusion.herokuapp.com) (based on Bootstrap)
+-   [Restaurant](https://confusion-bootstrap.herokuapp.com) (based on Bootstrap)
+
+-   [Restaurant](https://confusion-react-frontend.herokuapp.com) (based on React)
 
 ## WebGL
 
