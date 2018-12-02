@@ -14,6 +14,8 @@
 
 -   [Restaurant](https://confusion-react-frontend.herokuapp.com) (based on React)
 
+-   [Restaurant](https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40goalboy/confusion-7d539306e2c7418b9de6e848db8c7206-signed.apk) (Android App, based on React Native)
+
 ## WebGL
 
 -   [Tessellation and Twist](/webgl/tessellation_twist.html)
@@ -49,6 +51,8 @@
     -   Bootstrap 4: [Certificate](/certificates/certificate_bootstrap.pdf)
 
     -   Front-End Web Development with React: [Certificate](/certificates/certificate_front_end_react.pdf)
+
+    -   Multiplatform Mobile App Development with React Native: [Certificate](/certificates/certificate_react_native.pdf)
 
     -   Getting and Cleaning Data: [Certificate](/certificates/certificate_getting_and_cleaning_data.pdf)
 
