@@ -54,6 +54,8 @@
 
     -   Multiplatform Mobile App Development with React Native: [Certificate](/certificates/certificate_react_native.pdf)
 
+    -   Server-side Development with NodeJS, Express and MongoDB: [Certificate](/certificates/certificate_server_side_nodejs.pdf)
+
     -   Getting and Cleaning Data: [Certificate](/certificates/certificate_getting_and_cleaning_data.pdf)
 
     -   Finding Hidden Messages in DNA (Bioinformatics I): [Certificate](/certificates/certificate_bioinformatics_1.pdf)
