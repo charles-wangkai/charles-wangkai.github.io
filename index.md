@@ -20,6 +20,8 @@
 
 -   [Restaurant](https://confusion-reactjs-firebase.herokuapp.com) (based on Firebase)
 
+-   [Restaurant](https://confusion-react-loopback.herokuapp.com) (based on LoopBack, MongoDB)
+
 ## WebGL
 
 -   [Tessellation and Twist](/webgl/tessellation_twist.html)
