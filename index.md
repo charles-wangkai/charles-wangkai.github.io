@@ -18,6 +18,8 @@
 
 -   [Restaurant](https://confusion-react-nodejs.herokuapp.com) (based on Node.js, Express, MongoDB)
 
+-   [Restaurant](https://confusion-reactjs-firebase.herokuapp.com) (based on Firebase)
+
 ## WebGL
 
 -   [Tessellation and Twist](/webgl/tessellation_twist.html)
