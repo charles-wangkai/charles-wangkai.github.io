@@ -8,6 +8,10 @@
 
 -   [CodeChef SnackDown 2019](https://www.codechef.com/certificates/public/59fad88)
 
+-   [LeetCode](https://leetcode.com/goalboy)
+
+-   Project Euler: ![](https://projecteuler.net/profile/goalboy.png)
+
 ## Web Application
 
 -   [Restaurant](https://confusion-bootstrap.herokuapp.com) (based on Bootstrap)
