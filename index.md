@@ -1,12 +1,12 @@
 [Resume](/resume/kai_wang_resume.pdf)
 
-## Unity
+## Programming Competition Profiles
 
--   [Solar System](/unity/Solar%20System/index.html)
+-   [Google Code Jam](https://a2oj.com/CodeJamTools/Contestant.jsp?Nickname=goalboy1015)
 
--   [Roller Madness](/unity/Roller%20Madness/index.html)
+-   [HackerRank ProjectEuler+](https://www.hackerrank.com/results/projecteuler/goalboy)
 
--   [Box Shooter](/unity/Box%20Shooter/index.html)
+-   [CodeChef SnackDown 2019](https://www.codechef.com/certificates/public/59fad88)
 
 ## Web Application
 
@@ -21,6 +21,14 @@
 -   [Restaurant](https://confusion-reactjs-firebase.herokuapp.com) (based on Firebase)
 
 -   [Restaurant](https://confusion-react-loopback.herokuapp.com) (based on LoopBack, MongoDB)
+
+## Unity
+
+-   [Solar System](/unity/Solar%20System/index.html)
+
+-   [Roller Madness](/unity/Roller%20Madness/index.html)
+
+-   [Box Shooter](/unity/Box%20Shooter/index.html)
 
 ## WebGL
 
