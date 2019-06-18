@@ -2,7 +2,7 @@
 
 ## Programming Competition Profiles
 
-- [Google Code Jam](https://a2oj.com/CodeJamTools/Contestant.jsp?Nickname=goalboy1015)
+- [Google Code Jam 2019](/certificates/certificate_google_code_jam_2019.pdf)
 
 - [HackerRank ProjectEuler+](https://www.hackerrank.com/results/projecteuler/goalboy)
 
@@ -10,7 +10,9 @@
 
 - [LeetCode](https://leetcode.com/goalboy)
 
-- Project Euler: ![](https://projecteuler.net/profile/goalboy.png)
+- Project Euler:
+
+  ![](https://projecteuler.net/profile/goalboy.png)
 
 ## Web Application
 
