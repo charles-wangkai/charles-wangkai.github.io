@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <script type="text/javascript">
+      $(function() {
+        function buildProblemId(obj) {
+          return `${obj.contestId || ''}${obj.index}`;
+        }
+
+        function compareProblems(problem1, problem2) {
+          return problem2.solvedCount - problem1.solvedCount;
+        }
+
+        function renderMain(problems, problemStatistics, submissions) {
+          const idToProblem = {};
+          for (let i = 0; i < problems.length; i++) {
+            idToProblem[buildProblemId(problems[i])] = problems[i];
+            problems[i].solved = false;
+          }
+          for (let i = 0; i < problemStatistics.length; i++) {
+            idToProblem[buildProblemId(problemStatistics[i])].solvedCount =
+              problemStatistics[i].solvedCount;
+          }
+
+          for (let i = 0; i < submissions.length; i++) {
+            if (
+              !submissions[i].problem.hasOwnProperty('problemsetName') &&
+              submissions[i].verdict === 'OK'
+            ) {
+              let problem = submissions[i].problem;
+              if (!idToProblem.hasOwnProperty(buildProblemId(problem))) {
+                problem = problems.filter(
+                  p => p.name === submissions[i].problem.name
+                )[0];
+              }
+
+              idToProblem[buildProblemId(problem)].solved = true;
+            }
+          }
+
+          const solvedNum = problems.filter(problem => problem.solved).length;
+          const nextUnsolvedProblems = problems
+            .filter(problem => !problem.solved)
+            .sort(compareProblems)
+            .slice(0, 5);
+
+          $('#mainSolvedNum').text(solvedNum);
+
+          nextUnsolvedProblems.forEach(problem => {
+            const url = `https://codeforces.com/problemset/problem/${
+              problem.contestId
+            }/${problem.index}`;
+
+            $('#mainProblems tbody').append(`
+              <tr>
+                <th scope="row">
+                  <a href="${url}">${buildProblemId(problem)}</a>
+                </th>
+                <td><a href="${url}">${problem.name}</a></td>
+                <td>${problem.rating || ''}</td>
+                <td>${problem.solvedCount}</td>
+              </tr>
+              `);
+          });
+        }
+
+        function renderAcmsguru(problems, problemStatistics, submissions) {
+          const idToProblem = {};
+          for (let i = 0; i < problems.length; i++) {
+            idToProblem[buildProblemId(problems[i])] = problems[i];
+            problems[i].solved = false;
+          }
+          for (let i = 0; i < problemStatistics.length; i++) {
+            idToProblem[buildProblemId(problemStatistics[i])].solvedCount =
+              problemStatistics[i].solvedCount;
+          }
+
+          for (let i = 0; i < submissions.length; i++) {
+            if (
+              submissions[i].problem.problemsetName === 'acmsguru' &&
+              submissions[i].verdict === 'OK'
+            ) {
+              idToProblem[buildProblemId(submissions[i].problem)].solved = true;
+            }
+          }
+
+          const solvedNum = problems.filter(problem => problem.solved).length;
+          const nextUnsolvedProblems = problems
+            .filter(problem => !problem.solved)
+            .sort(compareProblems)
+            .slice(0, 5);
+
+          $('#acmsguruSolvedNum').text(solvedNum);
+
+          nextUnsolvedProblems.forEach(problem => {
+            const url = `https://codeforces.com/problemsets/acmsguru/problem/99999/${
+              problem.index
+            }`;
+
+            $('#acmsguruProblems tbody').append(`
+              <tr>
+                <th scope="row"><a href="${url}">${problem.index}</a></th>
+                <td><a href="${url}">${problem.name}</a></td>
+                <td>${problem.solvedCount}</td>
+              </tr>
+              `);
+          });
+        }
+
+        $.ajax({
+          url: 'https://codeforces.com/api/user.status',
+          jsonp: 'jsonp',
+          dataType: 'jsonp',
+          data: {
+            handle: 'goalboy'
+          },
+          success: function(response) {
+            const submissions = response.result;
+
+            $.ajax({
+              url: 'https://codeforces.com/api/problemset.problems',
+              jsonp: 'jsonp',
+              dataType: 'jsonp',
+              data: {},
+              success: function(response) {
+                const problems = response.result.problems;
+                const problemStatistics = response.result.problemStatistics;
+
+                renderMain(problems, problemStatistics, submissions);
+              }
+            });
+
+            $.ajax({
+              url: 'https://codeforces.com/api/problemset.problems',
+              jsonp: 'jsonp',
+              dataType: 'jsonp',
+              data: {
+                problemsetName: 'acmsguru'
+              },
+              success: function(response) {
+                const problems = response.result.problems;
+                const problemStatistics = response.result.problemStatistics;
+
+                renderAcmsguru(problems, problemStatistics, submissions);
+              }
+            });
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-header">
+            MAIN Solved Problems:
+            <span id="mainSolvedNum" style="color:green"></span>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">
+              Next Unsolved Problems
+            </h5>
+            <table id="mainProblems" class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Difficulty</th>
+                  <th scope="col">Solved Count</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-header">
+            ACMSGURU Solved Problems:
+            <span id="acmsguruSolvedNum" style="color:green"></span>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">
+              Next Unsolved Problems
+            </h5>
+            <table id="acmsguruProblems" class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Solved Count</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
