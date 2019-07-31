@@ -4,11 +4,19 @@
     <meta charset="utf-8" />
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 
     <link
       rel="stylesheet"
       type="text/css"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css"
     />
 
     <script type="text/javascript">
@@ -21,10 +29,11 @@
           return problem2.solvedCount - problem1.solvedCount;
         }
 
-        function renderMain(problems, problemStatistics, submissions) {
+        function prepareMainProblems(problems, problemStatistics, submissions) {
           const idToProblem = {};
           for (let i = 0; i < problems.length; i++) {
             idToProblem[buildProblemId(problems[i])] = problems[i];
+            problems[i].problemset = 'MAIN';
             problems[i].solved = false;
           }
           for (let i = 0; i < problemStatistics.length; i++) {
@@ -44,9 +53,16 @@
                 )[0];
               }
 
-              idToProblem[buildProblemId(problem)].solved = true;
+              const problemId = buildProblemId(problem);
+              idToProblem[problemId].solved = true;
+              idToProblem[problemId].solvedTime =
+                submissions[i].creationTimeSeconds;
             }
           }
+        }
+
+        function renderMain(problems, problemStatistics, submissions) {
+          prepareMainProblems(problems, problemStatistics, submissions);
 
           const solvedNum = problems.filter(problem => problem.solved).length;
           const nextUnsolvedProblems = problems
@@ -74,10 +90,15 @@
           });
         }
 
-        function renderAcmsguru(problems, problemStatistics, submissions) {
+        function prepareAcmsguruProblems(
+          problems,
+          problemStatistics,
+          submissions
+        ) {
           const idToProblem = {};
           for (let i = 0; i < problems.length; i++) {
             idToProblem[buildProblemId(problems[i])] = problems[i];
+            problems[i].problemset = 'ACMSGURU';
             problems[i].solved = false;
           }
           for (let i = 0; i < problemStatistics.length; i++) {
@@ -90,9 +111,16 @@
               submissions[i].problem.problemsetName === 'acmsguru' &&
               submissions[i].verdict === 'OK'
             ) {
-              idToProblem[buildProblemId(submissions[i].problem)].solved = true;
+              const problemId = buildProblemId(submissions[i].problem);
+              idToProblem[problemId].solved = true;
+              idToProblem[problemId].solvedTime =
+                submissions[i].creationTimeSeconds;
             }
           }
+        }
+
+        function renderAcmsguru(problems, problemStatistics, submissions) {
+          prepareAcmsguruProblems(problems, problemStatistics, submissions);
 
           const solvedNum = problems.filter(problem => problem.solved).length;
           const nextUnsolvedProblems = problems
@@ -117,6 +145,56 @@
           });
         }
 
+        let mainProblems = null;
+        let mainProblemStatistics = null;
+        let acmsguruProblems = null;
+        let acmsguruProblemStatistics = null;
+
+        function renderSolved(submissions) {
+          if (mainProblems === null || acmsguruProblems === null) {
+            return;
+          }
+
+          prepareMainProblems(mainProblems, mainProblemStatistics, submissions);
+          prepareAcmsguruProblems(
+            acmsguruProblems,
+            acmsguruProblemStatistics,
+            submissions
+          );
+
+          const solvedProblems = mainProblems
+            .concat(acmsguruProblems)
+            .filter(problem => problem.solved);
+
+          solvedProblems.forEach(problem => {
+            let url;
+            if (problem.problemset === 'MAIN') {
+              url = `https://codeforces.com/problemset/problem/${
+                problem.contestId
+              }/${problem.index}`;
+            } else if (problem.problemset === 'ACMSGURU') {
+              url = `https://codeforces.com/problemsets/acmsguru/problem/99999/${
+                problem.index
+              }`;
+            }
+
+            $('#solvedProblems tbody').append(`
+              <tr>
+                <th scope="row">${problem.problemset}</th>
+                <td><a href="${url}">${buildProblemId(problem)}</a></td>
+                <td><a href="${url}">${problem.name}</a></td>
+                <td>${problem.rating || ''}</td>
+                <td>${problem.solvedCount}</td>
+                <td>${moment(new Date(problem.solvedTime * 1000)).format()}</td>
+              </tr>
+              `);
+          });
+
+          $('#solvedProblems').DataTable({
+            order: [[5, 'desc']]
+          });
+        }
+
         $.ajax({
           url: 'https://codeforces.com/api/user.status',
           jsonp: 'jsonp',
@@ -137,6 +215,10 @@
                 const problemStatistics = response.result.problemStatistics;
 
                 renderMain(problems, problemStatistics, submissions);
+
+                mainProblems = problems;
+                mainProblemStatistics = problemStatistics;
+                renderSolved(submissions);
               }
             });
 
@@ -152,6 +234,10 @@
                 const problemStatistics = response.result.problemStatistics;
 
                 renderAcmsguru(problems, problemStatistics, submissions);
+
+                acmsguruProblems = problems;
+                acmsguruProblemStatistics = problemStatistics;
+                renderSolved(submissions);
               }
             });
           }
@@ -160,7 +246,7 @@
     </script>
   </head>
   <body>
-    <div class="row">
+    <div class="row m-1">
       <div class="col-sm-7">
         <div class="card">
           <div class="card-header">
@@ -202,6 +288,31 @@
                   <th scope="col">#</th>
                   <th scope="col">Name</th>
                   <th scope="col">Solved Count</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row m-1 mt-5">
+      <div class="col-sm">
+        <div class="card">
+          <div class="card-header">
+            All Solved Problems
+          </div>
+          <div class="card-body">
+            <table id="solvedProblems" class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Problem Set</th>
+                  <th scope="col">#</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Difficulty</th>
+                  <th scope="col">Solved Count</th>
+                  <th scope="col">Solved Time</th>
                 </tr>
               </thead>
               <tbody></tbody>
