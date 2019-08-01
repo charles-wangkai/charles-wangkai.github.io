@@ -183,6 +183,7 @@
                 <th scope="row">${problem.problemset}</th>
                 <td><a href="${url}">${buildProblemId(problem)}</a></td>
                 <td><a href="${url}">${problem.name}</a></td>
+                <td>${problem.tags.join(', ')}</td>
                 <td>${problem.rating || ''}</td>
                 <td>${problem.solvedCount}</td>
                 <td>${moment(new Date(problem.solvedTime * 1000)).format()}</td>
@@ -191,7 +192,7 @@
           });
 
           $('#solvedProblems').DataTable({
-            order: [[5, 'desc']]
+            order: [[6, 'desc']]
           });
         }
 
@@ -310,6 +311,7 @@
                   <th scope="col">Problem Set</th>
                   <th scope="col">#</th>
                   <th scope="col">Name</th>
+                  <th scope="col">Tags</th>
                   <th scope="col">Difficulty</th>
                   <th scope="col">Solved Count</th>
                   <th scope="col">Solved Time</th>
