@@ -192,6 +192,7 @@
           });
 
           $('#solvedProblems').DataTable({
+            columnDefs: [{ orderable: false, targets: 3 }],
             order: [[6, 'desc']]
           });
         }
