@@ -1,6 +1,6 @@
 [Resume](/resume/kai_wang_resume.pdf)
 
-## Programming Competition Profiles
+## Competitive Programming
 
 - [Google Code Jam 2019](/certificates/certificate_google_code_jam_2019.pdf)
 
