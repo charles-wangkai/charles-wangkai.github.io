@@ -54,13 +54,11 @@
 
 - [Odds Graph](/fun/world_cup_2018_odds.html?other_total=200.0&same_total=185.0) (Used in [Slack App for FIFA World Cup 2018 Bets](https://github.com/charles-wangkai/betbot_worldcup2018))
 
+- [Oncall Calendar](/fun/oncall_calendar.html)
+
+- [Moving Boxes](/fun/moving_boxes.html)
+
 - [Codeforces Next Problems](/fun/codeforces_next_problems.html)
-
-## Others
-
-- [Ping++ BigData Oncall Calendar](/others/pingxx_bigdata_oncall_calendar.html)
-
-- [Moving Boxes](/others/moving_boxes.html)
 
 ## Certificates
 
