@@ -1,92 +1,103 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
+  <head>
+    <meta charset="utf-8" />
+    <title>Probability of Poker Point Sum</title>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-        <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
 
-        <script type="text/javascript">
-            $(function () {
-                var computeProbs = function(pokerMaxPoint) {
-                    var probs = [1];
-                    var beginIndex = 0;
-                    var sum = 0;
-                    for (var i = 1; i <= 100; i++) {
-                        sum += probs[i - 1];
+    <script type="text/javascript">
+      $(function() {
+        var computeProbs = function(pokerMaxPoint) {
+          var probs = [1];
+          var beginIndex = 0;
+          var sum = 0;
+          for (var i = 1; i <= 100; i++) {
+            sum += probs[i - 1];
 
-                        var length = i - beginIndex;
-                        if (length > pokerMaxPoint) {
-                            sum -= probs[beginIndex];
-                            beginIndex++;
-                        }
+            var length = i - beginIndex;
+            if (length > pokerMaxPoint) {
+              sum -= probs[beginIndex];
+              beginIndex++;
+            }
 
-                        probs.push(sum / pokerMaxPoint);
+            probs.push(sum / pokerMaxPoint);
+          }
+          return probs;
+        };
+
+        var draw = function(probs) {
+          Highcharts.chart('container', {
+            title: {
+              text: 'Probability of Poker Point Sum'
+            },
+            xAxis: {
+              title: {
+                text: 'Poker Point Sum'
+              }
+            },
+            yAxis: {
+              min: 0,
+              max: 1,
+              title: {
+                text: 'Probability'
+              }
+            },
+            series: [
+              {
+                showInLegend: false,
+                name: 'Probability',
+                data: probs
+              }
+            ],
+            responsive: {
+              rules: [
+                {
+                  condition: {
+                    maxWidth: 500
+                  },
+                  chartOptions: {
+                    legend: {
+                      layout: 'horizontal',
+                      align: 'center',
+                      verticalAlign: 'bottom'
                     }
-                    return probs;
-                };
+                  }
+                }
+              ]
+            }
+          });
+        };
 
-                var draw = function(probs) {
-                    Highcharts.chart("container", {
-                        title: {
-                            text: "Probability of Poker Point Sum"
-                        },
-                        xAxis: {
-                            title: {
-                                text: "Poker Point Sum"
-                            }
-                        },
-                        yAxis: {
-                            min: 0,
-                            max: 1,
-                            title: {
-                                text: "Probability"
-                            }
-                        },
-                        series: [{
-                            showInLegend: false,
-                            name: "Probability",
-                            data: probs
-                        }],
-                        responsive: {
-                            rules: [{
-                                condition: {
-                                    maxWidth: 500
-                                },
-                                chartOptions: {
-                                    legend: {
-                                        layout: "horizontal",
-                                        align: "center",
-                                        verticalAlign: "bottom"
-                                    }
-                                }
-                            }]
-                        }
-                    });
-                };
+        var refresh = function() {
+          var probs = computeProbs(parseInt($('#poker-max-point').val()));
+          draw(probs);
+        };
 
-                var refresh = function() {
-                    var probs = computeProbs(parseInt($("#poker-max-point").val()));
-                    draw(probs);
-                };
+        $('#poker-max-point').bind('keyup mouseup', function() {
+          refresh();
+        });
 
-                $("#poker-max-point").bind("keyup mouseup", function () {
-                    refresh();
-                });
+        refresh();
+      });
+    </script>
+  </head>
+  <body>
+    <div id="container" style="width:100%; height:400px;"></div>
 
-                refresh();
-            });
-        </script>
-    </head>
-    <body>
-        <div id="container" style="width:100%; height:400px;"></div>
+    <div>
+      <label
+        >Poker Max Point:
+        <input id="poker-max-point" type="number" min="1" step="1" value="3"
+      /></label>
+    </div>
 
-        <div>
-            <label>Poker Max Point: <input id="poker-max-point" type="number" min="1" step="1" value="3"></label>
-        </div>
-
-        <footer style="float: right;">
-            Ideas from <a href="https://leetcode.com/problems/new-21-game">LeetCode Problem #837: New 21 Game</a>
-        </footer>
-    </body>
+    <footer style="float: right;">
+      Ideas from
+      <a href="https://leetcode.com/problems/new-21-game"
+        >LeetCode Problem #837: New 21 Game</a
+      >
+    </footer>
+  </body>
 </html>

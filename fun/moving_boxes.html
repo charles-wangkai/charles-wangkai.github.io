@@ -1,57 +1,60 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8"/>
+  <head>
+    <meta charset="utf-8" />
+    <title>Moving Boxes</title>
+
     <style type="text/css">
-        canvas {
-            display: block;
-            background: yellow;
-            margin: 20px auto;
-        }
+      canvas {
+        display: block;
+        background: yellow;
+        margin: 20px auto;
+      }
     </style>
+
     <script type="text/javascript">
-        window.onload = function() {
-            var canvas = document.querySelector('canvas');
-            var ctx = canvas.getContext('2d');
-            ctx.fillStyle="#FF0000";
+      window.onload = function() {
+        var canvas = document.querySelector('canvas');
+        var ctx = canvas.getContext('2d');
+        ctx.fillStyle = '#FF0000';
 
-            var W = canvas.width;
-            var H = canvas.height;
+        var W = canvas.width;
+        var H = canvas.height;
 
-            var wSmall = 100;
-            var hSmall = 50;
-            var wLarge = 140;
-            var hLarge = 70;
+        var wSmall = 100;
+        var hSmall = 50;
+        var wLarge = 140;
+        var hLarge = 70;
 
-            var x = wLarge / 2;
-            var y = hLarge / 2;
+        var x = wLarge / 2;
+        var y = hLarge / 2;
 
-            var vx = 2;
-            var vy = 2;
+        var vx = 2;
+        var vy = 2;
 
-            function draw() {
-                ctx.clearRect(0, 0, W, H);
+        function draw() {
+          ctx.clearRect(0, 0, W, H);
 
-                x += vx;
-                y += vy;
+          x += vx;
+          y += vy;
 
-                ctx.strokeRect(x - wSmall / 2, y - hSmall / 2, wSmall, hSmall);
-                ctx.strokeRect(x - wLarge / 2, y - hLarge / 2, wLarge, hLarge);
-                ctx.fillText('Goalboy 💖 Hyde', x - 38, y + 3);
+          ctx.strokeRect(x - wSmall / 2, y - hSmall / 2, wSmall, hSmall);
+          ctx.strokeRect(x - wLarge / 2, y - hLarge / 2, wLarge, hLarge);
+          ctx.fillText('Goalboy 💖 Hyde', x - 38, y + 3);
 
-                if (x - wLarge / 2 < 0 || x + wLarge / 2 > W) {
-                    vx = -vx;
-                }
-                if (y - hLarge / 2 < 0 || y + hLarge / 2 > H) {
-                    vy = -vy;
-                }
-            }
-
-            setInterval(draw, 30);
+          if (x - wLarge / 2 < 0 || x + wLarge / 2 > W) {
+            vx = -vx;
+          }
+          if (y - hLarge / 2 < 0 || y + hLarge / 2 > H) {
+            vy = -vy;
+          }
         }
+
+        setInterval(draw, 30);
+      };
     </script>
-</head>
-<body>
+  </head>
+  <body>
     <canvas width="500" height="300"></canvas>
-</body>
+  </body>
 </html>
