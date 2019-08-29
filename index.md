@@ -60,6 +60,8 @@
 
 - [Codeforces Next Problems](/fun/codeforces_next_problems.html)
 
+- [Dynamic Venn Diagram](/fun/dynamic_venn_diagram.html)
+
 ## Certificates
 
 - Coursera

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Dynamic Venn Diagram</title>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://raw.githack.com/benfred/venn.js/master/venn.js"></script>
+
+    <script>
+      $(function() {
+        function getRandomInt(min, max) {
+          return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        function updateSize() {
+          let deltaA = getRandomInt(90, 100);
+          let deltaB = getRandomInt(0, 10);
+
+          sizeA += deltaA;
+          sizeB += deltaB;
+          sizeBoth = getRandomInt(
+            sizeBoth,
+            Math.max(sizeBoth, (Math.min(sizeA, sizeB) * 3) / 4)
+          );
+
+          if (chart.width() >= 1000) {
+            clearInterval(intervalID);
+          }
+
+          chart.width(chart.width() + 30);
+          chart.height(chart.height() + 30);
+        }
+
+        function getSetIntersections() {
+          console.log(`sizes: ${sizeA}, ${sizeB}, ${sizeBoth}`);
+
+          return [
+            { sets: ['A'], size: sizeA },
+            { sets: ['B'], size: sizeB },
+            { sets: ['A', 'B'], size: sizeBoth }
+          ];
+        }
+
+        function drawVenn() {
+          d3.select('#venn')
+            .datum(getSetIntersections())
+            .call(chart);
+        }
+
+        let chart = venn.VennDiagram();
+
+        let sizeA = getRandomInt(-50, -40);
+        let sizeB = getRandomInt(10, 20);
+        let sizeBoth = 0;
+
+        let intervalID = setInterval(() => {
+          updateSize();
+          drawVenn();
+        }, 1000);
+      });
+    </script>
+  </head>
+  <body>
+    <div id="venn"></div>
+  </body>
+</html>
