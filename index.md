@@ -20,7 +20,7 @@
 
 - [Restaurant](https://confusion-react-frontend.herokuapp.com) (based on React)
 
-- [Restaurant](https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40goalboy/confusion-c8b60ee3a9fc44dc902ee637afa0a080-signed.apk) (Android App, based on React Native)
+- [Restaurant](https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40goalboy/confusion-37db062f61bf4add8068c398a72d8a14-signed.apk) (Android App, based on React Native)
 
 - [Restaurant](https://confusion-react-nodejs.herokuapp.com) (based on Node.js, Express, MongoDB)
 
