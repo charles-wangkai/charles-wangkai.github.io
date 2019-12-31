@@ -80,6 +80,8 @@
 
   - Competitive Programmer's Core Skills: [Certificate](/certificates/certificate_competitive_programming_core_skills.pdf)
 
+  - Computational Geometry: [Certificate](/certificates/certificate_computational_geometry.pdf)
+
   - Getting and Cleaning Data: [Certificate](/certificates/certificate_getting_and_cleaning_data.pdf)
 
   - Finding Hidden Messages in DNA (Bioinformatics I): [Certificate](/certificates/certificate_bioinformatics_1.pdf)
