@@ -2,7 +2,13 @@
 
 ## Competitive Programming
 
-- [Google Code Jam 2019](/certificates/certificate_google_code_jam_2019.pdf)
+- [Google Code Jam 2019](/certificates/certificate_google_code_jam_2019.pdf): Round 3. Ranked 372nd out of 35000+.
+
+- [Facebook Hacker Cup 2019](https://www.facebook.com/hackercup/scoreboard/414796186005449): Round 2. Ranked 465th out of 6000+.
+
+- [Google Distributed Code Jam 2016](https://code.google.com/codejam/contest/7244486/scoreboard): Round 2. Ranked 175th out of 800+.
+
+- [Google Code Jam 2018](/certificates/certificate_google_code_jam_2018.pdf)
 
 - [HackerRank ProjectEuler+](https://www.hackerrank.com/results/projecteuler/goalboy)
 
