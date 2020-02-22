@@ -6,9 +6,9 @@
 
 - [Facebook Hacker Cup 2019](https://www.facebook.com/hackercup/scoreboard/414796186005449): Round 2. Ranked 465th out of 6000+.
 
-- [Google Distributed Code Jam 2016](https://code.google.com/codejam/contest/7244486/scoreboard): Round 2. Ranked 175th out of 800+.
+- [Google Code Jam to I/O 2020](https://codingcompetitions.withgoogle.com/codejamio/round/000000000019ff03): Ranked 59th out of 2500+.
 
-- [Google Code Jam 2018](/certificates/certificate_google_code_jam_2018.pdf)
+- [Google Distributed Code Jam 2016](https://code.google.com/codejam/contest/7244486/scoreboard): Round 2. Ranked 175th out of 800+.
 
 - [HackerRank ProjectEuler+](https://www.hackerrank.com/results/projecteuler/goalboy)
 
