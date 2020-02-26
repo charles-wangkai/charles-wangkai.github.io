@@ -88,6 +88,8 @@
 
   - Computational Geometry: [Certificate](/certificates/certificate_computational_geometry.pdf)
 
+  - The Unix Workbench: [Certificate](/certificates/certificate_unix.pdf)
+
   - Getting and Cleaning Data: [Certificate](/certificates/certificate_getting_and_cleaning_data.pdf)
 
   - Finding Hidden Messages in DNA (Bioinformatics I): [Certificate](/certificates/certificate_bioinformatics_1.pdf)
