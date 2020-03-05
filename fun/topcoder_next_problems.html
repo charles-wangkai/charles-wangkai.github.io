@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TopCoder Next Problems</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css"
+    />
+
+    <script type="text/javascript">
+      $(function() {
+        function computeLevel(problem) {
+          return problem.div2Level
+            ? parseInt(problem.div2Level, 10)
+            : 10 + parseInt(problem.div1Level, 10);
+        }
+
+        function compareProblems(problem1, problem2) {
+          const level1 = computeLevel(problem1);
+          const level2 = computeLevel(problem2);
+
+          if (level1 != level2) {
+            return level1 - level2;
+          }
+
+          return problem1.date.localeCompare(problem2.date);
+        }
+
+        function renderUnsolved(problems, problemNameToSubmission) {
+          const nextUnsolvedProblems = problems
+            .filter(
+              problem => !problemNameToSubmission.hasOwnProperty(problem.name)
+            )
+            .sort(compareProblems)
+            .slice(0, 5);
+
+          nextUnsolvedProblems.forEach(problem => {
+            $("#problems tbody").append(`
+              <tr>
+                <th scope="row"><a href="${problem.url}">${problem.displayName}</a></th>
+                <td><a href="${problem.challengeUrl}">${problem.challenge}</a></td>
+                <td>${problem.date}</td>
+                <td>${problem.div1Level}</td>
+                <td>${problem.div2Level}</td>
+              </tr>
+              `);
+          });
+        }
+
+        function renderSolved(problems, problemNameToSubmission) {
+          const solvedProblems = problems.filter(problem =>
+            problemNameToSubmission.hasOwnProperty(problem.name)
+          );
+
+          $("#solvedNum").text(solvedProblems.length);
+
+          solvedProblems.forEach(problem => {
+            $("#solvedProblems tbody").append(`
+              <tr>
+                <th scope="row"><a href="${problem.url}">${
+              problem.displayName
+            }</a></th>
+                <td><a href="${problem.challengeUrl}">${
+              problem.challenge
+            }</a></td>
+                <td>${problem.date}</td>
+                <td>${problem.categories}</td>
+                <td>${problem.div1Level}</td>
+                <td>${problem.div2Level}</td>
+                <td><a href="https://github.com/charles-wangkai/topcoder/blob/master/${
+                  problemNameToSubmission[problem.name].solutionPath
+                }">${problemNameToSubmission[problem.name].time}</a></td>
+              </tr>
+              `);
+          });
+
+          $("#solvedProblems").DataTable({
+            columnDefs: [{ orderable: false, targets: 3 }],
+            order: [[6, "desc"]]
+          });
+        }
+
+        function buildProblemName(solutionPath) {
+          return solutionPath.substring(0, solutionPath.lastIndexOf("."));
+        }
+
+        function buildSubmissionTime(commits) {
+          return moment(
+            commits[commits.length - 1].commit.author.date
+          ).format();
+        }
+
+        const TOPCODER_BASE_URL = "https://community.topcoder.com";
+        const GITHUB_API_BASE_URL =
+          "https://api.github.com/repos/charles-wangkai/topcoder";
+
+        const PROBLEM_DISPLAY_NAME_TO_ACTUAL = {
+          DitherCounter: "ImageDithering"
+        };
+
+        const problemNameToSubmission = {};
+        let solutionPaths = null;
+
+        $.get(`${GITHUB_API_BASE_URL}/git/ref/heads/master`)
+          .then(data => {
+            return $.get(data.object.url);
+          })
+          .then(data => {
+            return $.get(data.tree.url);
+          })
+          .then(data => {
+            solutionPaths = data.tree
+              .map(object => object.path)
+              .filter(path =>
+                [".java", ".cpp", ".py"].some(suffix => path.endsWith(suffix))
+              );
+
+            Promise.all(
+              solutionPaths.map(solutionPath => {
+                const submissionTime = localStorage.getItem(solutionPath);
+
+                if (submissionTime !== null) {
+                  return submissionTime;
+                } else {
+                  return $.get(
+                    `${GITHUB_API_BASE_URL}/commits?path=${solutionPath}`
+                  ).then(data => {
+                    const submissionTime = buildSubmissionTime(data);
+                    localStorage.setItem(solutionPath, submissionTime);
+
+                    return submissionTime;
+                  });
+                }
+              })
+            ).then(submissionTimes => {
+              for (let i = 0; i < submissionTimes.length; ++i) {
+                problemNameToSubmission[buildProblemName(solutionPaths[i])] = {
+                  solutionPath: solutionPaths[i],
+                  time: submissionTimes[i]
+                };
+              }
+            });
+          })
+          .then(data => {
+            return $.ajax({
+              url: "https://jsonp.afeld.me",
+              dataType: "jsonp",
+              data: {
+                url: `${TOPCODER_BASE_URL}/tc?module=ProblemArchive&er=1000000`
+              }
+            });
+          })
+          .then(data => {
+            const $pageSource = $($.parseHTML(data.data));
+
+            const $problemRows = $pageSource
+              .find("tr")
+              .filter((index, element) => {
+                $a = $(element).find("td:nth-child(2) a");
+
+                return (
+                  $a.length &&
+                  $a.attr("href").includes("/stat?c=problem_statement&pm=")
+                );
+              });
+
+            const problems = $problemRows
+              .map((index, element) => {
+                const problem = {
+                  displayName: $(element)
+                    .find("td:nth-child(2)")
+                    .text()
+                    .trim(),
+                  challenge: $(element)
+                    .find("td:nth-child(3)")
+                    .text()
+                    .trim(),
+                  challengeUrl: `${TOPCODER_BASE_URL}${$(element)
+                    .find("td:nth-child(3) a")
+                    .attr("href")}`,
+                  date: moment(
+                    $(element)
+                      .find("td:nth-child(4)")
+                      .text()
+                      .trim(),
+                    "MM.DD.YYYY"
+                  ).format("YYYY-MM-DD"),
+                  categories: $(element)
+                    .find("td:nth-child(6)")
+                    .text()
+                    .trim(),
+                  div1Level: $(element)
+                    .find("td:nth-child(7)")
+                    .text()
+                    .trim(),
+                  div2Level: $(element)
+                    .find("td:nth-child(9)")
+                    .text()
+                    .trim(),
+                  url: `${TOPCODER_BASE_URL}${$(element)
+                    .find("td:nth-child(11) a")
+                    .attr("href")}`
+                };
+
+                problem.name =
+                  PROBLEM_DISPLAY_NAME_TO_ACTUAL[problem.displayName] ||
+                  problem.displayName;
+
+                return problem;
+              })
+              .get();
+
+            renderUnsolved(problems, problemNameToSubmission);
+            renderSolved(problems, problemNameToSubmission);
+          });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="row m-1">
+      <div class="col-sm">
+        <div class="card">
+          <div class="card-header">
+            Solved Problems:
+            <span id="solvedNum" style="color:green"></span>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">
+              Next Unsolved Problems
+            </h5>
+            <table id="problems" class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Problem Name</th>
+                  <th scope="col">Challenge</th>
+                  <th scope="col">Date</th>
+                  <th scope="col">Div. 1 Level</th>
+                  <th scope="col">Div. 2 Level</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row m-1 mt-5">
+      <div class="col-sm">
+        <div class="card">
+          <div class="card-header">
+            All Solved Problems
+          </div>
+          <div class="card-body">
+            <table id="solvedProblems" class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Problem Name</th>
+                  <th scope="col">Challenge</th>
+                  <th scope="col">Date</th>
+                  <th scope="col">Categories</th>
+                  <th scope="col">Div. 1 Level</th>
+                  <th scope="col">Div. 2 Level</th>
+                  <th scope="col">Submission</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
