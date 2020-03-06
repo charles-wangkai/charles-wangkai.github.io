@@ -145,7 +145,7 @@
                 [".java", ".cpp", ".py"].some(suffix => path.endsWith(suffix))
               );
 
-            Promise.all(
+            return Promise.all(
               solutionPaths.map(solutionPath => {
                 const submissionTime = localStorage.getItem(solutionPath);
 
@@ -162,14 +162,15 @@
                   });
                 }
               })
-            ).then(submissionTimes => {
-              for (let i = 0; i < submissionTimes.length; ++i) {
-                problemNameToSubmission[buildProblemName(solutionPaths[i])] = {
-                  solutionPath: solutionPaths[i],
-                  time: submissionTimes[i]
-                };
-              }
-            });
+            );
+          })
+          .then(submissionTimes => {
+            for (let i = 0; i < submissionTimes.length; ++i) {
+              problemNameToSubmission[buildProblemName(solutionPaths[i])] = {
+                solutionPath: solutionPaths[i],
+                time: submissionTimes[i]
+              };
+            }
           })
           .then(data => {
             return $.ajax({
