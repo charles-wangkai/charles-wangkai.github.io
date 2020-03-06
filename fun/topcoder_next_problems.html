@@ -22,6 +22,22 @@
 
     <script type="text/javascript">
       $(function() {
+        const TOPCODER_BASE_URL = "https://community.topcoder.com";
+        const GITHUB_API_BASE_URL =
+          "https://api.github.com/repos/charles-wangkai/topcoder";
+        const GITHUB_USERNAME = "charles-wangkai";
+        const GITHUB_TOKEN = "c34bea9de0b57e79b3667ebeb7ea4e51a9f6ac7b";
+
+        const PROBLEM_DISPLAY_NAME_TO_ACTUAL = {
+          DitherCounter: "ImageDithering",
+          Yahtzee: "YahtzeeScore",
+          DivDigits: "DivisorDigits",
+          MarginCalculator: "ProfitCalculator"
+        };
+
+        const problemNameToSubmission = {};
+        let solutionPaths = null;
+
         function computeLevel(problem) {
           return problem.div2Level
             ? parseInt(problem.div2Level, 10)
@@ -103,26 +119,24 @@
           ).format();
         }
 
-        const TOPCODER_BASE_URL = "https://community.topcoder.com";
-        const GITHUB_API_BASE_URL =
-          "https://api.github.com/repos/charles-wangkai/topcoder";
+        function getGithubApi(url) {
+          return $.get({
+            url: url,
+            beforeSend: function(xhr) {
+              xhr.setRequestHeader(
+                "Authorization",
+                "Basic " + btoa(`${GITHUB_USERNAME}:${GITHUB_TOKEN}`)
+              );
+            }
+          });
+        }
 
-        const PROBLEM_DISPLAY_NAME_TO_ACTUAL = {
-          DitherCounter: "ImageDithering",
-          Yahtzee: "YahtzeeScore",
-          DivDigits: "DivisorDigits",
-          MarginCalculator: "ProfitCalculator"
-        };
-
-        const problemNameToSubmission = {};
-        let solutionPaths = null;
-
-        $.get(`${GITHUB_API_BASE_URL}/git/ref/heads/master`)
+        getGithubApi(`${GITHUB_API_BASE_URL}/git/ref/heads/master`)
           .then(data => {
-            return $.get(data.object.url);
+            return getGithubApi(data.object.url);
           })
           .then(data => {
-            return $.get(data.tree.url);
+            return getGithubApi(data.tree.url);
           })
           .then(data => {
             solutionPaths = data.tree
@@ -138,7 +152,7 @@
                 if (submissionTime !== null) {
                   return submissionTime;
                 } else {
-                  return $.get(
+                  return getGithubApi(
                     `${GITHUB_API_BASE_URL}/commits?path=${solutionPath}`
                   ).then(data => {
                     const submissionTime = buildSubmissionTime(data);
