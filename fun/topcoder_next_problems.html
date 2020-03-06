@@ -119,7 +119,7 @@
           ).format();
         }
 
-        function getGithubApi(url) {
+        function getGithubApi(url, options = {}) {
           return $.get({
             url: url,
             beforeSend: function(xhr) {
@@ -127,11 +127,14 @@
                 "Authorization",
                 "Basic " + btoa(`${GITHUB_USERNAME}:${GITHUB_TOKEN}`)
               );
-            }
+            },
+            ...options
           });
         }
 
-        getGithubApi(`${GITHUB_API_BASE_URL}/git/ref/heads/master`)
+        getGithubApi(`${GITHUB_API_BASE_URL}/git/ref/heads/master`, {
+          cache: false
+        })
           .then(data => {
             return getGithubApi(data.object.url);
           })
