@@ -38,21 +38,30 @@
         const problemNameToSubmission = {};
         let solutionPaths = null;
 
+        function computeClass(problem) {
+          return problem.div2Level ? 1 : 2;
+        }
+
         function computeLevel(problem) {
-          return problem.div2Level
-            ? parseInt(problem.div2Level, 10)
-            : 10 + parseInt(problem.div1Level, 10);
+          return parseInt(problem.div2Level || problem.div1Level, 10);
         }
 
         function compareProblems(problem1, problem2) {
-          const level1 = computeLevel(problem1);
-          const level2 = computeLevel(problem2);
-
-          if (level1 != level2) {
-            return level1 - level2;
+          const class1 = computeClass(problem1);
+          const class2 = computeClass(problem2);
+          if (class1 !== class2) {
+            return class1 - class2;
           }
 
-          return problem1.date.localeCompare(problem2.date);
+          if (problem1.date !== problem2.date) {
+            return problem1.date.localeCompare(problem2.date);
+          }
+
+          if (problem1.challenge !== problem2.challenge) {
+            return problem1.challenge.localeCompare(problem2.challenge);
+          }
+
+          return computeLevel(problem1) - computeLevel(problem2);
         }
 
         function renderUnsolved(problems, problemNameToSubmission) {
