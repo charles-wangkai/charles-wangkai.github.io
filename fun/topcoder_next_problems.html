@@ -103,8 +103,8 @@
             }</a></td>
                 <td>${problem.date}</td>
                 <td>${problem.categories}</td>
-                <td>${problem.div1Level}</td>
-                <td>${problem.div2Level}</td>
+                <td>${problem.div1Level ? "L1=" + problem.div1Level : ""}</td>
+                <td>${problem.div2Level ? "L2=" + problem.div2Level : ""}</td>
                 <td><a href="https://github.com/charles-wangkai/topcoder/blob/master/${
                   problemNameToSubmission[problem.name].solutionPath
                 }">${problemNameToSubmission[problem.name].time}</a></td>
