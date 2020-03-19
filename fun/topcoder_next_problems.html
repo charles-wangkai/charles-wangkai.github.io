@@ -54,7 +54,7 @@
           }
 
           if (problem1.date !== problem2.date) {
-            return problem1.date.localeCompare(problem2.date);
+            return -problem1.date.localeCompare(problem2.date);
           }
 
           if (problem1.challenge !== problem2.challenge) {
