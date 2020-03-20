@@ -12,7 +12,7 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
     />
     <link
       rel="stylesheet"
@@ -23,7 +23,7 @@
     <script type="text/javascript">
       $(function() {
         function buildProblemId(obj) {
-          return `${obj.contestId || ''}${obj.index}`;
+          return `${obj.contestId || ""}${obj.index}`;
         }
 
         function compareProblems(problem1, problem2) {
@@ -34,7 +34,7 @@
           const idToProblem = {};
           for (let i = 0; i < problems.length; i++) {
             idToProblem[buildProblemId(problems[i])] = problems[i];
-            problems[i].problemset = 'MAIN';
+            problems[i].problemset = "MAIN";
             problems[i].solved = false;
           }
           for (let i = 0; i < problemStatistics.length; i++) {
@@ -44,8 +44,8 @@
 
           for (let i = 0; i < submissions.length; i++) {
             if (
-              !submissions[i].problem.hasOwnProperty('problemsetName') &&
-              submissions[i].verdict === 'OK'
+              !submissions[i].problem.hasOwnProperty("problemsetName") &&
+              submissions[i].verdict === "OK"
             ) {
               let problem = submissions[i].problem;
               if (!idToProblem.hasOwnProperty(buildProblemId(problem))) {
@@ -71,18 +71,18 @@
             .sort(compareProblems)
             .slice(0, 5);
 
-          $('#mainSolvedNum').text(solvedNum);
+          $("#mainSolvedNum").text(solvedNum);
 
           nextUnsolvedProblems.forEach(problem => {
             const url = `https://codeforces.com/problemset/problem/${problem.contestId}/${problem.index}`;
 
-            $('#mainProblems tbody').append(`
+            $("#mainProblems tbody").append(`
               <tr>
                 <th scope="row">
                   <a href="${url}">${buildProblemId(problem)}</a>
                 </th>
                 <td><a href="${url}">${problem.name}</a></td>
-                <td>${problem.rating || ''}</td>
+                <td>${problem.rating || ""}</td>
                 <td>${problem.solvedCount}</td>
               </tr>
               `);
@@ -97,7 +97,7 @@
           const idToProblem = {};
           for (let i = 0; i < problems.length; i++) {
             idToProblem[buildProblemId(problems[i])] = problems[i];
-            problems[i].problemset = 'ACMSGURU';
+            problems[i].problemset = "ACMSGURU";
             problems[i].solved = false;
           }
           for (let i = 0; i < problemStatistics.length; i++) {
@@ -107,8 +107,8 @@
 
           for (let i = 0; i < submissions.length; i++) {
             if (
-              submissions[i].problem.problemsetName === 'acmsguru' &&
-              submissions[i].verdict === 'OK'
+              submissions[i].problem.problemsetName === "acmsguru" &&
+              submissions[i].verdict === "OK"
             ) {
               const problemId = buildProblemId(submissions[i].problem);
               idToProblem[problemId].solved = true;
@@ -127,12 +127,12 @@
             .sort(compareProblems)
             .slice(0, 5);
 
-          $('#acmsguruSolvedNum').text(solvedNum);
+          $("#acmsguruSolvedNum").text(solvedNum);
 
           nextUnsolvedProblems.forEach(problem => {
             const url = `https://codeforces.com/problemsets/acmsguru/problem/99999/${problem.index}`;
 
-            $('#acmsguruProblems tbody').append(`
+            $("#acmsguruProblems tbody").append(`
               <tr>
                 <th scope="row"><a href="${url}">${problem.index}</a></th>
                 <td><a href="${url}">${problem.name}</a></td>
@@ -165,45 +165,45 @@
 
           solvedProblems.forEach(problem => {
             let url;
-            if (problem.problemset === 'MAIN') {
+            if (problem.problemset === "MAIN") {
               url = `https://codeforces.com/problemset/problem/${problem.contestId}/${problem.index}`;
-            } else if (problem.problemset === 'ACMSGURU') {
+            } else if (problem.problemset === "ACMSGURU") {
               url = `https://codeforces.com/problemsets/acmsguru/problem/99999/${problem.index}`;
             }
 
-            $('#solvedProblems tbody').append(`
+            $("#solvedProblems tbody").append(`
               <tr>
                 <th scope="row">${problem.problemset}</th>
                 <td><a href="${url}">${buildProblemId(problem)}</a></td>
                 <td><a href="${url}">${problem.name}</a></td>
-                <td>${problem.tags.join(', ')}</td>
-                <td>${problem.rating || ''}</td>
+                <td>${problem.tags.join(", ")}</td>
+                <td>${problem.rating || ""}</td>
                 <td>${problem.solvedCount}</td>
                 <td>${moment(new Date(problem.solvedTime * 1000)).format()}</td>
               </tr>
               `);
           });
 
-          $('#solvedProblems').DataTable({
+          $("#solvedProblems").DataTable({
             columnDefs: [{ orderable: false, targets: 3 }],
-            order: [[6, 'desc']]
+            order: [[6, "desc"]]
           });
         }
 
         $.ajax({
-          url: 'https://codeforces.com/api/user.status',
-          jsonp: 'jsonp',
-          dataType: 'jsonp',
+          url: "https://codeforces.com/api/user.status",
+          jsonp: "jsonp",
+          dataType: "jsonp",
           data: {
-            handle: 'goalboy'
+            handle: "goalboy"
           },
           success: function(response) {
             const submissions = response.result;
 
             $.ajax({
-              url: 'https://codeforces.com/api/problemset.problems',
-              jsonp: 'jsonp',
-              dataType: 'jsonp',
+              url: "https://codeforces.com/api/problemset.problems",
+              jsonp: "jsonp",
+              dataType: "jsonp",
               data: {},
               success: function(response) {
                 const problems = response.result.problems;
@@ -218,11 +218,11 @@
             });
 
             $.ajax({
-              url: 'https://codeforces.com/api/problemset.problems',
-              jsonp: 'jsonp',
-              dataType: 'jsonp',
+              url: "https://codeforces.com/api/problemset.problems",
+              jsonp: "jsonp",
+              dataType: "jsonp",
               data: {
-                problemsetName: 'acmsguru'
+                problemsetName: "acmsguru"
               },
               success: function(response) {
                 const problems = response.result.problems;
