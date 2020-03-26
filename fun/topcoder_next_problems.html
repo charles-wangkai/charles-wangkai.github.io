@@ -46,31 +46,38 @@
           return parseInt(problem.div2Level || problem.div1Level, 10);
         }
 
-        function compareProblems(problem1, problem2) {
-          const class1 = computeClass(problem1);
-          const class2 = computeClass(problem2);
-          if (class1 !== class2) {
-            return class1 - class2;
-          }
+        function buildProblemComparator(dateAscending) {
+          return function(problem1, problem2) {
+            const class1 = computeClass(problem1);
+            const class2 = computeClass(problem2);
+            if (class1 !== class2) {
+              return class1 - class2;
+            }
 
-          if (problem1.date !== problem2.date) {
-            return -problem1.date.localeCompare(problem2.date);
-          }
+            if (problem1.date !== problem2.date) {
+              return (
+                problem1.date.localeCompare(problem2.date) *
+                (dateAscending ? 1 : -1)
+              );
+            }
 
-          if (problem1.challenge !== problem2.challenge) {
-            return problem1.challenge.localeCompare(problem2.challenge);
-          }
+            if (problem1.challenge !== problem2.challenge) {
+              return problem1.challenge.localeCompare(problem2.challenge);
+            }
 
-          return computeLevel(problem1) - computeLevel(problem2);
+            return computeLevel(problem1) - computeLevel(problem2);
+          };
         }
 
         function renderUnsolved(problems, problemNameToSubmission) {
-          const nextUnsolvedProblems = problems
-            .filter(
-              problem => !problemNameToSubmission.hasOwnProperty(problem.name)
-            )
-            .sort(compareProblems)
-            .slice(0, 6);
+          const unsolvedProblems = problems.filter(
+            problem => !problemNameToSubmission.hasOwnProperty(problem.name)
+          );
+
+          const nextUnsolvedProblems = [].concat(
+            unsolvedProblems.sort(buildProblemComparator(true)).slice(0, 3),
+            unsolvedProblems.sort(buildProblemComparator(false)).slice(0, 3)
+          );
 
           nextUnsolvedProblems.forEach(problem => {
             $("#problems tbody").append(`
