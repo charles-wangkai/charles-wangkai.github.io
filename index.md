@@ -113,3 +113,7 @@
   - How to Win Coding Competitions: [Certificate](https://courses.edx.org/certificates/2ea0abd3dbb94a3fba7615e2e694993b)
 
   - Paradigms of Computer Programming: [Certificate](https://courses.edx.org/certificates/c952c7addbe34438a45c316752969049)
+
+- Kaggle
+
+  - Python: [Certificate](https://www.kaggle.com/learn/certification/wangkai/python)
