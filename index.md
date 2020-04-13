@@ -117,3 +117,5 @@
 - Kaggle
 
   - Python: [Certificate](https://www.kaggle.com/learn/certification/wangkai/python)
+
+  - Intro to Machine Learning: [Certificate](https://www.kaggle.com/learn/certification/wangkai/intro-to-machine-learning)
