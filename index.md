@@ -78,6 +78,8 @@
 
   - Introduction to Game Development: [Certificate](/certificates/certificate_game_development.pdf)
 
+  - Full-Stack Web Development with React Specialization: [Certificate](/certificates/certificate_full_stack_react.pdf)
+
   - Bootstrap 4: [Certificate](/certificates/certificate_bootstrap.pdf)
 
   - Front-End Web Development with React: [Certificate](/certificates/certificate_front_end_react.pdf)
