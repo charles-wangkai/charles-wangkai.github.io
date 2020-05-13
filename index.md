@@ -110,6 +110,8 @@
 
   - Introduction to Finance: [Certificate](/certificates/certificate_finance.pdf)
 
+  - Epidemiology: The Basic Science of Public Health: [Certificate](/certificates/certificate_epidemiology.pdf)
+
   - Computer Programming: [Certificate](/certificates/certificate_computer_programming.pdf)
 
 - edX
