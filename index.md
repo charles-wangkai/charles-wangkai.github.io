@@ -104,6 +104,8 @@
 
   - The Data Scientist's Toolbox: [Certificate](/certificates/certificate_data_scientist_toolbox.pdf)
 
+  - Big History: Connecting Knowledge: [Certificate](/certificates/certificate_big_history.pdf)
+
   - Mindshift: Break Through Obstacles to Learning and Discover Your Hidden Potential: [Certificate](/certificates/certificate_mindshift.pdf)
 
   - Model Thinking: [Certificate](/certificates/certificate_model_thinking.pdf)
