@@ -106,6 +106,8 @@
 
   - Big History: Connecting Knowledge: [Certificate](/certificates/certificate_big_history.pdf)
 
+  - A Life of Happiness and Fulfillment: [Certificate](/certificates/certificate_happiness.pdf)
+
   - Mindshift: Break Through Obstacles to Learning and Discover Your Hidden Potential: [Certificate](/certificates/certificate_mindshift.pdf)
 
   - Model Thinking: [Certificate](/certificates/certificate_model_thinking.pdf)
