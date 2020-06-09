@@ -2,6 +2,8 @@
 
 ## Competitive Programming
 
+- [Google Code Jam 2020](/certificates/certificate_google_code_jam_2020.png): Round 3. Ranked 497th out of 44000+.
+
 - [Google Code Jam 2019](/certificates/certificate_google_code_jam_2019.pdf): Round 3. Ranked 372nd out of 35000+.
 
 - [Facebook Hacker Cup 2019](https://www.facebook.com/hackercup/scoreboard/414796186005449): Round 2. Ranked 465th out of 6000+.
