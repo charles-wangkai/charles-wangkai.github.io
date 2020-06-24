@@ -71,7 +71,16 @@
         function renderMain(problems, problemStatistics, submissions) {
           prepareMainProblems(problems, problemStatistics, submissions);
 
-          const solvedNum = problems.filter((problem) => problem.solved).length;
+          const DUPLICATE_CONTEST_IDS = [1298];
+          const solvedNum =
+            problems.filter((problem) => problem.solved).length +
+            submissions.filter(
+              (submission) =>
+                !submission.problem.hasOwnProperty("problemsetName") &&
+                submission.verdict === "OK" &&
+                DUPLICATE_CONTEST_IDS.includes(submission.problem.contestId)
+            ).length;
+
           const nextUnsolvedProblems = problems
             .filter((problem) => !problem.solved)
             .sort(compareProblems)
