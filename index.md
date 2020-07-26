@@ -70,6 +70,8 @@
 
 - [TopCoder Next Problems](/fun/topcoder_next_problems.html)
 
+- [Facebook Hacker Cup Tracker](/fun/hackercup_tracker.html)
+
 - [Dynamic Venn Diagram](/fun/dynamic_venn_diagram.html)
 
 ## Certificates
