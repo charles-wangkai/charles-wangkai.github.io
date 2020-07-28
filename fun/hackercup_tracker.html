@@ -47,7 +47,7 @@
 
         let data = await $.post({
           url:
-            "https://cors-unlimited.herokuapp.com/https://www.facebook.com/api/graphql",
+            "https://wangkai-cors-anywhere.herokuapp.com/https://www.facebook.com/api/graphql",
           dataType: "json",
           data: {
             fb_api_req_friendly_name:
@@ -70,7 +70,7 @@
             seasons.map(async (season) => {
               const data = await $.post({
                 url:
-                  "https://cors-unlimited.herokuapp.com/https://www.facebook.com/api/graphql",
+                  "https://wangkai-cors-anywhere.herokuapp.com/https://www.facebook.com/api/graphql",
                 dataType: "json",
                 data: {
                   fb_api_req_friendly_name:
@@ -100,7 +100,7 @@
             contests.flatMap(async (contest) => {
               const data = await $.post({
                 url:
-                  "https://cors-unlimited.herokuapp.com/https://www.facebook.com/api/graphql",
+                  "https://wangkai-cors-anywhere.herokuapp.com/https://www.facebook.com/api/graphql",
                 dataType: "json",
                 data: {
                   fb_api_req_friendly_name:
