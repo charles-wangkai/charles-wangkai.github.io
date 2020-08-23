@@ -114,6 +114,8 @@
 
   - Mindshift: Break Through Obstacles to Learning and Discover Your Hidden Potential: [Certificate](/certificates/certificate_mindshift.pdf)
 
+  - Sit Less, Get Active: [Certificate](/certificates/certificate_get_active.pdf)
+
   - Model Thinking: [Certificate](/certificates/certificate_model_thinking.pdf)
 
   - Introduction to Finance: [Certificate](/certificates/certificate_finance.pdf)
