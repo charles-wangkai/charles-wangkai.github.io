@@ -4,9 +4,11 @@
 
 - [Google Code Jam 2020](/certificates/certificate_google_code_jam_2020.png): Round 3. Ranked 497th out of 44000+.
 
+- [Facebook Hacker Cup 2020](https://www.facebook.com/codingcompetitions/hacker-cup/2020/round-2/scoreboard): Round 2. Ranked 654th out of 32000+.
+
 - [Google Code Jam 2019](/certificates/certificate_google_code_jam_2019.pdf): Round 3. Ranked 372nd out of 35000+.
 
-- [Facebook Hacker Cup 2019](https://www.facebook.com/hackercup/scoreboard/414796186005449): Round 2. Ranked 465th out of 6000+.
+- [Facebook Hacker Cup 2019](https://www.facebook.com/codingcompetitions/hacker-cup/2019/round-2/scoreboard): Round 2. Ranked 463th out of 6000+.
 
 - [Google Code Jam to I/O 2020](https://codingcompetitions.withgoogle.com/codejamio/round/000000000019ff03): Ranked 59th out of 2500+.
 
