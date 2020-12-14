@@ -72,6 +72,8 @@
 
 - [TopCoder Next Problems](/fun/topcoder_next_problems.html)
 
+- [Google Code Jam Tracker](/fun/codejam_tracker.html)
+
 - [Facebook Hacker Cup Tracker](/fun/hackercup_tracker.html)
 
 - [Dynamic Venn Diagram](/fun/dynamic_venn_diagram.html)
