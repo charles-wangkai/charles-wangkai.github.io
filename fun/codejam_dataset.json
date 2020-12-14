@@ -5,7 +5,7 @@
             "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2020",
             "rounds": [
                 {
-                    "name": "Virtual World Finals 2020",
+                    "name": "Virtual World Finals",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019ff31",
                     "problems": [
                         {
@@ -31,7 +31,7 @@
                     ]
                 },
                 {
-                    "name": "Round 3 2020",
+                    "name": "Round 3",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019ff7e",
                     "problems": [
                         {
@@ -53,7 +53,7 @@
                     ]
                 },
                 {
-                    "name": "Round 2 2020",
+                    "name": "Round 2",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019ffb9",
                     "problems": [
                         {
@@ -75,7 +75,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1C 2020",
+                    "name": "Round 1C",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fef4",
                     "problems": [
                         {
@@ -93,7 +93,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1B 2020",
+                    "name": "Round 1B",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fef2",
                     "problems": [
                         {
@@ -111,7 +111,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1A 2020",
+                    "name": "Round 1A",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd74",
                     "problems": [
                         {
@@ -129,7 +129,7 @@
                     ]
                 },
                 {
-                    "name": "Qualification Round 2020",
+                    "name": "Qualification Round",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27",
                     "problems": [
                         {
@@ -161,7 +161,7 @@
             "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2019",
             "rounds": [
                 {
-                    "name": "World Finals 2019",
+                    "name": "World Finals",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051708",
                     "problems": [
                         {
@@ -191,7 +191,7 @@
                     ]
                 },
                 {
-                    "name": "Round 3 2019",
+                    "name": "Round 3",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051707",
                     "problems": [
                         {
@@ -213,7 +213,7 @@
                     ]
                 },
                 {
-                    "name": "Round 2 2019",
+                    "name": "Round 2",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051679",
                     "problems": [
                         {
@@ -235,7 +235,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1C 2019",
+                    "name": "Round 1C",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9",
                     "problems": [
                         {
@@ -253,7 +253,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1B 2019",
+                    "name": "Round 1B",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706",
                     "problems": [
                         {
@@ -271,7 +271,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1A 2019",
+                    "name": "Round 1A",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635",
                     "problems": [
                         {
@@ -289,7 +289,7 @@
                     ]
                 },
                 {
-                    "name": "Qualification Round 2019",
+                    "name": "Qualification Round",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705",
                     "problems": [
                         {
@@ -317,7 +317,7 @@
             "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2018",
             "rounds": [
                 {
-                    "name": "World Finals 2018",
+                    "name": "World Finals",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766",
                     "problems": [
                         {
@@ -343,7 +343,7 @@
                     ]
                 },
                 {
-                    "name": "Round 3 2018",
+                    "name": "Round 3",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007707",
                     "problems": [
                         {
@@ -365,7 +365,7 @@
                     ]
                 },
                 {
-                    "name": "Round 2 2018",
+                    "name": "Round 2",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007706",
                     "problems": [
                         {
@@ -387,7 +387,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1C 2018",
+                    "name": "Round 1C",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007765",
                     "problems": [
                         {
@@ -405,7 +405,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1B 2018",
+                    "name": "Round 1B",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007764",
                     "problems": [
                         {
@@ -423,7 +423,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1A 2018",
+                    "name": "Round 1A",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007883",
                     "problems": [
                         {
@@ -441,7 +441,7 @@
                     ]
                 },
                 {
-                    "name": "Qualification Round 2018",
+                    "name": "Qualification Round",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb",
                     "problems": [
                         {
@@ -463,7 +463,7 @@
                     ]
                 },
                 {
-                    "name": "Practice Session 2018",
+                    "name": "Practice Session",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130",
                     "problems": [
                         {
@@ -491,7 +491,7 @@
             "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2017",
             "rounds": [
                 {
-                    "name": "World Finals 2017",
+                    "name": "World Finals",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201909",
                     "problems": [
                         {
@@ -521,7 +521,7 @@
                     ]
                 },
                 {
-                    "name": "Round 3 2017",
+                    "name": "Round 3",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201902",
                     "problems": [
                         {
@@ -543,7 +543,7 @@
                     ]
                 },
                 {
-                    "name": "Round 2 2017",
+                    "name": "Round 2",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201900",
                     "problems": [
                         {
@@ -565,7 +565,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1C 2017",
+                    "name": "Round 1C",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201842",
                     "problems": [
                         {
@@ -583,7 +583,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1B 2017",
+                    "name": "Round 1B",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000020187f",
                     "problems": [
                         {
@@ -601,7 +601,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1A 2017",
+                    "name": "Round 1A",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201843",
                     "problems": [
                         {
@@ -619,7 +619,7 @@
                     ]
                 },
                 {
-                    "name": "Qualification Round 2017",
+                    "name": "Qualification Round",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7",
                     "problems": [
                         {
@@ -647,7 +647,7 @@
             "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2016",
             "rounds": [
                 {
-                    "name": "World Finals 2016",
+                    "name": "World Finals",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201b72",
                     "problems": [
                         {
@@ -673,7 +673,7 @@
                     ]
                 },
                 {
-                    "name": "Round 3 2016",
+                    "name": "Round 3",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bf3",
                     "problems": [
                         {
@@ -695,7 +695,7 @@
                     ]
                 },
                 {
-                    "name": "Round 2 2016",
+                    "name": "Round 2",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201c91",
                     "problems": [
                         {
@@ -717,7 +717,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1C 2016",
+                    "name": "Round 1C",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bef",
                     "problems": [
                         {
@@ -735,7 +735,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1B 2016",
+                    "name": "Round 1B",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201b6c",
                     "problems": [
                         {
@@ -753,7 +753,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1A 2016",
+                    "name": "Round 1A",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bf2",
                     "problems": [
                         {
@@ -771,7 +771,7 @@
                     ]
                 },
                 {
-                    "name": "Qualification Round 2016",
+                    "name": "Qualification Round",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bee",
                     "problems": [
                         {
@@ -799,7 +799,7 @@
             "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2015",
             "rounds": [
                 {
-                    "name": "World Finals 2015",
+                    "name": "World Finals",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433831",
                     "problems": [
                         {
@@ -829,7 +829,7 @@
                     ]
                 },
                 {
-                    "name": "Round 3 2015",
+                    "name": "Round 3",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433c84",
                     "problems": [
                         {
@@ -855,7 +855,7 @@
                     ]
                 },
                 {
-                    "name": "Round 2 2015",
+                    "name": "Round 2",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433651",
                     "problems": [
                         {
@@ -877,7 +877,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1C 2015",
+                    "name": "Round 1C",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433b4d",
                     "problems": [
                         {
@@ -895,7 +895,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1B 2015",
+                    "name": "Round 1B",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433551",
                     "problems": [
                         {
@@ -913,7 +913,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1A 2015",
+                    "name": "Round 1A",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004336e9",
                     "problems": [
                         {
@@ -931,7 +931,7 @@
                     ]
                 },
                 {
-                    "name": "Qualification Round 2015",
+                    "name": "Qualification Round",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433515",
                     "problems": [
                         {
@@ -959,7 +959,7 @@
             "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2014",
             "rounds": [
                 {
-                    "name": "World Finals 2014",
+                    "name": "World Finals",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043363b",
                     "problems": [
                         {
@@ -989,7 +989,7 @@
                     ]
                 },
                 {
-                    "name": "Round 3 2014",
+                    "name": "Round 3",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043371f",
                     "problems": [
                         {
@@ -1011,7 +1011,7 @@
                     ]
                 },
                 {
-                    "name": "Round 2 2014",
+                    "name": "Round 2",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432fed",
                     "problems": [
                         {
@@ -1033,7 +1033,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1C 2014",
+                    "name": "Round 1C",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cd8",
                     "problems": [
                         {
@@ -1051,7 +1051,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1B 2014",
+                    "name": "Round 1B",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432a90",
                     "problems": [
                         {
@@ -1069,7 +1069,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1A 2014",
+                    "name": "Round 1A",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433162",
                     "problems": [
                         {
@@ -1087,7 +1087,7 @@
                     ]
                 },
                 {
-                    "name": "Qualification Round 2014",
+                    "name": "Qualification Round",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432add",
                     "problems": [
                         {
@@ -1115,7 +1115,7 @@
             "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2013",
             "rounds": [
                 {
-                    "name": "World Finals 2013",
+                    "name": "World Finals",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004331a0",
                     "problems": [
                         {
@@ -1141,7 +1141,7 @@
                     ]
                 },
                 {
-                    "name": "Round 3 2013",
+                    "name": "Round 3",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043319e",
                     "problems": [
                         {
@@ -1163,7 +1163,7 @@
                     ]
                 },
                 {
-                    "name": "Round 2 2013",
+                    "name": "Round 2",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cd3",
                     "problems": [
                         {
@@ -1185,7 +1185,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1C 2013",
+                    "name": "Round 1C",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b86",
                     "problems": [
                         {
@@ -1203,7 +1203,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1B 2013",
+                    "name": "Round 1B",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432be7",
                     "problems": [
                         {
@@ -1221,7 +1221,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1A 2013",
+                    "name": "Round 1A",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b32",
                     "problems": [
                         {
@@ -1239,7 +1239,7 @@
                     ]
                 },
                 {
-                    "name": "Qualification Round 2013",
+                    "name": "Qualification Round",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432dfc",
                     "problems": [
                         {
@@ -1267,7 +1267,7 @@
             "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2012",
             "rounds": [
                 {
-                    "name": "World Finals 2012",
+                    "name": "World Finals",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043319f",
                     "problems": [
                         {
@@ -1293,7 +1293,7 @@
                     ]
                 },
                 {
-                    "name": "Round 3 2012",
+                    "name": "Round 3",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f40",
                     "problems": [
                         {
@@ -1315,7 +1315,7 @@
                     ]
                 },
                 {
-                    "name": "Round 2 2012",
+                    "name": "Round 2",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432fe9",
                     "problems": [
                         {
@@ -1337,7 +1337,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1C 2012",
+                    "name": "Round 1C",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043308d",
                     "problems": [
                         {
@@ -1355,7 +1355,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1B 2012",
+                    "name": "Round 1B",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f3e",
                     "problems": [
                         {
@@ -1373,7 +1373,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1A 2012",
+                    "name": "Round 1A",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043308c",
                     "problems": [
                         {
@@ -1391,7 +1391,7 @@
                     ]
                 },
                 {
-                    "name": "Qualification Round 2012",
+                    "name": "Qualification Round",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b33",
                     "problems": [
                         {
@@ -1419,7 +1419,7 @@
             "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2011",
             "rounds": [
                 {
-                    "name": "World Finals 2011",
+                    "name": "World Finals",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043319a",
                     "problems": [
                         {
@@ -1445,7 +1445,7 @@
                     ]
                 },
                 {
-                    "name": "Round 3 2011",
+                    "name": "Round 3",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433333",
                     "problems": [
                         {
@@ -1467,7 +1467,7 @@
                     ]
                 },
                 {
-                    "name": "Round 2 2011",
+                    "name": "Round 2",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f3b",
                     "problems": [
                         {
@@ -1489,7 +1489,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1C 2011",
+                    "name": "Round 1C",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433199",
                     "problems": [
                         {
@@ -1507,7 +1507,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1B 2011",
+                    "name": "Round 1B",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432be3",
                     "problems": [
                         {
@@ -1525,7 +1525,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1A 2011",
+                    "name": "Round 1A",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433198",
                     "problems": [
                         {
@@ -1543,7 +1543,7 @@
                     ]
                 },
                 {
-                    "name": "Qualification Round 2011",
+                    "name": "Qualification Round",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f3a",
                     "problems": [
                         {
@@ -1571,7 +1571,7 @@
             "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2010",
             "rounds": [
                 {
-                    "name": "World Finals 2010",
+                    "name": "World Finals",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043324a",
                     "problems": [
                         {
@@ -1601,7 +1601,7 @@
                     ]
                 },
                 {
-                    "name": "Round 3 2010",
+                    "name": "Round 3",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043315b",
                     "problems": [
                         {
@@ -1623,7 +1623,7 @@
                     ]
                 },
                 {
-                    "name": "Round 2 2010",
+                    "name": "Round 2",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b7f",
                     "problems": [
                         {
@@ -1645,7 +1645,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1C 2010",
+                    "name": "Round 1C",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432ccd",
                     "problems": [
                         {
@@ -1663,7 +1663,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1B 2010",
+                    "name": "Round 1B",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432ad7",
                     "problems": [
                         {
@@ -1681,7 +1681,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1A 2010",
+                    "name": "Round 1A",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433085",
                     "problems": [
                         {
@@ -1699,7 +1699,7 @@
                     ]
                 },
                 {
-                    "name": "Qualification Round 2010",
+                    "name": "Qualification Round",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b7e",
                     "problems": [
                         {
@@ -1723,7 +1723,7 @@
             "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2009",
             "rounds": [
                 {
-                    "name": "World Finals 2009",
+                    "name": "World Finals",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432ad5",
                     "problems": [
                         {
@@ -1753,7 +1753,7 @@
                     ]
                 },
                 {
-                    "name": "Round 3 2009",
+                    "name": "Round 3",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004329f8",
                     "problems": [
                         {
@@ -1775,7 +1775,7 @@
                     ]
                 },
                 {
-                    "name": "Round 2 2009",
+                    "name": "Round 2",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc7",
                     "problems": [
                         {
@@ -1797,7 +1797,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1C 2009",
+                    "name": "Round 1C",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433247",
                     "problems": [
                         {
@@ -1815,7 +1815,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1B 2009",
+                    "name": "Round 1B",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b7a",
                     "problems": [
                         {
@@ -1833,7 +1833,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1A 2009",
+                    "name": "Round 1A",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b26",
                     "problems": [
                         {
@@ -1851,7 +1851,7 @@
                     ]
                 },
                 {
-                    "name": "Qualification Round 2009",
+                    "name": "Qualification Round",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc4",
                     "problems": [
                         {
@@ -1875,7 +1875,7 @@
             "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2008",
             "rounds": [
                 {
-                    "name": "World Finals 2008",
+                    "name": "World Finals",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004329f6",
                     "problems": [
                         {
@@ -1901,7 +1901,7 @@
                     ]
                 },
                 {
-                    "name": "EMEA Semifinal 2008",
+                    "name": "EMEA Semifinal",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000436d8a",
                     "problems": [
                         {
@@ -1923,7 +1923,7 @@
                     ]
                 },
                 {
-                    "name": "AMER Semifinal 2008",
+                    "name": "AMER Semifinal",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000436baa",
                     "problems": [
                         {
@@ -1945,7 +1945,7 @@
                     ]
                 },
                 {
-                    "name": "APAC Semifinal 2008",
+                    "name": "APAC Semifinal",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000436b54",
                     "problems": [
                         {
@@ -1967,7 +1967,7 @@
                     ]
                 },
                 {
-                    "name": "Round 3 2008",
+                    "name": "Round 3",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004329f5",
                     "problems": [
                         {
@@ -1989,7 +1989,7 @@
                     ]
                 },
                 {
-                    "name": "Round 2 2008",
+                    "name": "Round 2",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc0",
                     "problems": [
                         {
@@ -2011,7 +2011,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1C 2008",
+                    "name": "Round 1C",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043314d",
                     "problems": [
                         {
@@ -2029,7 +2029,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1B 2008",
+                    "name": "Round 1B",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432bd2",
                     "problems": [
                         {
@@ -2047,7 +2047,7 @@
                     ]
                 },
                 {
-                    "name": "Round 1A 2008",
+                    "name": "Round 1A",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004330f6",
                     "problems": [
                         {
@@ -2065,7 +2065,7 @@
                     ]
                 },
                 {
-                    "name": "Qualification Round 2008",
+                    "name": "Qualification Round",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b79",
                     "problems": [
                         {

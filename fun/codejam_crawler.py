@@ -28,7 +28,7 @@ def crawl_rounds(year_url):
     driver.get(year_url)
     for elem in driver.find_elements_by_xpath("//div[contains(@class, 'schedule-row') and @role='row']"):
         rounds.append({
-            'name': elem.find_element_by_xpath('.//span').text,
+            'name': ' '.join(elem.find_element_by_xpath('.//span').text.split(' ')[:-1]),
             'url': elem.find_element_by_xpath('.//a').get_attribute('href')
         })
 
