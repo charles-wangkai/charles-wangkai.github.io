@@ -1,0 +1,2088 @@
+{
+    "years": [
+        {
+            "name": 2020,
+            "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2020",
+            "rounds": [
+                {
+                    "name": "Virtual World Finals 2020",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019ff31",
+                    "problems": [
+                        {
+                            "name": "Pack the Slopes",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019ff31/00000000003b4f31"
+                        },
+                        {
+                            "name": "Adjacent and Consecutive",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019ff31/00000000003b53ce"
+                        },
+                        {
+                            "name": "Hexacoin Jam",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019ff31/00000000003b4bc5"
+                        },
+                        {
+                            "name": "Musical Cords",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019ff31/00000000003b532b"
+                        },
+                        {
+                            "name": "Replace All",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019ff31/00000000003b4bc4"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 3 2020",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019ff7e",
+                    "problems": [
+                        {
+                            "name": "Naming Compromise",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019ff7e/00000000003774db"
+                        },
+                        {
+                            "name": "Thermometers",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019ff7e/000000000037776b"
+                        },
+                        {
+                            "name": "Pen Testing",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019ff7e/0000000000377630"
+                        },
+                        {
+                            "name": "Recalculating",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019ff7e/00000000003775e9"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 2 2020",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019ffb9",
+                    "problems": [
+                        {
+                            "name": "Incremental House of Pancakes",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019ffb9/00000000003384ea"
+                        },
+                        {
+                            "name": "Security Update",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019ffb9/000000000033871f"
+                        },
+                        {
+                            "name": "Wormhole in One",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019ffb9/00000000003386d0"
+                        },
+                        {
+                            "name": "Emacs++",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019ffb9/000000000033893b"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1C 2020",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fef4",
+                    "problems": [
+                        {
+                            "name": "Overexcited Fan",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fef4/0000000000317409"
+                        },
+                        {
+                            "name": "Overrandomized",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fef4/00000000003179a1"
+                        },
+                        {
+                            "name": "Oversized Pancake Choppers",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fef4/00000000003172d1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1B 2020",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fef2",
+                    "problems": [
+                        {
+                            "name": "Expogo",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fef2/00000000002d5b62"
+                        },
+                        {
+                            "name": "Blindfolded Bullseye",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fef2/00000000002d5b63"
+                        },
+                        {
+                            "name": "Join the Ranks",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fef2/00000000002d5b64"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1A 2020",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd74",
+                    "problems": [
+                        {
+                            "name": "Pattern Matching",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd74/00000000002b3034"
+                        },
+                        {
+                            "name": "Pascal Walk",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd74/00000000002b1353"
+                        },
+                        {
+                            "name": "Square Dance",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd74/00000000002b1355"
+                        }
+                    ]
+                },
+                {
+                    "name": "Qualification Round 2020",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27",
+                    "problems": [
+                        {
+                            "name": "Vestigium",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/000000000020993c"
+                        },
+                        {
+                            "name": "Nesting Depth",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/0000000000209a9f"
+                        },
+                        {
+                            "name": "Parenting Partnering Returns",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/000000000020bdf9"
+                        },
+                        {
+                            "name": "ESAb ATAd",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/0000000000209a9e"
+                        },
+                        {
+                            "name": "Indicium",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000019fd27/0000000000209aa0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": 2019,
+            "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2019",
+            "rounds": [
+                {
+                    "name": "World Finals 2019",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051708",
+                    "problems": [
+                        {
+                            "name": "Board Meeting",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051708/000000000016c77c"
+                        },
+                        {
+                            "name": "Sorting Permutation Unit",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051708/000000000016c77d"
+                        },
+                        {
+                            "name": "Won't sum? Must now",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051708/000000000016c77e"
+                        },
+                        {
+                            "name": "Juggle Struggle: Part 1",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051708/000000000016c77f"
+                        },
+                        {
+                            "name": "Juggle Struggle: Part 2",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051708/000000000016c933"
+                        },
+                        {
+                            "name": "Go To Considered Helpful",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051708/000000000016c934"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 3 2019",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051707",
+                    "problems": [
+                        {
+                            "name": "Zillionim",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051707/0000000000158f1a"
+                        },
+                        {
+                            "name": "Pancake Pyramid",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051707/00000000001591be"
+                        },
+                        {
+                            "name": "Datacenter Duplex",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051707/0000000000158f1c"
+                        },
+                        {
+                            "name": "Napkin Folding",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051707/0000000000159170"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 2 2019",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051679",
+                    "problems": [
+                        {
+                            "name": "New Elements: Part 1",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051679/0000000000146183"
+                        },
+                        {
+                            "name": "Pottery Lottery",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051679/00000000001461c8"
+                        },
+                        {
+                            "name": "New Elements: Part 2",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051679/0000000000146184"
+                        },
+                        {
+                            "name": "Contransmutation",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051679/0000000000146185"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1C 2019",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9",
+                    "problems": [
+                        {
+                            "name": "Robot Programming Strategy",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134c90"
+                        },
+                        {
+                            "name": "Power Arrangers",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134e91"
+                        },
+                        {
+                            "name": "Bacterial Tactics",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000000516b9/0000000000134cdf"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1B 2019",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706",
+                    "problems": [
+                        {
+                            "name": "Manhattan Crepe Cart",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/000000000012295c"
+                        },
+                        {
+                            "name": "Draupnir",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/0000000000122837"
+                        },
+                        {
+                            "name": "Fair Fight",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051706/0000000000122838"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1A 2019",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635",
+                    "problems": [
+                        {
+                            "name": "Pylons",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e03"
+                        },
+                        {
+                            "name": "Golf Gophers",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104f1a"
+                        },
+                        {
+                            "name": "Alien Rhyme",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051635/0000000000104e05"
+                        }
+                    ]
+                },
+                {
+                    "name": "Qualification Round 2019",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705",
+                    "problems": [
+                        {
+                            "name": "Foregone Solution",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/0000000000088231"
+                        },
+                        {
+                            "name": "You Can Go Your Own Way",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/00000000000881da"
+                        },
+                        {
+                            "name": "Cryptopangrams",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/000000000008830b"
+                        },
+                        {
+                            "name": "Dat Bae",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000051705/00000000000881de"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": 2018,
+            "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2018",
+            "rounds": [
+                {
+                    "name": "World Finals 2018",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766",
+                    "problems": [
+                        {
+                            "name": "Jurisdiction Restrictions",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004dbbd"
+                        },
+                        {
+                            "name": "Two-Tiling",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004da97"
+                        },
+                        {
+                            "name": "Go, Gophers!",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004da2d"
+                        },
+                        {
+                            "name": "Swordmaster",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004d961"
+                        },
+                        {
+                            "name": "The Cartesian Job",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004d962"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 3 2018",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007707",
+                    "problems": [
+                        {
+                            "name": "Field Trip",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007707/000000000004b7fe"
+                        },
+                        {
+                            "name": "Name-Preserving Network",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007707/000000000004ba29"
+                        },
+                        {
+                            "name": "Raise the Roof",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007707/000000000004b90d"
+                        },
+                        {
+                            "name": "Fence Construction",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007707/000000000004b90e"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 2 2018",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007706",
+                    "problems": [
+                        {
+                            "name": "Falling Balls",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007706/00000000000459f2"
+                        },
+                        {
+                            "name": "Graceful Chainsaw Jugglers",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007706/00000000000459f3"
+                        },
+                        {
+                            "name": "Costume Change",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007706/0000000000045875"
+                        },
+                        {
+                            "name": "Gridception",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007706/00000000000459f4"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1C 2018",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007765",
+                    "problems": [
+                        {
+                            "name": "A Whole New Word",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007765/000000000003e064"
+                        },
+                        {
+                            "name": "Lollipop Shop",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007765/000000000003e068"
+                        },
+                        {
+                            "name": "Ant Stack",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007765/000000000003e0a8"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1B 2018",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007764",
+                    "problems": [
+                        {
+                            "name": "Rounding Error",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007764/0000000000036601"
+                        },
+                        {
+                            "name": "Mysterious Road Signs",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007764/000000000003675b"
+                        },
+                        {
+                            "name": "Transmutation",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007764/000000000003675c"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1A 2018",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007883",
+                    "problems": [
+                        {
+                            "name": "Waffle Choppers",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007883/000000000003005a"
+                        },
+                        {
+                            "name": "Bit Party",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007883/000000000002fff6"
+                        },
+                        {
+                            "name": "Edgy Baking",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000007883/000000000002fff7"
+                        }
+                    ]
+                },
+                {
+                    "name": "Qualification Round 2018",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb",
+                    "problems": [
+                        {
+                            "name": "Saving The Universe Again",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb/0000000000007966"
+                        },
+                        {
+                            "name": "Trouble Sort",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb/00000000000079cb"
+                        },
+                        {
+                            "name": "Go, Gopher!",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb/0000000000007a30"
+                        },
+                        {
+                            "name": "Cubic UFO",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb/00000000000079cc"
+                        }
+                    ]
+                },
+                {
+                    "name": "Practice Session 2018",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130",
+                    "problems": [
+                        {
+                            "name": "Number Guessing",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/0000000000000523"
+                        },
+                        {
+                            "name": "Senate Evacuation",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/00000000000004c0"
+                        },
+                        {
+                            "name": "Steed 2: Cruise Control",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/0000000000000524"
+                        },
+                        {
+                            "name": "Bathroom Stalls",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/0000000000000652"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": 2017,
+            "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2017",
+            "rounds": [
+                {
+                    "name": "World Finals 2017",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201909",
+                    "problems": [
+                        {
+                            "name": "Dice Straight",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201909/00000000002017fc"
+                        },
+                        {
+                            "name": "Operation",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201909/000000000020184a"
+                        },
+                        {
+                            "name": "Spanning Planning",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201909/000000000020187a"
+                        },
+                        {
+                            "name": "Omnicircumnavigation",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201909/000000000020190a"
+                        },
+                        {
+                            "name": "Stack Management",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201909/00000000002017fd"
+                        },
+                        {
+                            "name": "Teleporters",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201909/000000000020184b"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 3 2017",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201902",
+                    "problems": [
+                        {
+                            "name": "Googlements",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201902/00000000002017f6"
+                        },
+                        {
+                            "name": "Good News and Bad News",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201902/0000000000201846"
+                        },
+                        {
+                            "name": "Mountain Tour",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201902/0000000000201877"
+                        },
+                        {
+                            "name": "Slate Modern",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201902/0000000000201903"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 2 2017",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201900",
+                    "problems": [
+                        {
+                            "name": "Fresh Chocolate",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201900/00000000002017f4"
+                        },
+                        {
+                            "name": "Roller Coaster Scheduling",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201900/0000000000201845"
+                        },
+                        {
+                            "name": "Beaming With Joy",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201900/0000000000201876"
+                        },
+                        {
+                            "name": "Shoot the Turrets",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201900/0000000000201901"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1C 2017",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201842",
+                    "problems": [
+                        {
+                            "name": "Ample Syrup",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201842/0000000000201874"
+                        },
+                        {
+                            "name": "Parenting Partnering",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201842/00000000002018fd"
+                        },
+                        {
+                            "name": "Core Training",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201842/00000000002017f2"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1B 2017",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000020187f",
+                    "problems": [
+                        {
+                            "name": "Steed 2: Cruise Control",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000020187f/000000000020190e"
+                        },
+                        {
+                            "name": "Stable Neigh-bors",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000020187f/0000000000201804"
+                        },
+                        {
+                            "name": "Pony Express",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000020187f/000000000020184d"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1A 2017",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201843",
+                    "problems": [
+                        {
+                            "name": "Alphabet Cake",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201843/0000000000201875"
+                        },
+                        {
+                            "name": "Ratatouille",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201843/00000000002018fe"
+                        },
+                        {
+                            "name": "Play the Dragon",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201843/00000000002017f3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Qualification Round 2017",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7",
+                    "problems": [
+                        {
+                            "name": "Oversized Pancake Flipper",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7/0000000000201847"
+                        },
+                        {
+                            "name": "Tidy Numbers",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7/0000000000201878"
+                        },
+                        {
+                            "name": "Bathroom Stalls",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7/0000000000201905"
+                        },
+                        {
+                            "name": "Fashion Show",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000002017f7/00000000002017f8"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": 2016,
+            "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2016",
+            "rounds": [
+                {
+                    "name": "World Finals 2016",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201b72",
+                    "problems": [
+                        {
+                            "name": "Family Hotel",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201b72/0000000000201c93"
+                        },
+                        {
+                            "name": "Integeregex",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201b72/0000000000201bf8"
+                        },
+                        {
+                            "name": "Gallery of Pillars",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201b72/0000000000201d21"
+                        },
+                        {
+                            "name": "Map Reduce",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201b72/0000000000201b73"
+                        },
+                        {
+                            "name": "Radioactive Islands",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201b72/0000000000201bf9"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 3 2016",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bf3",
+                    "problems": [
+                        {
+                            "name": "Teaching Assistant",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bf3/0000000000201c90"
+                        },
+                        {
+                            "name": "Forest University",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bf3/0000000000201d1c"
+                        },
+                        {
+                            "name": "Rebel Against The Empire",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bf3/0000000000201b70"
+                        },
+                        {
+                            "name": "Go++",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bf3/0000000000201bf4"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 2 2016",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201c91",
+                    "problems": [
+                        {
+                            "name": "Rather Perplexing Showdown",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201c91/0000000000201d1e"
+                        },
+                        {
+                            "name": "Red Tape Committee",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201c91/0000000000201b71"
+                        },
+                        {
+                            "name": "The Gardener of Seville",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201c91/0000000000201bf5"
+                        },
+                        {
+                            "name": "Freeform Factory",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201c91/0000000000201c92"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1C 2016",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bef",
+                    "problems": [
+                        {
+                            "name": "Senate Evacuation",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bef/0000000000201c8b"
+                        },
+                        {
+                            "name": "Slides!",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bef/0000000000201d18"
+                        },
+                        {
+                            "name": "Fashion Police",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bef/0000000000201b6e"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1B 2016",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201b6c",
+                    "problems": [
+                        {
+                            "name": "Getting the Digits",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201b6c/0000000000201bf0"
+                        },
+                        {
+                            "name": "Close Match",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201b6c/0000000000201c8c"
+                        },
+                        {
+                            "name": "Technobabble",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201b6c/0000000000201d19"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1A 2016",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bf2",
+                    "problems": [
+                        {
+                            "name": "The Last Word",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bf2/0000000000201c8d"
+                        },
+                        {
+                            "name": "Rank and File",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bf2/0000000000201d1a"
+                        },
+                        {
+                            "name": "BFFs",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bf2/0000000000201b6f"
+                        }
+                    ]
+                },
+                {
+                    "name": "Qualification Round 2016",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bee",
+                    "problems": [
+                        {
+                            "name": "Counting Sheep",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bee/0000000000201c8a"
+                        },
+                        {
+                            "name": "Revenge of the Pancakes",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bee/0000000000201d17"
+                        },
+                        {
+                            "name": "Coin Jam",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bee/0000000000201b6d"
+                        },
+                        {
+                            "name": "Fractiles",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000201bee/0000000000201bf1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": 2015,
+            "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2015",
+            "rounds": [
+                {
+                    "name": "World Finals 2015",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433831",
+                    "problems": [
+                        {
+                            "name": "Campinatorics",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433831/0000000000433c8d"
+                        },
+                        {
+                            "name": "Costly Binary Search",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433831/0000000000433a69"
+                        },
+                        {
+                            "name": "Pretty Good Proportion",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433831/00000000004336f3"
+                        },
+                        {
+                            "name": "Taking Over The World",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433831/000000000043379b"
+                        },
+                        {
+                            "name": "Merlin QA",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433831/000000000043360e"
+                        },
+                        {
+                            "name": "Crane Truck",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433831/0000000000433d47"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 3 2015",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433c84",
+                    "problems": [
+                        {
+                            "name": "Fairland",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433c84/00000000004336ea"
+                        },
+                        {
+                            "name": "Smoothing Window",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433c84/0000000000433793"
+                        },
+                        {
+                            "name": "Runaway Quail",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433c84/0000000000433603"
+                        },
+                        {
+                            "name": "Log Set",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433c84/0000000000433d3b"
+                        },
+                        {
+                            "name": "River Flow",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433c84/0000000000433918"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 2 2015",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433651",
+                    "problems": [
+                        {
+                            "name": "Pegman",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433651/0000000000433552"
+                        },
+                        {
+                            "name": "Kiddie Pool",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433651/0000000000433a10"
+                        },
+                        {
+                            "name": "Bilingual",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433651/0000000000433517"
+                        },
+                        {
+                            "name": "Drum Decorator",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433651/000000000043373a"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1C 2015",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433b4d",
+                    "problems": [
+                        {
+                            "name": "Brattleship",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433b4d/0000000000433de4"
+                        },
+                        {
+                            "name": "Typewriter Monkey",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433b4d/0000000000433411"
+                        },
+                        {
+                            "name": "Less Money, More Problems",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433b4d/0000000000433650"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1B 2015",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433551",
+                    "problems": [
+                        {
+                            "name": "Counter Culture",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433551/0000000000433a0f"
+                        },
+                        {
+                            "name": "Noisy Neighbors",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433551/0000000000433516"
+                        },
+                        {
+                            "name": "Hiking Deer",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433551/0000000000433739"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1A 2015",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004336e9",
+                    "problems": [
+                        {
+                            "name": "Mushroom Monster",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004336e9/0000000000433792"
+                        },
+                        {
+                            "name": "Haircut",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004336e9/0000000000433602"
+                        },
+                        {
+                            "name": "Logging",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004336e9/0000000000433d3a"
+                        }
+                    ]
+                },
+                {
+                    "name": "Qualification Round 2015",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433515",
+                    "problems": [
+                        {
+                            "name": "Standing Ovation",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433515/0000000000433738"
+                        },
+                        {
+                            "name": "Infinite House of Pancakes",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433515/0000000000433827"
+                        },
+                        {
+                            "name": "Dijkstra",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433515/0000000000433a60"
+                        },
+                        {
+                            "name": "Ominous Omino",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433515/0000000000433c83"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": 2014,
+            "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2014",
+            "rounds": [
+                {
+                    "name": "World Finals 2014",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043363b",
+                    "problems": [
+                        {
+                            "name": "Checkerboard Matrix",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043363b/0000000000433537"
+                        },
+                        {
+                            "name": "Power Swapper",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043363b/00000000004339f3"
+                        },
+                        {
+                            "name": "Symmetric Trees",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043363b/00000000004334f8"
+                        },
+                        {
+                            "name": "Paradox Sort",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043363b/0000000000433720"
+                        },
+                        {
+                            "name": "Allergy Testing",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043363b/000000000043380f"
+                        },
+                        {
+                            "name": "ARAM",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043363b/0000000000433a40"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 3 2014",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043371f",
+                    "problems": [
+                        {
+                            "name": "Magical, Marvelous Tour",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043371f/000000000043380e"
+                        },
+                        {
+                            "name": "Last Hit",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043371f/0000000000433a3e"
+                        },
+                        {
+                            "name": "Crime House",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043371f/00000000004331cb"
+                        },
+                        {
+                            "name": "Willow",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043371f/00000000004336d0"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 2 2014",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432fed",
+                    "problems": [
+                        {
+                            "name": "Data Packing",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432fed/0000000000432b8d"
+                        },
+                        {
+                            "name": "Up and Down",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432fed/000000000043333d"
+                        },
+                        {
+                            "name": "Don't Break The Nile",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432fed/0000000000433109"
+                        },
+                        {
+                            "name": "Trie Sharding",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432fed/0000000000432f41"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1C 2014",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cd8",
+                    "problems": [
+                        {
+                            "name": "Part Elf",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cd8/0000000000433163"
+                        },
+                        {
+                            "name": "Reordering Train Cars",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cd8/00000000004334c8"
+                        },
+                        {
+                            "name": "Enclosure",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cd8/0000000000432a91"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1B 2014",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432a90",
+                    "problems": [
+                        {
+                            "name": "The Repeater",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432a90/0000000000432adf"
+                        },
+                        {
+                            "name": "New Lottery Game",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432a90/0000000000433096"
+                        },
+                        {
+                            "name": "The Bored Traveling Salesman",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432a90/00000000004331a4"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1A 2014",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433162",
+                    "problems": [
+                        {
+                            "name": "Charging Chaos",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433162/00000000004334c7"
+                        },
+                        {
+                            "name": "Full Binary Tree",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433162/0000000000432a8f"
+                        },
+                        {
+                            "name": "Proper Shuffle",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433162/0000000000432ade"
+                        }
+                    ]
+                },
+                {
+                    "name": "Qualification Round 2014",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432add",
+                    "problems": [
+                        {
+                            "name": "Magic Trick",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432add/0000000000433092"
+                        },
+                        {
+                            "name": "Cookie Clicker Alpha",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432add/00000000004331a3"
+                        },
+                        {
+                            "name": "Deceitful War",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432add/0000000000432fec"
+                        },
+                        {
+                            "name": "Minesweeper Master",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432add/0000000000432e04"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": 2013,
+            "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2013",
+            "rounds": [
+                {
+                    "name": "World Finals 2013",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004331a0",
+                    "problems": [
+                        {
+                            "name": "Graduation Requirements",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004331a0/0000000000432e01"
+                        },
+                        {
+                            "name": "Drummer",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004331a0/0000000000432feb"
+                        },
+                        {
+                            "name": "X Marks the Spot",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004331a0/0000000000432b8b"
+                        },
+                        {
+                            "name": "Can't Stop",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004331a0/000000000043333a"
+                        },
+                        {
+                            "name": "Let Me Tell You a Story",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004331a0/0000000000433107"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 3 2013",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043319e",
+                    "problems": [
+                        {
+                            "name": "Cheaters",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043319e/0000000000432dff"
+                        },
+                        {
+                            "name": "Rural Planning",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043319e/0000000000432fe8"
+                        },
+                        {
+                            "name": "Are We Lost Yet?",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043319e/0000000000432b87"
+                        },
+                        {
+                            "name": "Observation Wheel",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043319e/0000000000433337"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 2 2013",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cd3",
+                    "problems": [
+                        {
+                            "name": "Ticket Swapping",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cd3/000000000043315f"
+                        },
+                        {
+                            "name": "Many Prizes",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cd3/0000000000432be8"
+                        },
+                        {
+                            "name": "Erd\u0151s\u2013Szekeres",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cd3/0000000000432a8c"
+                        },
+                        {
+                            "name": "Multiplayer Pong",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cd3/0000000000432adb"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1C 2013",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b86",
+                    "problems": [
+                        {
+                            "name": "Consonants",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b86/0000000000433336"
+                        },
+                        {
+                            "name": "Pogo",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b86/0000000000433102"
+                        },
+                        {
+                            "name": "The Great Wall",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b86/0000000000432f3d"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1B 2013",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432be7",
+                    "problems": [
+                        {
+                            "name": "Osmos",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432be7/0000000000432a8b"
+                        },
+                        {
+                            "name": "Garbled Email",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432be7/000000000043308b"
+                        },
+                        {
+                            "name": "Falling Diamonds",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432be7/0000000000432ada"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1A 2013",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b32",
+                    "problems": [
+                        {
+                            "name": "Bullseye",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b32/0000000000432cd1"
+                        },
+                        {
+                            "name": "Manage your Energy",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b32/000000000043315d"
+                        },
+                        {
+                            "name": "Good Luck",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b32/0000000000432be5"
+                        }
+                    ]
+                },
+                {
+                    "name": "Qualification Round 2013",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432dfc",
+                    "problems": [
+                        {
+                            "name": "Tic-Tac-Toe-Tomek",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432dfc/0000000000432fe5"
+                        },
+                        {
+                            "name": "Lawnmower",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432dfc/0000000000432b85"
+                        },
+                        {
+                            "name": "Treasure",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432dfc/0000000000433101"
+                        },
+                        {
+                            "name": "Fair and Square",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432dfc/0000000000433335"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": 2012,
+            "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2012",
+            "rounds": [
+                {
+                    "name": "World Finals 2012",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043319f",
+                    "problems": [
+                        {
+                            "name": "Zombie Smash",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043319f/0000000000432e00"
+                        },
+                        {
+                            "name": "Upstairs/Downstairs",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043319f/0000000000432fea"
+                        },
+                        {
+                            "name": "Xeno-archaeology",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043319f/0000000000432b8a"
+                        },
+                        {
+                            "name": "Twirling Towards Freedom",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043319f/0000000000433339"
+                        },
+                        {
+                            "name": "Shifting Paths",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043319f/0000000000433106"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 3 2012",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f40",
+                    "problems": [
+                        {
+                            "name": "Perfect Game",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f40/0000000000433250"
+                        },
+                        {
+                            "name": "Havannah",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f40/0000000000432a00"
+                        },
+                        {
+                            "name": "Quality Food",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f40/0000000000432b35"
+                        },
+                        {
+                            "name": "Lost Password",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f40/0000000000432cd4"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 2 2012",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432fe9",
+                    "problems": [
+                        {
+                            "name": "Swinging Wild",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432fe9/0000000000432b88"
+                        },
+                        {
+                            "name": "Aerobics",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432fe9/0000000000433338"
+                        },
+                        {
+                            "name": "Mountain View",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432fe9/0000000000433104"
+                        },
+                        {
+                            "name": "Descending in the Dark",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432fe9/0000000000432f3f"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1C 2012",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043308d",
+                    "problems": [
+                        {
+                            "name": "Diamond Inheritance",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043308d/000000000043319d"
+                        },
+                        {
+                            "name": "Box Factory",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043308d/0000000000432fe7"
+                        },
+                        {
+                            "name": "Out of Gas",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043308d/0000000000432dfe"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1B 2012",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f3e",
+                    "problems": [
+                        {
+                            "name": "Safety in Numbers",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f3e/000000000043324f"
+                        },
+                        {
+                            "name": "Tide Goes In, Tide Goes Out",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f3e/00000000004329ff"
+                        },
+                        {
+                            "name": "Equal Sums",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f3e/0000000000432b34"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1A 2012",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043308c",
+                    "problems": [
+                        {
+                            "name": "Password Problem",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043308c/000000000043319b"
+                        },
+                        {
+                            "name": "Kingdom Rush",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043308c/0000000000432dfd"
+                        },
+                        {
+                            "name": "Cruise Control",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043308c/0000000000432fe6"
+                        }
+                    ]
+                },
+                {
+                    "name": "Qualification Round 2012",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b33",
+                    "problems": [
+                        {
+                            "name": "Speaking in Tongues",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b33/0000000000432cd2"
+                        },
+                        {
+                            "name": "Dancing With the Googlers",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b33/000000000043315e"
+                        },
+                        {
+                            "name": "Recycled Numbers",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b33/0000000000432be6"
+                        },
+                        {
+                            "name": "Hall of Mirrors",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b33/0000000000432a8a"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": 2011,
+            "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2011",
+            "rounds": [
+                {
+                    "name": "World Finals 2011",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043319a",
+                    "problems": [
+                        {
+                            "name": "Rains Over Atlantis",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043319a/0000000000432fe4"
+                        },
+                        {
+                            "name": "Runs",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043319a/0000000000432dfb"
+                        },
+                        {
+                            "name": "Program within a Program",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043319a/0000000000432b83"
+                        },
+                        {
+                            "name": "Ace in the Hole",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043319a/0000000000433334"
+                        },
+                        {
+                            "name": "Google Royale",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043319a/0000000000433100"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 3 2011",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433333",
+                    "problems": [
+                        {
+                            "name": "Irregular Cakes",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433333/00000000004330ff"
+                        },
+                        {
+                            "name": "Dire Straights",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433333/0000000000432f3c"
+                        },
+                        {
+                            "name": "Perpetual Motion",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433333/000000000043324e"
+                        },
+                        {
+                            "name": "Mystery Square",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433333/00000000004329fd"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 2 2011",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f3b",
+                    "problems": [
+                        {
+                            "name": "Airport Walkways",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f3b/000000000043324d"
+                        },
+                        {
+                            "name": "Spinning Blade",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f3b/00000000004329fc"
+                        },
+                        {
+                            "name": "Expensive Dinner",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f3b/0000000000432b31"
+                        },
+                        {
+                            "name": "A.I. War",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f3b/0000000000432cd0"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1C 2011",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433199",
+                    "problems": [
+                        {
+                            "name": "Square Tiles",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433199/0000000000432dfa"
+                        },
+                        {
+                            "name": "Space Emergency",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433199/0000000000432fe3"
+                        },
+                        {
+                            "name": "Perfect Harmony",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433199/0000000000432b82"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1B 2011",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432be3",
+                    "problems": [
+                        {
+                            "name": "RPI",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432be3/0000000000432a87"
+                        },
+                        {
+                            "name": "Revenge of the Hot Dogs",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432be3/0000000000432ad9"
+                        },
+                        {
+                            "name": "House of Kittens",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432be3/0000000000433088"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1A 2011",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433198",
+                    "problems": [
+                        {
+                            "name": "FreeCell Statistics",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433198/0000000000432df9"
+                        },
+                        {
+                            "name": "The Killer Word",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433198/0000000000432fe2"
+                        },
+                        {
+                            "name": "Pseudominion",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433198/0000000000432b81"
+                        }
+                    ]
+                },
+                {
+                    "name": "Qualification Round 2011",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f3a",
+                    "problems": [
+                        {
+                            "name": "Bot Trust",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f3a/000000000043324b"
+                        },
+                        {
+                            "name": "Candy Splitting",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f3a/0000000000432b2f"
+                        },
+                        {
+                            "name": "Magicka",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f3a/00000000004329fb"
+                        },
+                        {
+                            "name": "GoroSort",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432f3a/0000000000432ccf"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": 2010,
+            "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2010",
+            "rounds": [
+                {
+                    "name": "World Finals 2010",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043324a",
+                    "problems": [
+                        {
+                            "name": "Candy Store",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043324a/0000000000432cce"
+                        },
+                        {
+                            "name": "City Tour",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043324a/0000000000432b2e"
+                        },
+                        {
+                            "name": "Letter Stamper",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043324a/00000000004329fa"
+                        },
+                        {
+                            "name": "Travel Plan",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043324a/000000000043315c"
+                        },
+                        {
+                            "name": "Ninjutsu",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043324a/0000000000432be2"
+                        },
+                        {
+                            "name": "The Paths of Yin Yang",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043324a/0000000000432a86"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 3 2010",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043315b",
+                    "problems": [
+                        {
+                            "name": "De-RNG-ed",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043315b/0000000000432be1"
+                        },
+                        {
+                            "name": "Hot Dog Proliferation",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043315b/0000000000432ad8"
+                        },
+                        {
+                            "name": "Different Sum",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043315b/0000000000433087"
+                        },
+                        {
+                            "name": "Fence",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043315b/0000000000432a85"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 2 2010",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b7f",
+                    "problems": [
+                        {
+                            "name": "Elegant Diamond",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b7f/0000000000433332"
+                        },
+                        {
+                            "name": "World Cup 2010",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b7f/00000000004330fe"
+                        },
+                        {
+                            "name": "Bacteria",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b7f/0000000000432f39"
+                        },
+                        {
+                            "name": "Grazing Google Goats",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b7f/0000000000433249"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1C 2010",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432ccd",
+                    "problems": [
+                        {
+                            "name": "Rope Intranet",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432ccd/000000000043315a"
+                        },
+                        {
+                            "name": "Load Testing",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432ccd/0000000000432be0"
+                        },
+                        {
+                            "name": "Making Chess Boards",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432ccd/0000000000432a84"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1B 2010",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432ad7",
+                    "problems": [
+                        {
+                            "name": "File Fix-it",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432ad7/0000000000433086"
+                        },
+                        {
+                            "name": "Picking Up Chicks",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432ad7/0000000000433197"
+                        },
+                        {
+                            "name": "Your Rank is Pure",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432ad7/0000000000432df8"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1A 2010",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433085",
+                    "problems": [
+                        {
+                            "name": "Rotate",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433085/0000000000433196"
+                        },
+                        {
+                            "name": "Make it Smooth",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433085/0000000000432df7"
+                        },
+                        {
+                            "name": "Number Game",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433085/0000000000432fe1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Qualification Round 2010",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b7e",
+                    "problems": [
+                        {
+                            "name": "Fair Warning",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b7e/00000000004330fd"
+                        },
+                        {
+                            "name": "Snapper Chain",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b7e/0000000000432912"
+                        },
+                        {
+                            "name": "Theme Park",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b7e/0000000000432f38"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": 2009,
+            "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2009",
+            "rounds": [
+                {
+                    "name": "World Finals 2009",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432ad5",
+                    "problems": [
+                        {
+                            "name": "Year of More Code Jam",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432ad5/0000000000433083"
+                        },
+                        {
+                            "name": "Min Perimeter",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432ad5/0000000000433195"
+                        },
+                        {
+                            "name": "Wi-fi Towers",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432ad5/0000000000432fe0"
+                        },
+                        {
+                            "name": "Doubly-sorted Grid",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432ad5/0000000000432df6"
+                        },
+                        {
+                            "name": "Marbles",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432ad5/0000000000432b7d"
+                        },
+                        {
+                            "name": "Lights",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432ad5/0000000000432911"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 3 2009",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004329f8",
+                    "problems": [
+                        {
+                            "name": "EZ-Sokoban",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004329f8/0000000000432b28"
+                        },
+                        {
+                            "name": "Alphabetomials",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004329f8/0000000000432cc9"
+                        },
+                        {
+                            "name": "Football Team",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004329f8/0000000000433158"
+                        },
+                        {
+                            "name": "Interesting Ranges",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004329f8/0000000000432bdd"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 2 2009",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc7",
+                    "problems": [
+                        {
+                            "name": "Crazy Rows",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc7/0000000000433157"
+                        },
+                        {
+                            "name": "A Digging Problem",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc7/0000000000432bdc"
+                        },
+                        {
+                            "name": "Stock Charts",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc7/0000000000432a83"
+                        },
+                        {
+                            "name": "Watering Plants",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc7/0000000000432ad3"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1C 2009",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433247",
+                    "problems": [
+                        {
+                            "name": "All Your Base",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433247/00000000004329f7"
+                        },
+                        {
+                            "name": "Center of Mass",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433247/0000000000432b27"
+                        },
+                        {
+                            "name": "Bribe the Prisoners",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000433247/0000000000432cc6"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1B 2009",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b7a",
+                    "problems": [
+                        {
+                            "name": "Decision Tree",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b7a/0000000000432910"
+                        },
+                        {
+                            "name": "The Next Number",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b7a/00000000004330f8"
+                        },
+                        {
+                            "name": "Square Math",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b7a/0000000000432f36"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1A 2009",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b26",
+                    "problems": [
+                        {
+                            "name": "Multi-base happiness",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b26/0000000000432cc5"
+                        },
+                        {
+                            "name": "Crossing the Road",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b26/0000000000433155"
+                        },
+                        {
+                            "name": "Collecting Cards",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b26/0000000000432bd9"
+                        }
+                    ]
+                },
+                {
+                    "name": "Qualification Round 2009",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc4",
+                    "problems": [
+                        {
+                            "name": "Alien Language",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc4/0000000000433154"
+                        },
+                        {
+                            "name": "Watersheds",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc4/0000000000432bd8"
+                        },
+                        {
+                            "name": "Welcome to Code Jam",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc4/0000000000432a82"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": 2008,
+            "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2008",
+            "rounds": [
+                {
+                    "name": "World Finals 2008",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004329f6",
+                    "problems": [
+                        {
+                            "name": "Juice",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004329f6/0000000000432b25"
+                        },
+                        {
+                            "name": "Ping Pong Balls",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004329f6/0000000000432cc2"
+                        },
+                        {
+                            "name": "Mine Layer",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004329f6/0000000000433150"
+                        },
+                        {
+                            "name": "Bridge Builders",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004329f6/0000000000432bd7"
+                        },
+                        {
+                            "name": "The Year of Code Jam",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004329f6/0000000000432a81"
+                        }
+                    ]
+                },
+                {
+                    "name": "EMEA Semifinal 2008",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000436d8a",
+                    "problems": [
+                        {
+                            "name": "Painting a Fence",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000436d8a/0000000000436bad"
+                        },
+                        {
+                            "name": "Scaled Triangle",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000436d8a/0000000000436ecf"
+                        },
+                        {
+                            "name": "Rainbow Trees",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000436d8a/00000000004365f9"
+                        },
+                        {
+                            "name": "Bus Stops",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000436d8a/0000000000436e2e"
+                        }
+                    ]
+                },
+                {
+                    "name": "AMER Semifinal 2008",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000436baa",
+                    "problems": [
+                        {
+                            "name": "Mixing Bowls",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000436baa/00000000004365f5"
+                        },
+                        {
+                            "name": "Test Passing Probability",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000436baa/00000000004364fc"
+                        },
+                        {
+                            "name": "Code Sequence",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000436baa/0000000000436e29"
+                        },
+                        {
+                            "name": "King",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000436baa/0000000000436bf4"
+                        }
+                    ]
+                },
+                {
+                    "name": "APAC Semifinal 2008",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000436b54",
+                    "problems": [
+                        {
+                            "name": "What are Birds?",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000436b54/00000000004369b7"
+                        },
+                        {
+                            "name": "Apocalypse Soon",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000436b54/0000000000436280"
+                        },
+                        {
+                            "name": "Millionaire",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000436b54/0000000000436a99"
+                        },
+                        {
+                            "name": "Modern Art Plagiarism",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000436b54/0000000000436f68"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 3 2008",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004329f5",
+                    "problems": [
+                        {
+                            "name": "How Big Are the Pockets?",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004329f5/0000000000432b23"
+                        },
+                        {
+                            "name": "Endless Knight",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004329f5/0000000000432bd6"
+                        },
+                        {
+                            "name": "Portal",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004329f5/0000000000432cc1"
+                        },
+                        {
+                            "name": "No Cheating",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004329f5/000000000043314f"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 2 2008",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc0",
+                    "problems": [
+                        {
+                            "name": "Cheating a Boolean Tree",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc0/000000000043314e"
+                        },
+                        {
+                            "name": "Triangle Areas",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc0/0000000000432bd5"
+                        },
+                        {
+                            "name": "Star Wars",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc0/0000000000432a80"
+                        },
+                        {
+                            "name": "PermRLE",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432cc0/0000000000432ad1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1C 2008",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043314d",
+                    "problems": [
+                        {
+                            "name": "Text Messaging Outrage",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043314d/0000000000432bd3"
+                        },
+                        {
+                            "name": "Ugly Numbers",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043314d/0000000000432a7f"
+                        },
+                        {
+                            "name": "Increasing Speed Limits",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000043314d/0000000000432ad0"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1B 2008",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432bd2",
+                    "problems": [
+                        {
+                            "name": "Crop Triangles",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432bd2/0000000000432a7e"
+                        },
+                        {
+                            "name": "Number Sets",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432bd2/0000000000432acf"
+                        },
+                        {
+                            "name": "Mousetrap",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432bd2/0000000000433082"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 1A 2008",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004330f6",
+                    "problems": [
+                        {
+                            "name": "Minimum Scalar Product",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004330f6/0000000000432f33"
+                        },
+                        {
+                            "name": "Milkshakes",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004330f6/0000000000433246"
+                        },
+                        {
+                            "name": "Numbers",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000004330f6/00000000004329f4"
+                        }
+                    ]
+                },
+                {
+                    "name": "Qualification Round 2008",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b79",
+                    "problems": [
+                        {
+                            "name": "Fly Swatter",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b79/0000000000432f32"
+                        },
+                        {
+                            "name": "Saving the Universe",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b79/000000000043290d"
+                        },
+                        {
+                            "name": "Train Timetable",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b79/00000000004330f5"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
