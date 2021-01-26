@@ -21,18 +21,16 @@
     />
 
     <script type="text/javascript">
-      $(function() {
+      $(function () {
         const TOPCODER_BASE_URL = "https://community.topcoder.com";
         const GITHUB_API_BASE_URL =
           "https://api.github.com/repos/charles-wangkai/topcoder";
-        const GITHUB_USERNAME = "charles-wangkai";
-        const GITHUB_TOKEN = "c34bea9de0b57e79b3667ebeb7ea4e51a9f6ac7b";
 
         const PROBLEM_DISPLAY_NAME_TO_ACTUAL = {
           DitherCounter: "ImageDithering",
           Yahtzee: "YahtzeeScore",
           DivDigits: "DivisorDigits",
-          MarginCalculator: "ProfitCalculator"
+          MarginCalculator: "ProfitCalculator",
         };
 
         const problemNameToSubmission = {};
@@ -47,7 +45,7 @@
         }
 
         function buildProblemComparator(dateAscending) {
-          return function(problem1, problem2) {
+          return function (problem1, problem2) {
             const class1 = computeClass(problem1);
             const class2 = computeClass(problem2);
             if (class1 !== class2) {
@@ -71,7 +69,7 @@
 
         function renderUnsolved(problems, problemNameToSubmission) {
           const unsolvedProblems = problems.filter(
-            problem => !problemNameToSubmission.hasOwnProperty(problem.name)
+            (problem) => !problemNameToSubmission.hasOwnProperty(problem.name)
           );
 
           const nextUnsolvedProblems = [].concat(
@@ -79,7 +77,7 @@
             unsolvedProblems.sort(buildProblemComparator(false)).slice(0, 3)
           );
 
-          nextUnsolvedProblems.forEach(problem => {
+          nextUnsolvedProblems.forEach((problem) => {
             $("#problems tbody").append(`
               <tr>
                 <th scope="row"><a href="${problem.url}">${problem.displayName}</a></th>
@@ -93,13 +91,13 @@
         }
 
         function renderSolved(problems, problemNameToSubmission) {
-          const solvedProblems = problems.filter(problem =>
+          const solvedProblems = problems.filter((problem) =>
             problemNameToSubmission.hasOwnProperty(problem.name)
           );
 
           $("#solvedNum").text(solvedProblems.length);
 
-          solvedProblems.forEach(problem => {
+          solvedProblems.forEach((problem) => {
             $("#solvedProblems tbody").append(`
               <tr>
                 <th scope="row"><a href="${problem.url}">${
@@ -121,7 +119,7 @@
 
           $("#solvedProblems").DataTable({
             columnDefs: [{ orderable: false, targets: 3 }],
-            order: [[6, "desc"]]
+            order: [[6, "desc"]],
           });
         }
 
@@ -138,34 +136,29 @@
         function getGithubApi(url, options = {}) {
           return $.get({
             url: url,
-            beforeSend: function(xhr) {
-              xhr.setRequestHeader(
-                "Authorization",
-                "Basic " + btoa(`${GITHUB_USERNAME}:${GITHUB_TOKEN}`)
-              );
-            },
-            ...options
+            ifModified: true,
+            ...options,
           });
         }
 
         getGithubApi(`${GITHUB_API_BASE_URL}/git/ref/heads/master`, {
-          cache: false
+          cache: false,
         })
-          .then(data => {
+          .then((data) => {
             return getGithubApi(data.object.url);
           })
-          .then(data => {
+          .then((data) => {
             return getGithubApi(data.tree.url);
           })
-          .then(data => {
+          .then((data) => {
             solutionPaths = data.tree
-              .map(object => object.path)
-              .filter(path =>
-                [".java", ".cpp", ".py"].some(suffix => path.endsWith(suffix))
+              .map((object) => object.path)
+              .filter((path) =>
+                [".java", ".cpp", ".py"].some((suffix) => path.endsWith(suffix))
               );
 
             return Promise.all(
-              solutionPaths.map(solutionPath => {
+              solutionPaths.map((solutionPath) => {
                 const submissionTime = localStorage.getItem(solutionPath);
 
                 if (submissionTime !== null) {
@@ -173,7 +166,7 @@
                 } else {
                   return getGithubApi(
                     `${GITHUB_API_BASE_URL}/commits?path=${solutionPath}`
-                  ).then(data => {
+                  ).then((data) => {
                     const submissionTime = buildSubmissionTime(data);
                     localStorage.setItem(solutionPath, submissionTime);
 
@@ -183,24 +176,24 @@
               })
             );
           })
-          .then(submissionTimes => {
+          .then((submissionTimes) => {
             for (let i = 0; i < submissionTimes.length; ++i) {
               problemNameToSubmission[buildProblemName(solutionPaths[i])] = {
                 solutionPath: solutionPaths[i],
-                time: submissionTimes[i]
+                time: submissionTimes[i],
               };
             }
           })
-          .then(data => {
+          .then((data) => {
             return $.ajax({
               url: "https://jsonp.afeld.me",
               dataType: "jsonp",
               data: {
-                url: `${TOPCODER_BASE_URL}/tc?module=ProblemArchive&er=1000000`
-              }
+                url: `${TOPCODER_BASE_URL}/tc?module=ProblemArchive&er=1000000`,
+              },
             });
           })
-          .then(data => {
+          .then((data) => {
             const $pageSource = $($.parseHTML(data.data));
 
             const $problemRows = $pageSource
@@ -217,39 +210,21 @@
             const problems = $problemRows
               .map((index, element) => {
                 const problem = {
-                  displayName: $(element)
-                    .find("td:nth-child(2)")
-                    .text()
-                    .trim(),
-                  challenge: $(element)
-                    .find("td:nth-child(3)")
-                    .text()
-                    .trim(),
+                  displayName: $(element).find("td:nth-child(2)").text().trim(),
+                  challenge: $(element).find("td:nth-child(3)").text().trim(),
                   challengeUrl: `${TOPCODER_BASE_URL}${$(element)
                     .find("td:nth-child(3) a")
                     .attr("href")}`,
                   date: moment(
-                    $(element)
-                      .find("td:nth-child(4)")
-                      .text()
-                      .trim(),
+                    $(element).find("td:nth-child(4)").text().trim(),
                     "MM.DD.YYYY"
                   ).format("YYYY-MM-DD"),
-                  categories: $(element)
-                    .find("td:nth-child(6)")
-                    .text()
-                    .trim(),
-                  div1Level: $(element)
-                    .find("td:nth-child(7)")
-                    .text()
-                    .trim(),
-                  div2Level: $(element)
-                    .find("td:nth-child(9)")
-                    .text()
-                    .trim(),
+                  categories: $(element).find("td:nth-child(6)").text().trim(),
+                  div1Level: $(element).find("td:nth-child(7)").text().trim(),
+                  div2Level: $(element).find("td:nth-child(9)").text().trim(),
                   url: `${TOPCODER_BASE_URL}${$(element)
                     .find("td:nth-child(11) a")
-                    .attr("href")}`
+                    .attr("href")}`,
                 };
 
                 problem.name =
@@ -273,12 +248,10 @@
         <div class="card">
           <div class="card-header">
             Solved Problems:
-            <span id="solvedNum" style="color:green"></span>
+            <span id="solvedNum" style="color: green"></span>
           </div>
           <div class="card-body">
-            <h5 class="card-title">
-              Next Unsolved Problems
-            </h5>
+            <h5 class="card-title">Next Unsolved Problems</h5>
             <table id="problems" class="table table-striped">
               <thead>
                 <tr>
@@ -299,9 +272,7 @@
     <div class="row m-1 mt-5">
       <div class="col-sm">
         <div class="card">
-          <div class="card-header">
-            All Solved Problems
-          </div>
+          <div class="card-header">All Solved Problems</div>
           <div class="card-body">
             <table id="solvedProblems" class="table table-striped">
               <thead>

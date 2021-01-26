@@ -29,18 +29,11 @@
         };
         const GITHUB_API_BASE_URL =
           "https://api.github.com/repos/charles-wangkai/hackercup";
-        const GITHUB_USERNAME = "charles-wangkai";
-        const GITHUB_TOKEN = "c34bea9de0b57e79b3667ebeb7ea4e51a9f6ac7b";
 
         function getGithubApi(url, options = {}) {
           return $.get({
             url: url,
-            beforeSend: function (xhr) {
-              xhr.setRequestHeader(
-                "Authorization",
-                "Basic " + btoa(`${GITHUB_USERNAME}:${GITHUB_TOKEN}`)
-              );
-            },
+            ifModified: true,
             ...options,
           });
         }
@@ -192,9 +185,7 @@
     <div class="row m-1">
       <div class="col-sm">
         <div class="card">
-          <div class="card-header">
-            Problem List
-          </div>
+          <div class="card-header">Problem List</div>
           <div class="card-body">
             <div class="form-check form-check-inline">
               <input
