@@ -68,6 +68,8 @@
 
 - [Moving Boxes](/fun/moving_boxes.html)
 
+- [Tennis Game](/fun/tennis_game.html)
+
 - [Codeforces Next Problems](/fun/codeforces_next_problems.html)
 
 - [TopCoder Next Problems](/fun/topcoder_next_problems.html)
