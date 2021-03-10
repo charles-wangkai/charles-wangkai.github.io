@@ -71,7 +71,7 @@
         function renderMain(problems, problemStatistics, submissions) {
           prepareMainProblems(problems, problemStatistics, submissions);
 
-          const DUPLICATE_CONTEST_IDS = [1298];
+          const DUPLICATE_CONTEST_IDS = [1298, 1489];
           const solvedNum =
             problems.filter((problem) => problem.solved).length +
             submissions.filter(
@@ -261,12 +261,10 @@
         <div class="card">
           <div class="card-header">
             MAIN Solved Problems:
-            <span id="mainSolvedNum" style="color: green;"></span>
+            <span id="mainSolvedNum" style="color: green"></span>
           </div>
           <div class="card-body">
-            <h5 class="card-title">
-              Next Unsolved Problems
-            </h5>
+            <h5 class="card-title">Next Unsolved Problems</h5>
             <table id="mainProblems" class="table table-striped">
               <thead>
                 <tr>
@@ -286,12 +284,10 @@
         <div class="card">
           <div class="card-header">
             ACMSGURU Solved Problems:
-            <span id="acmsguruSolvedNum" style="color: green;"></span>
+            <span id="acmsguruSolvedNum" style="color: green"></span>
           </div>
           <div class="card-body">
-            <h5 class="card-title">
-              Next Unsolved Problems
-            </h5>
+            <h5 class="card-title">Next Unsolved Problems</h5>
             <table id="acmsguruProblems" class="table table-striped">
               <thead>
                 <tr>
@@ -310,9 +306,7 @@
     <div class="row m-1 mt-5">
       <div class="col-sm">
         <div class="card">
-          <div class="card-header">
-            All Solved Problems
-          </div>
+          <div class="card-header">All Solved Problems</div>
           <div class="card-body">
             <table id="solvedProblems" class="table table-striped">
               <thead>
