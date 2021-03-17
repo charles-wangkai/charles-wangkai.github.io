@@ -1,0 +1,154 @@
+{
+    "rounds": [
+        {
+            "name": 2020,
+            "url": "https://codingcompetitions.withgoogle.com/codejamio/round/000000000019ff03",
+            "problems": [
+                {
+                    "name": "Interleaved Output: Part 1",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/000000000019ff03/00000000001b5e88"
+                },
+                {
+                    "name": "Imbalance Obviation",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/000000000019ff03/00000000001b5e24"
+                },
+                {
+                    "name": "Interleaved Output: Part 2",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/000000000019ff03/00000000001b5cd7"
+                },
+                {
+                    "name": "Impromptu Outdoor Gallery",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/000000000019ff03/00000000001b5e89"
+                }
+            ]
+        },
+        {
+            "name": 2019,
+            "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050fc5",
+            "problems": [
+                {
+                    "name": "Grid Escape",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050fc5/0000000000054e9c"
+                },
+                {
+                    "name": "Parcel Posts",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050fc5/0000000000054e9a"
+                },
+                {
+                    "name": "Sheepwalking",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050fc5/0000000000054edd"
+                },
+                {
+                    "name": "War of the Words",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050fc5/0000000000054ea5"
+                }
+            ]
+        },
+        {
+            "name": 2018,
+            "url": "https://codingcompetitions.withgoogle.com/codejamio/round/000000000005102c",
+            "problems": [
+                {
+                    "name": "Burger Optimization",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/000000000005102c/0000000000050dd4"
+                },
+                {
+                    "name": "CEO Search",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/000000000005102c/0000000000050dd5"
+                },
+                {
+                    "name": "Centrists",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/000000000005102c/0000000000050dd6"
+                },
+                {
+                    "name": "Tricky Trios",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/000000000005102c/0000000000050fc4"
+                }
+            ]
+        },
+        {
+            "name": 2017,
+            "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050ece",
+            "problems": [
+                {
+                    "name": "Ticket Trouble",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050ece/0000000000050df6"
+                },
+                {
+                    "name": "Understudies",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050ece/0000000000050ed4"
+                },
+                {
+                    "name": "Word Search",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050ece/0000000000050df7"
+                },
+                {
+                    "name": "Where Ya Gonna Call?",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050ece/0000000000050ed5"
+                }
+            ]
+        },
+        {
+            "name": 2016,
+            "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000051059",
+            "problems": [
+                {
+                    "name": "Cody's Jams",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000051059/000000000005105a"
+                },
+                {
+                    "name": "Dance Around The Clock",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000051059/000000000005105b"
+                },
+                {
+                    "name": "Polynesiaglot",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000051059/000000000005105c"
+                },
+                {
+                    "name": "Password Security",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000051059/0000000000050df5"
+                }
+            ]
+        },
+        {
+            "name": 2015,
+            "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050df1",
+            "problems": [
+                {
+                    "name": "I/O Error",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050df1/0000000000050ed2"
+                },
+                {
+                    "name": "Power Levels",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050df1/0000000000050fec"
+                },
+                {
+                    "name": "Googlander",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050df1/0000000000050ed3"
+                },
+                {
+                    "name": "Dreary Design",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050df1/0000000000050df4"
+                }
+            ]
+        },
+        {
+            "name": 2014,
+            "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050ed0",
+            "problems": [
+                {
+                    "name": "Saturnalia",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050ed0/0000000000050df2"
+                },
+                {
+                    "name": "Zathras",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050ed0/0000000000050ed1"
+                },
+                {
+                    "name": "Seating Chart",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050ed0/0000000000050df3"
+                }
+            ]
+        }
+    ]
+}
