@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Google Code Jam to I/O Tracker</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap4.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css"
+    />
+
+    <script>
+      $(async function () {
+        const GITHUB_API_BASE_URL =
+          "https://api.github.com/repos/charles-wangkai/codejamio";
+
+        function getGithubApi(url, options = {}) {
+          return $.get({
+            url: url,
+            ifModified: true,
+            ...options,
+          });
+        }
+
+        let dataset = await $.get({
+          url: "codejamio_dataset.json",
+          dataType: "json",
+        });
+
+        let problems = [];
+        for (let round of dataset.rounds) {
+          for (
+            let problemIndex = 0;
+            problemIndex < round.problems.length;
+            ++problemIndex
+          ) {
+            let problem = round.problems[problemIndex];
+
+            problems.push({
+              round: round,
+              problem: problem,
+              index: `${round.name}-${String.fromCharCode(
+                "A".charCodeAt(0) + problemIndex
+              )}`,
+            });
+          }
+        }
+
+        data = await getGithubApi(`${GITHUB_API_BASE_URL}/git/ref/heads/main`, {
+          cache: false,
+        });
+        data = await getGithubApi(data.object.url);
+        data = await getGithubApi(`${data.tree.url}?recursive=1`);
+
+        const githubPaths = new Set(data.tree.map((object) => object.path));
+
+        problems.forEach((problem) => {
+          const path = `${problem.round.name}/${problem.problem.name}/Solution.java`;
+
+          if (githubPaths.has(path)) {
+            problem.submissionUrl = `https://github.com/charles-wangkai/codejamio/blob/main/${path}`;
+          }
+        });
+
+        problems.forEach((problem) => {
+          const submission = problem.submissionUrl
+            ? `<a href="${problem.submissionUrl}">Solution</a>`
+            : "";
+
+          $("#problems tbody").append(`
+              <tr>
+                <th scope="row"><a href="${problem.problem.url}">${problem.problem.name}</a></th>
+                <td><a href="${problem.round.url}">${problem.round.name}</a></td>
+                <td><a href="${problem.problem.url}">${problem.index}</a></td>
+                <td>${submission}</td>
+              </tr>
+          `);
+        });
+
+        $.fn.dataTable.ext.search.push(function (settings, data, dataIndex) {
+          const filterType = $(
+            "input[type=radio][name=filterType]:checked"
+          ).val();
+
+          return (
+            filterType === "all" || (filterType === "todo") === (data[3] === "")
+          );
+        });
+
+        const filterTypeToOrder = {
+          all: [2, "asc"],
+          todo: [2, "asc"],
+          solved: [2, "desc"],
+        };
+
+        const table = $("#problems").DataTable({
+          paging: false,
+          order:
+            filterTypeToOrder[
+              $("input[type=radio][name=filterType]:checked").val()
+            ],
+        });
+
+        $("input[type=radio][name=filterType]").change(function () {
+          table.order(filterTypeToOrder[$(this).val()]).draw();
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="row m-1">
+      <div class="col-sm">
+        <div class="card">
+          <div class="card-header">Problem List</div>
+          <div class="card-body">
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="filterType"
+                id="filterAll"
+                value="all"
+              />
+              <label class="form-check-label" for="filterAll">All</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="filterType"
+                id="filterTodo"
+                value="todo"
+                checked
+              />
+              <label class="form-check-label" for="filterTodo">Todo</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="filterType"
+                id="filterSolved"
+                value="solved"
+              />
+              <label class="form-check-label" for="filterSolved">Solved</label>
+            </div>
+
+            <table id="problems" class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Problem Title</th>
+                  <th scope="col">Round</th>
+                  <th scope="col">Index</th>
+                  <th scope="col">Submission</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
