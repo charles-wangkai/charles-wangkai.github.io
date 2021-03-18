@@ -63,7 +63,10 @@
         const githubPaths = new Set(data.tree.map((object) => object.path));
 
         problems.forEach((problem) => {
-          const path = `${problem.round.name}/${problem.problem.name}/Solution.java`;
+          const path = `${problem.round.name}/${problem.problem.name.replace(
+            /\//g,
+            ":"
+          )}/Solution.java`;
 
           if (githubPaths.has(path)) {
             problem.submissionUrl = `https://github.com/charles-wangkai/codejamio/blob/main/${path}`;
