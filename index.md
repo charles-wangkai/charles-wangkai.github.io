@@ -78,6 +78,8 @@
 
 - [Google Code Jam to I/O Tracker](/fun/codejamio_tracker.html)
 
+- [Google Kick Start Tracker](/fun/kickstart_tracker.html)
+
 - [Facebook Hacker Cup Tracker](/fun/hackercup_tracker.html)
 
 - [Dynamic Venn Diagram](/fun/dynamic_venn_diagram.html)
