@@ -15,20 +15,24 @@ def crawl_years():
         id = elem.get_attribute('id')
         if id.startswith(prefix):
             years.append({
-                'name': int(id[len(prefix):]),
+                'name': id[len(prefix):],
                 'url': elem.get_attribute('href')
             })
 
     return years
 
 
-def crawl_rounds(year_url):
+def regulate_round_name(year_name, words):
+    return words[:-1] if words[-1] == year_name else words
+
+
+def crawl_rounds(year):
     rounds = []
 
-    driver.get(year_url)
+    driver.get(year['url'])
     for elem in driver.find_elements_by_xpath("//div[contains(@class, 'schedule-row') and @role='row']"):
         rounds.append({
-            'name': ' '.join(elem.find_element_by_xpath('.//span').text.split(' ')[:-1]),
+            'name': ' '.join(regulate_round_name(year['name'], elem.find_element_by_xpath('.//span').text.split(' '))),
             'url': elem.find_element_by_xpath('.//a').get_attribute('href')
         })
 
@@ -54,7 +58,7 @@ def main():
     }
 
     for year in dataset['years']:
-        year['rounds'] = crawl_rounds(year['url'])
+        year['rounds'] = crawl_rounds(year)
 
         for round in year['rounds']:
             round['problems'] = crawl_problems(round['url'])
