@@ -33,6 +33,7 @@
         let dataset = await $.get({
           url: "kickstart_dataset.json",
           dataType: "json",
+          cache: false,
         });
 
         let problems = [];
