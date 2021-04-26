@@ -5,6 +5,28 @@
             "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2021",
             "rounds": [
                 {
+                    "name": "Round B",
+                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435a5b",
+                    "problems": [
+                        {
+                            "name": "Increasing Substring",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435a5b/000000000077a882"
+                        },
+                        {
+                            "name": "Longest Progression",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435a5b/000000000077a3a5"
+                        },
+                        {
+                            "name": "Consecutive Primes",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435a5b/000000000077a8e6"
+                        },
+                        {
+                            "name": "Truck Delivery",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435a5b/000000000077a885"
+                        }
+                    ]
+                },
+                {
                     "name": "Round A",
                     "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000436140",
                     "problems": [
