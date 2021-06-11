@@ -5,6 +5,28 @@
             "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2021",
             "rounds": [
                 {
+                    "name": "Round C",
+                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435c44",
+                    "problems": [
+                        {
+                            "name": "Smaller Strings",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435c44/00000000007ebe5e"
+                        },
+                        {
+                            "name": "Alien Generator",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435c44/00000000007ec1cb"
+                        },
+                        {
+                            "name": "Rock Paper Scissors",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435c44/00000000007ec28e"
+                        },
+                        {
+                            "name": "Binary Operator",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435c44/00000000007ec290"
+                        }
+                    ]
+                },
+                {
                     "name": "Round B",
                     "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435a5b",
                     "problems": [
