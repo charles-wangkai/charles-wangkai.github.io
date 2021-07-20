@@ -1,6 +1,6 @@
 [Resume](/resume/kai_wang_resume.pdf)
 
-## Competitive Programming
+## Competitive Programming & Contests
 
 - [Google Code Jam 2020](/certificates/certificate_google_code_jam_2020.png): Round 3. Ranked 497th out of 44000+.
 
@@ -13,6 +13,10 @@
 - [Google Code Jam to I/O 2020](https://codingcompetitions.withgoogle.com/codejamio/round/000000000019ff03): Ranked 59th out of 2500+.
 
 - [Google Distributed Code Jam 2016](https://code.google.com/codejam/contest/7244486/scoreboard): Round 2. Ranked 175th out of 800+.
+
+- [Google CTF 2021](https://capturetheflag.withgoogle.com/scoreboard/junior_groot): Ranked 177th.
+
+- [Bioinformatics Contest 2021](/certificates/certificate_bioinformatics_contest_2021.pdf): Ranked 499th.
 
 - [HackerRank ProjectEuler+](https://www.hackerrank.com/results/projecteuler/goalboy)
 
