@@ -1,3 +1,4 @@
+import html
 import json
 from selenium import webdriver
 
@@ -45,7 +46,7 @@ def crawl_problems(round_url):
     driver.get(round_url)
     for elem in driver.find_elements_by_xpath("//div[contains(@class, 'problems-nav-selector-item-container')]"):
         problems.append({
-            'name': elem.find_element_by_xpath(".//p").get_attribute('innerHTML').strip(),
+            'name': html.unescape(elem.find_element_by_xpath(".//p").get_attribute('innerHTML').strip()),
             'url': elem.find_element_by_xpath('.//a').get_attribute('href')
         })
 
