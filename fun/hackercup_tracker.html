@@ -22,11 +22,6 @@
       $(async function () {
         const FACEBOOK_API_BASE_URL =
           "https://www.facebook.com/codingcompetitions/hacker-cup";
-        const REQ_NAME_TO_DOC_ID = {
-          CodingCompetitionsContestSeriesRootQuery: 4469231956469803,
-          CodingCompetitionsContestSeasonRootQuery: 4814656045220136,
-          CodingCompetitionsContestRootQuery: 3682545078515205,
-        };
         const GITHUB_API_BASE_URL =
           "https://api.github.com/repos/charles-wangkai/hackercup";
 
@@ -43,19 +38,16 @@
           dataType: "json",
           data: {
             fb_api_req_friendly_name:
-              "CodingCompetitionsContestSeriesRootQuery",
-            variables: '{ "series_vanity": "hacker-cup" }',
-            doc_id:
-              REQ_NAME_TO_DOC_ID["CodingCompetitionsContestSeriesRootQuery"],
+              "CodingCompetitionsContestSeriesPastSeasonsQuery",
+            variables: '{ "seriesID": "494527294537932" }',
+            doc_id: "4121563751229892",
           },
         });
 
-        const seasons = data.data.contestSeries.contest_seasons.nodes.map(
-          (node) => ({
-            name: node.name,
-            vanity: node.season_vanity,
-          })
-        );
+        const seasons = data.data.series.contest_seasons.nodes.map((node) => ({
+          name: node.name,
+          vanity: node.season_vanity,
+        }));
 
         const contests = (
           await Promise.all(
@@ -67,10 +59,7 @@
                   fb_api_req_friendly_name:
                     "CodingCompetitionsContestSeasonRootQuery",
                   variables: `{ "series_vanity": "hacker-cup", "season_vanity": "${season.vanity}" }`,
-                  doc_id:
-                    REQ_NAME_TO_DOC_ID[
-                      "CodingCompetitionsContestSeasonRootQuery"
-                    ],
+                  doc_id: "4814656045220136",
                 },
               });
 
@@ -96,8 +85,7 @@
                   fb_api_req_friendly_name:
                     "CodingCompetitionsContestRootQuery",
                   variables: `{ "series_vanity": "hacker-cup", "season_vanity": "${contest.season.vanity}", "contest_vanity": "${contest.vanity}" }`,
-                  doc_id:
-                    REQ_NAME_TO_DOC_ID["CodingCompetitionsContestRootQuery"],
+                  doc_id: "3682545078515205",
                 },
               });
 
