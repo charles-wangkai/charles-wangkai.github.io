@@ -78,27 +78,29 @@
         const problems = (
           await Promise.all(
             contests.flatMap(async (contest) => {
-              const data = await $.post({
-                url: "https://wangkai-cors-anywhere.herokuapp.com/https://www.facebook.com/api/graphql",
-                dataType: "json",
-                data: {
-                  fb_api_req_friendly_name:
-                    "CodingCompetitionsContestRootQuery",
-                  variables: `{ "series_vanity": "hacker-cup", "season_vanity": "${contest.season.vanity}", "contest_vanity": "${contest.vanity}" }`,
-                  doc_id: "3682545078515205",
-                },
-              });
+              setTimeout(async function () {
+                const data = await $.post({
+                  url: "https://wangkai-cors-anywhere.herokuapp.com/https://www.facebook.com/api/graphql",
+                  dataType: "json",
+                  data: {
+                    fb_api_req_friendly_name:
+                      "CodingCompetitionsContestRootQuery",
+                    variables: `{ "series_vanity": "hacker-cup", "season_vanity": "${contest.season.vanity}", "contest_vanity": "${contest.vanity}" }`,
+                    doc_id: "3682545078515205",
+                  },
+                });
 
-              return data.data.contestSeries.contestSeason.contest.ordered_problem_sets.flatMap(
-                (ordered_problem_set) =>
-                  ordered_problem_set.ordered_problems_with_display_indices.map(
-                    (ordered_problem) => ({
-                      contest: contest,
-                      displayIndex: ordered_problem.display_index,
-                      title: ordered_problem.problem.problem_title,
-                    })
-                  )
-              );
+                return data.data.contestSeries.contestSeason.contest.ordered_problem_sets.flatMap(
+                  (ordered_problem_set) =>
+                    ordered_problem_set.ordered_problems_with_display_indices.map(
+                      (ordered_problem) => ({
+                        contest: contest,
+                        displayIndex: ordered_problem.display_index,
+                        title: ordered_problem.problem.problem_title,
+                      })
+                    )
+                );
+              }, Math.floor(Math.random() * 60000));
             })
           )
         ).flat();
