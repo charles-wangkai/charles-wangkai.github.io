@@ -23,9 +23,9 @@
         const FACEBOOK_API_BASE_URL =
           "https://www.facebook.com/codingcompetitions/hacker-cup";
         const REQ_NAME_TO_DOC_ID = {
-          CodingCompetitionsContestSeriesRootQuery: 3376900609043351,
-          CodingCompetitionsContestSeasonRootQuery: 2873940642735466,
-          CodingCompetitionsContestRootQuery: 2742348532536862,
+          CodingCompetitionsContestSeriesRootQuery: 4469231956469803,
+          CodingCompetitionsContestSeasonRootQuery: 4814656045220136,
+          CodingCompetitionsContestRootQuery: 3682545078515205,
         };
         const GITHUB_API_BASE_URL =
           "https://api.github.com/repos/charles-wangkai/hackercup";
@@ -39,8 +39,7 @@
         }
 
         let data = await $.post({
-          url:
-            "https://wangkai-cors-anywhere.herokuapp.com/https://www.facebook.com/api/graphql",
+          url: "https://wangkai-cors-anywhere.herokuapp.com/https://www.facebook.com/api/graphql",
           dataType: "json",
           data: {
             fb_api_req_friendly_name:
@@ -62,8 +61,7 @@
           await Promise.all(
             seasons.map(async (season) => {
               const data = await $.post({
-                url:
-                  "https://wangkai-cors-anywhere.herokuapp.com/https://www.facebook.com/api/graphql",
+                url: "https://wangkai-cors-anywhere.herokuapp.com/https://www.facebook.com/api/graphql",
                 dataType: "json",
                 data: {
                   fb_api_req_friendly_name:
@@ -92,8 +90,7 @@
           await Promise.all(
             contests.flatMap(async (contest) => {
               const data = await $.post({
-                url:
-                  "https://wangkai-cors-anywhere.herokuapp.com/https://www.facebook.com/api/graphql",
+                url: "https://wangkai-cors-anywhere.herokuapp.com/https://www.facebook.com/api/graphql",
                 dataType: "json",
                 data: {
                   fb_api_req_friendly_name:
