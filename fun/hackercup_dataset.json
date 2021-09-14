@@ -1,0 +1,1230 @@
+{
+    "seasons": [
+        {
+            "name": "2021",
+            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021",
+            "contests": [
+                {
+                    "name": "qualification-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/qualification-round",
+                    "problems": [
+                        {
+                            "name": "Consistency - Chapter 1",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/qualification-round/problems/A1"
+                        },
+                        {
+                            "name": "Consistency - Chapter 2",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/qualification-round/problems/A2"
+                        },
+                        {
+                            "name": "Xs and Os",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/qualification-round/problems/B"
+                        },
+                        {
+                            "name": "Gold Mine - Chapter 1",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/qualification-round/problems/C1"
+                        },
+                        {
+                            "name": "Gold Mine - Chapter 2",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/qualification-round/problems/C2"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-1",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-1",
+                    "problems": [
+                        {
+                            "name": "Weak Typing - Chapter 1",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-1/problems/A1"
+                        },
+                        {
+                            "name": "Weak Typing - Chapter 2",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-1/problems/A2"
+                        },
+                        {
+                            "name": "Weak Typing - Chapter 3",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-1/problems/A3"
+                        },
+                        {
+                            "name": "Traffic Control",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-1/problems/B"
+                        },
+                        {
+                            "name": "Blockchain",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-1/problems/C"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-2",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-2",
+                    "problems": []
+                },
+                {
+                    "name": "round-3",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-3",
+                    "problems": []
+                }
+            ]
+        },
+        {
+            "name": "2020",
+            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020",
+            "contests": [
+                {
+                    "name": "qualification-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/qualification-round",
+                    "problems": [
+                        {
+                            "name": "Travel Restrictions",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/qualification-round/problems/A"
+                        },
+                        {
+                            "name": "Alchemy",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/qualification-round/problems/B"
+                        },
+                        {
+                            "name": "Timber",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/qualification-round/problems/C"
+                        },
+                        {
+                            "name": "Running on Fumes - Chapter 1",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/qualification-round/problems/D1"
+                        },
+                        {
+                            "name": "Running on Fumes - Chapter 2",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/qualification-round/problems/D2"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-1",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/round-1",
+                    "problems": [
+                        {
+                            "name": "Perimetric - Chapter 1",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/round-1/problems/A1"
+                        },
+                        {
+                            "name": "Perimetric - Chapter 2",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/round-1/problems/A2"
+                        },
+                        {
+                            "name": "Perimetric - Chapter 3",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/round-1/problems/A3"
+                        },
+                        {
+                            "name": "Dislodging Logs",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/round-1/problems/B"
+                        },
+                        {
+                            "name": "Quarantine",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/round-1/problems/C"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-2",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/round-2",
+                    "problems": [
+                        {
+                            "name": "Ca-pasta-ty",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/round-2/problems/A"
+                        },
+                        {
+                            "name": "Elimination",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/round-2/problems/B"
+                        },
+                        {
+                            "name": "Circular Circles",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/round-2/problems/C"
+                        },
+                        {
+                            "name": "Log Drivin' Hirin'",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/round-2/problems/D"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-3",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/round-3",
+                    "problems": [
+                        {
+                            "name": "Chain Explosions",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/round-3/problems/A"
+                        },
+                        {
+                            "name": "Railroad Renovations",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/round-3/problems/B"
+                        },
+                        {
+                            "name": "Mail Security",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/round-3/problems/C"
+                        },
+                        {
+                            "name": "Smart Carts",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/round-3/problems/D"
+                        }
+                    ]
+                },
+                {
+                    "name": "final-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/final-round",
+                    "problems": [
+                        {
+                            "name": "Cryptoconference",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/final-round/problems/A"
+                        },
+                        {
+                            "name": "Somebody Else's Problem",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/final-round/problems/B"
+                        },
+                        {
+                            "name": "Pond Precipitation",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/final-round/problems/C"
+                        },
+                        {
+                            "name": "Spider Spring",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/final-round/problems/D"
+                        },
+                        {
+                            "name": "Tree Training",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/final-round/problems/E"
+                        },
+                        {
+                            "name": "Cake-Cutting Committee",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2020/final-round/problems/F"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "2019",
+            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019",
+            "contests": [
+                {
+                    "name": "qualification-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/qualification-round",
+                    "problems": [
+                        {
+                            "name": "Leapfrog: Ch. 1",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/qualification-round/problems/A"
+                        },
+                        {
+                            "name": "Leapfrog: Ch. 2",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/qualification-round/problems/B"
+                        },
+                        {
+                            "name": "Mr. X",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/qualification-round/problems/C"
+                        },
+                        {
+                            "name": "Trees as a Service",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/qualification-round/problems/D"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-1",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/round-1",
+                    "problems": [
+                        {
+                            "name": "Graphs as a Service",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/round-1/problems/A"
+                        },
+                        {
+                            "name": "Class Treasurer",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/round-1/problems/B"
+                        },
+                        {
+                            "name": "Ladders and Snakes",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/round-1/problems/C"
+                        },
+                        {
+                            "name": "Connect the Dots",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/round-1/problems/D"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-2",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/round-2",
+                    "problems": [
+                        {
+                            "name": "On the Run",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/round-2/problems/A"
+                        },
+                        {
+                            "name": "Bitstrings as a Service",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/round-2/problems/B"
+                        },
+                        {
+                            "name": "Grading",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/round-2/problems/C"
+                        },
+                        {
+                            "name": "Seafood",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/round-2/problems/D"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-3",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/round-3",
+                    "problems": [
+                        {
+                            "name": "Light Show",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/round-3/problems/A"
+                        },
+                        {
+                            "name": "Integers as a Service",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/round-3/problems/B"
+                        },
+                        {
+                            "name": "Renovations",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/round-3/problems/C"
+                        },
+                        {
+                            "name": "Chain of Command",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/round-3/problems/D"
+                        }
+                    ]
+                },
+                {
+                    "name": "final-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/final-round",
+                    "problems": [
+                        {
+                            "name": "Strings as a Service",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/final-round/problems/A"
+                        },
+                        {
+                            "name": "Khajiit",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/final-round/problems/B"
+                        },
+                        {
+                            "name": "Scoreboard",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/final-round/problems/C"
+                        },
+                        {
+                            "name": "Little Boat on the Sea",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/final-round/problems/D"
+                        },
+                        {
+                            "name": "Cold Storage",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/final-round/problems/E"
+                        },
+                        {
+                            "name": "Temporal Revision",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2019/final-round/problems/F"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "2018",
+            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018",
+            "contests": [
+                {
+                    "name": "qualification-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/qualification-round",
+                    "problems": [
+                        {
+                            "name": "Tourist",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/qualification-round/problems/A"
+                        },
+                        {
+                            "name": "Interception",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/qualification-round/problems/B"
+                        },
+                        {
+                            "name": "Ethan Searches for a String",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/qualification-round/problems/C"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-1",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/round-1",
+                    "problems": [
+                        {
+                            "name": "Let It Flow",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/round-1/problems/A"
+                        },
+                        {
+                            "name": "Ethan Traverses a Tree",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/round-1/problems/B"
+                        },
+                        {
+                            "name": "Platform Parkour",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/round-1/problems/C"
+                        },
+                        {
+                            "name": "Evening of the Living Dead",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/round-1/problems/D"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-2",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/round-2",
+                    "problems": [
+                        {
+                            "name": "Ethan Finds the Shortest Path",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/round-2/problems/A"
+                        },
+                        {
+                            "name": "Jack's Candy Shop",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/round-2/problems/B"
+                        },
+                        {
+                            "name": "Replay Value",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/round-2/problems/C"
+                        },
+                        {
+                            "name": "Fossil Fuels",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/round-2/problems/D"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-3",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/round-3",
+                    "problems": [
+                        {
+                            "name": "Jammin'",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/round-3/problems/A"
+                        },
+                        {
+                            "name": "Ethan Finds the Maximum Subarray Sum",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/round-3/problems/B"
+                        },
+                        {
+                            "name": "Graph Gift",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/round-3/problems/C"
+                        },
+                        {
+                            "name": "Finshakes",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/round-3/problems/D"
+                        }
+                    ]
+                },
+                {
+                    "name": "final-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/final-round",
+                    "problems": [
+                        {
+                            "name": "Contest Environment",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/final-round/problems/A"
+                        },
+                        {
+                            "name": "Stockholm",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/final-round/problems/B"
+                        },
+                        {
+                            "name": "Ethan Sums Shortest Distances",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/final-round/problems/C"
+                        },
+                        {
+                            "name": "Personal Space",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/final-round/problems/D"
+                        },
+                        {
+                            "name": "City Lights",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/final-round/problems/E"
+                        },
+                        {
+                            "name": "The Claw",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2018/final-round/problems/F"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "2017",
+            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017",
+            "contests": [
+                {
+                    "name": "qualification-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/qualification-round",
+                    "problems": [
+                        {
+                            "name": "Progress Pie",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/qualification-round/problems/A"
+                        },
+                        {
+                            "name": "Lazy Loading",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/qualification-round/problems/B"
+                        },
+                        {
+                            "name": "Fighting the Zombie",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/qualification-round/problems/C"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-1",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/round-1",
+                    "problems": [
+                        {
+                            "name": "Pie Progress",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/round-1/problems/A"
+                        },
+                        {
+                            "name": "Fighting the Zombies",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/round-1/problems/B"
+                        },
+                        {
+                            "name": "Manic Moving",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/round-1/problems/C"
+                        },
+                        {
+                            "name": "Beach Umbrellas",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/round-1/problems/D"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-2",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/round-2",
+                    "problems": [
+                        {
+                            "name": "Subtle Sabotage",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/round-2/problems/A"
+                        },
+                        {
+                            "name": "Big Top",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/round-2/problems/B"
+                        },
+                        {
+                            "name": "Fighting all the Zombies",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/round-2/problems/C"
+                        },
+                        {
+                            "name": "Rain Over New York",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/round-2/problems/D"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-3",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/round-3",
+                    "problems": [
+                        {
+                            "name": "Salient Strings",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/round-3/problems/A"
+                        },
+                        {
+                            "name": "Sluggish Security",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/round-3/problems/B"
+                        },
+                        {
+                            "name": "Pie Packages",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/round-3/problems/C"
+                        },
+                        {
+                            "name": "Broken Bits",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/round-3/problems/D"
+                        },
+                        {
+                            "name": "Steadfast Snakes",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/round-3/problems/E"
+                        }
+                    ]
+                },
+                {
+                    "name": "final-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/final-round",
+                    "problems": [
+                        {
+                            "name": "Fox Patrols",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/final-round/problems/A"
+                        },
+                        {
+                            "name": "Fox Moles",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/final-round/problems/B"
+                        },
+                        {
+                            "name": "Fox Strolls",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/final-round/problems/C"
+                        },
+                        {
+                            "name": "Fox Tolls",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/final-round/problems/D"
+                        },
+                        {
+                            "name": "Fox Holes",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/final-round/problems/E"
+                        },
+                        {
+                            "name": "Fox Poles",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2017/final-round/problems/F"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "2016",
+            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016",
+            "contests": [
+                {
+                    "name": "qualification-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/qualification-round",
+                    "problems": [
+                        {
+                            "name": "Boomerang Constellations",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/qualification-round/problems/A"
+                        },
+                        {
+                            "name": "High Security",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/qualification-round/problems/B"
+                        },
+                        {
+                            "name": "The Price is Correct",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/qualification-round/problems/C"
+                        },
+                        {
+                            "name": "Text Editor",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/qualification-round/problems/D"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-1",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/round-1",
+                    "problems": [
+                        {
+                            "name": "Coding Contest Creation",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/round-1/problems/A"
+                        },
+                        {
+                            "name": "Laundro, Matt",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/round-1/problems/B"
+                        },
+                        {
+                            "name": "Yachtzee",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/round-1/problems/C"
+                        },
+                        {
+                            "name": "Boomerang Tournament",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/round-1/problems/D"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-2",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/round-2",
+                    "problems": [
+                        {
+                            "name": "Boomerang Decoration",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/round-2/problems/A"
+                        },
+                        {
+                            "name": "Carnival Coins",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/round-2/problems/B"
+                        },
+                        {
+                            "name": "Snakes and Ladders",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/round-2/problems/C"
+                        },
+                        {
+                            "name": "Costly Labels",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/round-2/problems/D"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-3",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/round-3",
+                    "problems": [
+                        {
+                            "name": "Chess Showdown",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/round-3/problems/A"
+                        },
+                        {
+                            "name": "Boomerang Farm",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/round-3/problems/B"
+                        },
+                        {
+                            "name": "Boomerang Umbrella",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/round-3/problems/C"
+                        },
+                        {
+                            "name": "Matt Laundro",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/round-3/problems/D"
+                        },
+                        {
+                            "name": "Public Transportation",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/round-3/problems/E"
+                        }
+                    ]
+                },
+                {
+                    "name": "final-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/final-round",
+                    "problems": [
+                        {
+                            "name": "Snake and Ladder",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/final-round/problems/A"
+                        },
+                        {
+                            "name": "Boomerang Crews",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/final-round/problems/B"
+                        },
+                        {
+                            "name": "Grundy Graph",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/final-round/problems/C"
+                        },
+                        {
+                            "name": "RNG",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/final-round/problems/D"
+                        },
+                        {
+                            "name": "Maximinimax Flow",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/final-round/problems/E"
+                        },
+                        {
+                            "name": "Rainbow String",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2016/final-round/problems/F"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "2015",
+            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015",
+            "contests": [
+                {
+                    "name": "qualification-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/qualification-round",
+                    "problems": [
+                        {
+                            "name": "Cooking the Books",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/qualification-round/problems/A"
+                        },
+                        {
+                            "name": "New Year's Resolution",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/qualification-round/problems/B"
+                        },
+                        {
+                            "name": "Laser Maze",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/qualification-round/problems/C"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-1",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/round-1",
+                    "problems": [
+                        {
+                            "name": "Homework",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/round-1/problems/A"
+                        },
+                        {
+                            "name": "Autocomplete",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/round-1/problems/B"
+                        },
+                        {
+                            "name": "Winning at Sports",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/round-1/problems/C"
+                        },
+                        {
+                            "name": "Corporate Gifting",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/round-1/problems/D"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-2",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/round-2",
+                    "problems": [
+                        {
+                            "name": "Lazy Sort",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/round-2/problems/A"
+                        },
+                        {
+                            "name": "All Critical",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/round-2/problems/B"
+                        },
+                        {
+                            "name": "Autocomplete Strikes Back",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/round-2/problems/C"
+                        },
+                        {
+                            "name": "Fox Socks",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/round-2/problems/D"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-3",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/round-3",
+                    "problems": [
+                        {
+                            "name": "Boomerang",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/round-3/problems/A"
+                        },
+                        {
+                            "name": "Lunch Scheduling",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/round-3/problems/B"
+                        },
+                        {
+                            "name": "Gentrification",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/round-3/problems/C"
+                        },
+                        {
+                            "name": "Fox Rocks",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/round-3/problems/D"
+                        }
+                    ]
+                },
+                {
+                    "name": "final-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/final-round",
+                    "problems": [
+                        {
+                            "name": "Fox Blocks",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/final-round/problems/A"
+                        },
+                        {
+                            "name": "Fox Lochs",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/final-round/problems/B"
+                        },
+                        {
+                            "name": "Fox Focks",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/final-round/problems/C"
+                        },
+                        {
+                            "name": "Fox Hawks",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/final-round/problems/D"
+                        },
+                        {
+                            "name": "Fox Locks",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2015/final-round/problems/E"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "2014",
+            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014",
+            "contests": [
+                {
+                    "name": "qualification-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/qualification-round",
+                    "problems": [
+                        {
+                            "name": "Square Detector",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/qualification-round/problems/A"
+                        },
+                        {
+                            "name": "Basketball Game",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/qualification-round/problems/B"
+                        },
+                        {
+                            "name": "Tennison",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/qualification-round/problems/C"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-1",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/round-1",
+                    "problems": [
+                        {
+                            "name": "Labelmaker",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/round-1/problems/A"
+                        },
+                        {
+                            "name": "Coins Game",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/round-1/problems/B"
+                        },
+                        {
+                            "name": "AAAAAA",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/round-1/problems/C"
+                        },
+                        {
+                            "name": "Preventing Alzheimer's",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/round-1/problems/D"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-2",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/round-2",
+                    "problems": [
+                        {
+                            "name": "Magic Pairs",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/round-2/problems/A"
+                        },
+                        {
+                            "name": "Hold'em Numbers",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/round-2/problems/B"
+                        },
+                        {
+                            "name": "Ski Resort Planning",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/round-2/problems/C"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-3",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/round-3",
+                    "problems": [
+                        {
+                            "name": "Secret Santa",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/round-3/problems/A"
+                        },
+                        {
+                            "name": "Pizza Baking",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/round-3/problems/B"
+                        },
+                        {
+                            "name": "Restaurant Chains",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/round-3/problems/C"
+                        }
+                    ]
+                },
+                {
+                    "name": "final-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/final-round",
+                    "problems": [
+                        {
+                            "name": "Intervals of Love",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/final-round/problems/A"
+                        },
+                        {
+                            "name": "Lunch at Facebook",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/final-round/problems/B"
+                        },
+                        {
+                            "name": "Fortunate Wheels",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/final-round/problems/C"
+                        },
+                        {
+                            "name": "Tours",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2014/final-round/problems/D"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "2013",
+            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013",
+            "contests": [
+                {
+                    "name": "qualification-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013/qualification-round",
+                    "problems": [
+                        {
+                            "name": "Beautiful strings",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013/qualification-round/problems/A"
+                        },
+                        {
+                            "name": "Balanced Smileys",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013/qualification-round/problems/B"
+                        },
+                        {
+                            "name": "Find the Min",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013/qualification-round/problems/C"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-1",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013/round-1",
+                    "problems": [
+                        {
+                            "name": "Card Game",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013/round-1/problems/A"
+                        },
+                        {
+                            "name": "Security",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013/round-1/problems/B"
+                        },
+                        {
+                            "name": "Dead Pixels",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013/round-1/problems/C"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-2",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013/round-2",
+                    "problems": [
+                        {
+                            "name": "Cake Cutting",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013/round-2/problems/A"
+                        },
+                        {
+                            "name": "RoboElection",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013/round-2/problems/B"
+                        },
+                        {
+                            "name": "Permutations",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013/round-2/problems/C"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-3",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013/round-3",
+                    "problems": [
+                        {
+                            "name": "Digits War",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013/round-3/problems/A"
+                        },
+                        {
+                            "name": "Name the Baby",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013/round-3/problems/B"
+                        },
+                        {
+                            "name": "Greedy Entertainers",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013/round-3/problems/C"
+                        }
+                    ]
+                },
+                {
+                    "name": "final-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013/final-round",
+                    "problems": [
+                        {
+                            "name": "Archiver",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013/final-round/problems/A"
+                        },
+                        {
+                            "name": "Colored Trees",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013/final-round/problems/B"
+                        },
+                        {
+                            "name": "Minesweeping",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013/final-round/problems/C"
+                        },
+                        {
+                            "name": "Teleports",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2013/final-round/problems/D"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "2012",
+            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2012",
+            "contests": [
+                {
+                    "name": "qualification-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2012/qualification-round",
+                    "problems": [
+                        {
+                            "name": "Alphabet Soup",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2012/qualification-round/problems/A"
+                        },
+                        {
+                            "name": "Auction",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2012/qualification-round/problems/B"
+                        },
+                        {
+                            "name": "Billboards",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2012/qualification-round/problems/C"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-1",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2012/round-1",
+                    "problems": [
+                        {
+                            "name": "Checkpoint",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2012/round-1/problems/A"
+                        },
+                        {
+                            "name": "Recover the Sequence",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2012/round-1/problems/B"
+                        },
+                        {
+                            "name": "Squished Status",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2012/round-1/problems/C"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-2",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2012/round-2",
+                    "problems": [
+                        {
+                            "name": "Monopoly",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2012/round-2/problems/A"
+                        },
+                        {
+                            "name": "Road Removal",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2012/round-2/problems/B"
+                        },
+                        {
+                            "name": "Sequence Slicing",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2012/round-2/problems/C"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-3",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2012/round-3",
+                    "problems": [
+                        {
+                            "name": "Divisor Function Optimization",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2012/round-3/problems/A"
+                        },
+                        {
+                            "name": "Trapezoids",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2012/round-3/problems/B"
+                        },
+                        {
+                            "name": "Unfriending",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2012/round-3/problems/C"
+                        }
+                    ]
+                },
+                {
+                    "name": "final-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2012/final-round",
+                    "problems": [
+                        {
+                            "name": "Linsane Phone Numbers",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2012/final-round/problems/A"
+                        },
+                        {
+                            "name": "Maximal Multiplicative Order",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2012/final-round/problems/B"
+                        },
+                        {
+                            "name": "Possible Medians",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2012/final-round/problems/C"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "2011",
+            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011",
+            "contests": [
+                {
+                    "name": "qualification-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/qualification-round",
+                    "problems": [
+                        {
+                            "name": "Double Squares",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/qualification-round/problems/A"
+                        },
+                        {
+                            "name": "Peg Game",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/qualification-round/problems/B"
+                        },
+                        {
+                            "name": "Studious Student",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/qualification-round/problems/C"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-1a",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-1a",
+                    "problems": [
+                        {
+                            "name": "Diversity Number",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-1a/problems/A"
+                        },
+                        {
+                            "name": "Turn on the Lights",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-1a/problems/B"
+                        },
+                        {
+                            "name": "Wine Tasting",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-1a/problems/C"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-1b",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-1b",
+                    "problems": [
+                        {
+                            "name": "Chess 2",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-1b/problems/A"
+                        },
+                        {
+                            "name": "Diminishing Circle",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-1b/problems/B"
+                        },
+                        {
+                            "name": "Slot Machine Hacker",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-1b/problems/C"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-1c",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-1c",
+                    "problems": [
+                        {
+                            "name": "N-Factorful",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-1c/problems/A"
+                        },
+                        {
+                            "name": "Polynomial Factoring",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-1c/problems/B"
+                        },
+                        {
+                            "name": "Risky Slide",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-1c/problems/C"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-2",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-2",
+                    "problems": [
+                        {
+                            "name": "Bonus Assignments",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-2/problems/A"
+                        },
+                        {
+                            "name": "Scott's New Trick",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-2/problems/B"
+                        },
+                        {
+                            "name": "Studious Student II",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-2/problems/C"
+                        }
+                    ]
+                },
+                {
+                    "name": "final-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/final-round",
+                    "problems": [
+                        {
+                            "name": "Alien Game",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/final-round/problems/A"
+                        },
+                        {
+                            "name": "Party Time",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/final-round/problems/B"
+                        },
+                        {
+                            "name": "Safest Place",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/final-round/problems/C"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -4,10 +4,9 @@
     <meta charset="utf-8" />
     <title>Facebook Hacker Cup Tracker</title>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.1/js/dataTables.bootstrap4.min.js"></script>
 
     <link
       rel="stylesheet"
@@ -15,13 +14,11 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css"
+      href="https://cdn.datatables.net/1.11.1/css/dataTables.bootstrap4.min.css"
     />
 
     <script>
       $(async function () {
-        const FACEBOOK_API_BASE_URL =
-          "https://www.facebook.com/codingcompetitions/hacker-cup";
         const GITHUB_API_BASE_URL =
           "https://api.github.com/repos/charles-wangkai/hackercup";
 
@@ -33,77 +30,38 @@
           });
         }
 
-        let data = await $.post({
-          url: "https://wangkai-cors-anywhere.herokuapp.com/https://www.facebook.com/api/graphql",
+        const dataset = await $.get({
+          url: "hackercup_dataset.json",
           dataType: "json",
-          data: {
-            fb_api_req_friendly_name:
-              "CodingCompetitionsContestSeriesPastSeasonsQuery",
-            variables: '{ "seriesID": "494527294537932" }',
-            doc_id: "4121563751229892",
-          },
+          cache: false,
         });
 
-        const seasons = data.data.series.contest_seasons.nodes.map((node) => ({
-          name: node.name,
-          vanity: node.season_vanity,
-        }));
+        let problems = [];
+        for (let season of dataset.seasons) {
+          for (
+            let contestIndex = 0;
+            contestIndex < season.contests.length;
+            ++contestIndex
+          ) {
+            let contest = season.contests[contestIndex];
+            for (
+              let problemIndex = 0;
+              problemIndex < contest.problems.length;
+              ++problemIndex
+            ) {
+              let problem = contest.problems[problemIndex];
 
-        const contests = (
-          await Promise.all(
-            seasons.map(async (season) => {
-              const data = await $.post({
-                url: "https://wangkai-cors-anywhere.herokuapp.com/https://www.facebook.com/api/graphql",
-                dataType: "json",
-                data: {
-                  fb_api_req_friendly_name:
-                    "CodingCompetitionsContestSeasonRootQuery",
-                  variables: `{ "series_vanity": "hacker-cup", "season_vanity": "${season.vanity}" }`,
-                  doc_id: "4814656045220136",
-                },
+              problems.push({
+                season: season,
+                contest: contest,
+                problem: problem,
+                index: `${season.name}-${String.fromCharCode(
+                  "A".charCodeAt(0) + contestIndex
+                )}-${String.fromCharCode("A".charCodeAt(0) + problemIndex)}`,
               });
-
-              return data.data.contestSeries.contestSeason.season_contests.nodes.map(
-                (node) => ({
-                  season: season,
-                  name: node.name,
-                  startTime: moment.unix(node.start_time).format(),
-                  vanity: node.contest_vanity,
-                })
-              );
-            })
-          )
-        ).flat();
-
-        const problems = (
-          await Promise.all(
-            contests.flatMap(async (contest) => {
-              setTimeout(async function () {
-                const data = await $.post({
-                  url: "https://wangkai-cors-anywhere.herokuapp.com/https://www.facebook.com/api/graphql",
-                  dataType: "json",
-                  data: {
-                    fb_api_req_friendly_name:
-                      "CodingCompetitionsContestRootQuery",
-                    variables: `{ "series_vanity": "hacker-cup", "season_vanity": "${contest.season.vanity}", "contest_vanity": "${contest.vanity}" }`,
-                    doc_id: "3682545078515205",
-                  },
-                });
-
-                return data.data.contestSeries.contestSeason.contest.ordered_problem_sets.flatMap(
-                  (ordered_problem_set) =>
-                    ordered_problem_set.ordered_problems_with_display_indices.map(
-                      (ordered_problem) => ({
-                        contest: contest,
-                        displayIndex: ordered_problem.display_index,
-                        title: ordered_problem.problem.problem_title,
-                      })
-                    )
-                );
-              }, Math.floor(Math.random() * 60000));
-            })
-          )
-        ).flat();
+            }
+          }
+        }
 
         data = await getGithubApi(
           `${GITHUB_API_BASE_URL}/git/ref/heads/master`,
@@ -117,7 +75,7 @@
         const githubPaths = new Set(data.tree.map((object) => object.path));
 
         problems.forEach((problem) => {
-          const path = `${problem.contest.season.vanity}/${problem.contest.vanity}/${problem.title}/Solution.java`;
+          const path = `${problem.season.name}/${problem.contest.name}/${problem.problem.name}/Solution.java`;
 
           if (githubPaths.has(path)) {
             problem.submissionUrl = `https://github.com/charles-wangkai/hackercup/blob/master/${path}`;
@@ -125,20 +83,16 @@
         });
 
         problems.forEach((problem) => {
-          const seasonUrl = `${FACEBOOK_API_BASE_URL}/${problem.contest.season.vanity}`;
-          const contestUrl = `${seasonUrl}/${problem.contest.vanity}`;
-          const problemUrl = `${contestUrl}/problems/${problem.displayIndex}`;
           const submission = problem.submissionUrl
             ? `<a href="${problem.submissionUrl}">Solution</a>`
             : "";
 
           $("#problems tbody").append(`
               <tr>
-                <th scope="row"><a href="${problemUrl}">${problem.title}</a></th>
-                <td><a href="${seasonUrl}">${problem.contest.season.name}</a></td>
-                <td><a href="${contestUrl}">${problem.contest.name}</a></td>
-                <td><a href="${problemUrl}">${problem.displayIndex}</a></td>
-                <td>${problem.contest.startTime}</td>
+                <th scope="row"><a href="${problem.problem.url}">${problem.problem.name}</a></th>
+                <td><a href="${problem.season.url}">${problem.season.name}</a></td>
+                <td><a href="${problem.contest.url}">${problem.contest.name}</a></td>
+                <td><a href="${problem.problem.url}">${problem.index}</a></td>
                 <td>${submission}</td>
               </tr>
               `);
@@ -150,20 +104,26 @@
           ).val();
 
           return (
-            filterType === "all" || (filterType === "todo") === (data[5] === "")
+            filterType === "all" || (filterType === "todo") === (data[4] === "")
           );
         });
 
+        const filterTypeToOrder = {
+          all: [3, "asc"],
+          todo: [3, "asc"],
+          solved: [3, "desc"],
+        };
+
         const table = $("#problems").DataTable({
           paging: false,
-          order: [
-            [4, "asc"],
-            [3, "asc"],
-          ],
+          order:
+            filterTypeToOrder[
+              $("input[type=radio][name=filterType]:checked").val()
+            ],
         });
 
         $("input[type=radio][name=filterType]").change(function () {
-          table.draw();
+          table.order(filterTypeToOrder[$(this).val()]).draw();
         });
       });
     </script>
@@ -213,7 +173,6 @@
                   <th scope="col">Season</th>
                   <th scope="col">Contest</th>
                   <th scope="col">Index</th>
-                  <th scope="col">Date</th>
                   <th scope="col">Submission</th>
                 </tr>
               </thead>
