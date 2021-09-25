@@ -59,7 +59,28 @@
                 {
                     "name": "round-2",
                     "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-2",
-                    "problems": []
+                    "problems": [
+                        {
+                            "name": "Runway",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-2/problems/A"
+                        },
+                        {
+                            "name": "Chainblock",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-2/problems/B"
+                        },
+                        {
+                            "name": "Valet Parking - Chapter 1",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-2/problems/C1"
+                        },
+                        {
+                            "name": "Valet Parking - Chapter 2",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-2/problems/C2"
+                        },
+                        {
+                            "name": "String Concatenation",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-2/problems/D"
+                        }
+                    ]
                 },
                 {
                     "name": "round-3",
@@ -1191,20 +1212,7 @@
                 {
                     "name": "round-2",
                     "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-2",
-                    "problems": [
-                        {
-                            "name": "Bonus Assignments",
-                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-2/problems/A"
-                        },
-                        {
-                            "name": "Scott's New Trick",
-                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-2/problems/B"
-                        },
-                        {
-                            "name": "Studious Student II",
-                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-2/problems/C"
-                        }
-                    ]
+                    "problems": []
                 },
                 {
                     "name": "final-round",
