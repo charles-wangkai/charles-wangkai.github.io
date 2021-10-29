@@ -5,6 +5,72 @@
             "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2021",
             "rounds": [
                 {
+                    "name": "Round G",
+                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000004362d6",
+                    "problems": [
+                        {
+                            "name": "Dogs and Cats",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000004362d6/00000000008b3771"
+                        },
+                        {
+                            "name": "Staying Hydrated",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000004362d6/00000000008b3a1c"
+                        },
+                        {
+                            "name": "Banana Bunches",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000004362d6/00000000008b44ef"
+                        },
+                        {
+                            "name": "Simple Polygon",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000004362d6/00000000008b36f9"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round F",
+                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435bae",
+                    "problems": [
+                        {
+                            "name": "Trash Bins",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435bae/0000000000887c32"
+                        },
+                        {
+                            "name": "Festival",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435bae/0000000000887dba"
+                        },
+                        {
+                            "name": "Star Trappers",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435bae/0000000000888d45"
+                        },
+                        {
+                            "name": "Graph Travel",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435bae/0000000000888764"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round E",
+                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000043585c",
+                    "problems": [
+                        {
+                            "name": "Shuffled Anagrams",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000043585c/000000000085a152"
+                        },
+                        {
+                            "name": "Birthday Cake",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000043585c/000000000085a285"
+                        },
+                        {
+                            "name": "Palindromic Crossword",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000043585c/0000000000859dcd"
+                        },
+                        {
+                            "name": "Increasing Sequence Card Game",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000043585c/000000000085a709"
+                        }
+                    ]
+                },
+                {
                     "name": "Round D",
                     "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000004361e3",
                     "problems": [
