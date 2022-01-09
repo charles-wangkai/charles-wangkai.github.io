@@ -69,7 +69,9 @@
           )}/Solution.java`;
 
           if (githubPaths.has(path)) {
-            problem.submissionUrl = `https://github.com/charles-wangkai/codejamio/blob/main/${path}`;
+            problem.submissionUrl = `https://github.com/charles-wangkai/codejamio/blob/main/${encodeURIComponent(
+              path
+            )}`;
           }
         });
 

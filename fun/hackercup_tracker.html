@@ -78,7 +78,9 @@
           const path = `${problem.season.name}/${problem.contest.name}/${problem.problem.name}/Solution.java`;
 
           if (githubPaths.has(path)) {
-            problem.submissionUrl = `https://github.com/charles-wangkai/hackercup/blob/master/${path}`;
+            problem.submissionUrl = `https://github.com/charles-wangkai/hackercup/blob/master/${encodeURIComponent(
+              path
+            )}`;
           }
         });
 

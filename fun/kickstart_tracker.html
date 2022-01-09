@@ -75,7 +75,9 @@
           const path = `${problem.year.name}/${problem.round.name}/${problem.problem.name}/Solution.java`;
 
           if (githubPaths.has(path)) {
-            problem.submissionUrl = `https://github.com/charles-wangkai/kickstart/blob/main/${path}`;
+            problem.submissionUrl = `https://github.com/charles-wangkai/kickstart/blob/main/${encodeURIComponent(
+              path
+            )}`;
           }
         });
 
