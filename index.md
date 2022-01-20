@@ -86,6 +86,8 @@
 
 - [Facebook Hacker Cup Tracker](/fun/hackercup_tracker.html)
 
+- [Project Euler Tracker](/fun/projecteuler_tracker.html)
+
 - [Dynamic Venn Diagram](/fun/dynamic_venn_diagram.html)
 
 ## Certificates

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Project Euler Tracker</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap5.min.css"
+    />
+
+    <script>
+      $(async function () {
+        const GITHUB_API_BASE_URL =
+          "https://api.github.com/repos/charles-wangkai/projecteuler";
+
+        function getGithubApi(url, options = {}) {
+          return $.get({
+            url: url,
+            ifModified: true,
+            ...options,
+          });
+        }
+
+        let dataset = await $.ajax({
+          url: "https://jsonp.afeld.me",
+          dataType: "jsonp",
+          data: {
+            url: "https://projecteuler.net/minimal=problems",
+          },
+        });
+
+        const problems = dataset.data
+          .match(/[^\r\n]+/g)
+          .slice(1)
+          .map((line) => {
+            const parts = line.split("##");
+
+            return {
+              id: parseInt(parts[0], 10),
+              name: parts[1],
+              publishedDate: new Date(parseInt(parts[2], 10) * 1000),
+              solvedCount: parseInt(parts[3], 10),
+            };
+          });
+
+        data = await getGithubApi(`${GITHUB_API_BASE_URL}/git/ref/heads/main`, {
+          cache: false,
+        });
+        data = await getGithubApi(data.object.url);
+        data = await getGithubApi(`${data.tree.url}?recursive=1`);
+
+        const githubPaths = data.tree.map((object) => object.path);
+
+        problems.forEach((problem) => {
+          const prefix = `${problem.id}/`;
+          const matchedPaths = githubPaths.filter((githubPath) =>
+            githubPath.startsWith(prefix)
+          );
+
+          if (matchedPaths.length >= 1) {
+            problem.submissionUrl = `https://github.com/charles-wangkai/projecteuler/blob/main/${
+              matchedPaths.length == 1 ? matchedPaths[0] : prefix
+            }`;
+          }
+        });
+
+        problems.forEach((problem) => {
+          const url = `https://projecteuler.net/problem=${problem.id}`;
+          const submission = problem.submissionUrl
+            ? `<a href="${problem.submissionUrl}">Solution</a>`
+            : "";
+
+          $("#problems tbody").append(`
+              <tr>
+                <th scope="row"><a href="${url}">${problem.id}</a></th>
+                <td><a href="${url}">${problem.name}</a></td>
+                <td>${moment(new Date(problem.publishedDate)).format()}</td>
+                <td>${problem.solvedCount}</td>
+                <td>${submission}</td>
+              </tr>
+          `);
+        });
+
+        $.fn.dataTable.ext.search.push(function (settings, data, dataIndex) {
+          const filterType = $(
+            "input[type=radio][name=filterType]:checked"
+          ).val();
+
+          return (
+            filterType === "all" || (filterType === "todo") === (data[4] === "")
+          );
+        });
+
+        const filterTypeToOrder = {
+          all: [3, "desc"],
+          todo: [3, "desc"],
+          solved: [3, "asc"],
+        };
+
+        const table = $("#problems").DataTable({
+          paging: false,
+          order:
+            filterTypeToOrder[
+              $("input[type=radio][name=filterType]:checked").val()
+            ],
+        });
+
+        $("input[type=radio][name=filterType]").change(function () {
+          table.order(filterTypeToOrder[$(this).val()]).draw();
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="row m-1">
+      <div class="col-sm">
+        <img src="https://projecteuler.net/profile/goalboy.png" />
+      </div>
+    </div>
+    <div class="row m-1">
+      <div class="col-sm">
+        <div class="card">
+          <div class="card-header">Problem List</div>
+          <div class="card-body">
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="filterType"
+                id="filterAll"
+                value="all"
+              />
+              <label class="form-check-label" for="filterAll">All</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="filterType"
+                id="filterTodo"
+                value="todo"
+                checked
+              />
+              <label class="form-check-label" for="filterTodo">Todo</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="filterType"
+                id="filterSolved"
+                value="solved"
+              />
+              <label class="form-check-label" for="filterSolved">Solved</label>
+            </div>
+
+            <table id="problems" class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Published Date</th>
+                  <th scope="col">Solved&nbsp;Count</th>
+                  <th scope="col">Submission</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
