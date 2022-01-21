@@ -31,14 +31,23 @@
           });
         }
 
-        let dataset = await $.ajax({
+        const profile = await $.ajax({
+          url: "https://jsonp.afeld.me",
+          dataType: "jsonp",
+          data: {
+            url: "https://projecteuler.net/profile/goalboy.txt",
+          },
+        });
+        const solvedNum = profile.data.split(",")[3];
+        $("#solvedNum").text(solvedNum);
+
+        const dataset = await $.ajax({
           url: "https://jsonp.afeld.me",
           dataType: "jsonp",
           data: {
             url: "https://projecteuler.net/minimal=problems",
           },
         });
-
         const problems = dataset.data
           .match(/[^\r\n]+/g)
           .slice(1)
@@ -123,6 +132,12 @@
   </head>
 
   <body>
+    <div class="row m-1">
+      <div class="col-sm">
+        Solved Problems:
+        <span id="solvedNum" style="color: green"></span>
+      </div>
+    </div>
     <div class="row m-1">
       <div class="col-sm">
         <img src="https://projecteuler.net/profile/goalboy.png" />
