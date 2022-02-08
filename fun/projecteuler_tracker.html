@@ -31,24 +31,16 @@
           });
         }
 
-        const profile = await $.ajax({
-          url: "https://jsonp.afeld.me",
-          dataType: "jsonp",
-          data: {
-            url: "https://projecteuler.net/profile/goalboy.txt",
-          },
-        });
-        const solvedNum = profile.data.split(",")[3];
+        const profile = await $.ajax(
+          "https://wangkai-cors-anywhere.herokuapp.com/https://projecteuler.net/profile/goalboy.txt"
+        );
+        const solvedNum = profile.split(",")[3];
         $("#solvedNum").text(solvedNum);
 
-        const dataset = await $.ajax({
-          url: "https://jsonp.afeld.me",
-          dataType: "jsonp",
-          data: {
-            url: "https://projecteuler.net/minimal=problems",
-          },
-        });
-        const problems = dataset.data
+        const dataset = await $.ajax(
+          "https://wangkai-cors-anywhere.herokuapp.com/https://projecteuler.net/minimal=problems"
+        );
+        const problems = dataset
           .match(/[^\r\n]+/g)
           .slice(1)
           .map((line) => {
