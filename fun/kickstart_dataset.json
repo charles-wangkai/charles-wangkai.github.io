@@ -1,6 +1,38 @@
 {
     "years": [
         {
+            "name": "2022",
+            "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2022",
+            "rounds": [
+                {
+                    "name": "Coding Practice with Kick Start Session #1",
+                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4332",
+                    "problems": [
+                        {
+                            "name": "Sample Problem",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4332/0000000000942404"
+                        },
+                        {
+                            "name": "Centauri Prime",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4332/0000000000941ec5"
+                        },
+                        {
+                            "name": "H-index",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4332/0000000000941e56"
+                        },
+                        {
+                            "name": "Hex",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4332/0000000000942527"
+                        },
+                        {
+                            "name": "Milk Tea",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4332/0000000000943934"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "2021",
             "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2021",
             "rounds": [
