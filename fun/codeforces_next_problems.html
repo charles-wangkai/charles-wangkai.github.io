@@ -48,15 +48,6 @@
               submissions[i].verdict === "OK"
             ) {
               let problem = submissions[i].problem;
-              if (!idToProblem.hasOwnProperty(buildProblemId(problem))) {
-                const alternativeProblem = problems.filter(
-                  (p) => p.name === submissions[i].problem.name
-                )[0];
-
-                if (alternativeProblem !== undefined) {
-                  problem = alternativeProblem;
-                }
-              }
 
               const problemId = buildProblemId(problem);
               if (idToProblem.hasOwnProperty(problemId)) {
@@ -71,15 +62,7 @@
         function renderMain(problems, problemStatistics, submissions) {
           prepareMainProblems(problems, problemStatistics, submissions);
 
-          const DUPLICATE_CONTEST_IDS = [1298, 1489];
-          const solvedNum =
-            problems.filter((problem) => problem.solved).length +
-            submissions.filter(
-              (submission) =>
-                !submission.problem.hasOwnProperty("problemsetName") &&
-                submission.verdict === "OK" &&
-                DUPLICATE_CONTEST_IDS.includes(submission.problem.contestId)
-            ).length;
+          const solvedNum = problems.filter((problem) => problem.solved).length;
 
           const nextUnsolvedProblems = problems
             .filter((problem) => !problem.solved)
@@ -87,6 +70,7 @@
             .slice(0, 5);
 
           $("#mainSolvedNum").text(solvedNum);
+          $("#mainTotalNum").text(problems.length);
 
           nextUnsolvedProblems.forEach((problem) => {
             const url = `https://codeforces.com/problemset/problem/${problem.contestId}/${problem.index}`;
@@ -143,6 +127,7 @@
             .slice(0, 5);
 
           $("#acmsguruSolvedNum").text(solvedNum);
+          $("#acmsguruTotalNum").text(problems.length);
 
           nextUnsolvedProblems.forEach((problem) => {
             const url = `https://codeforces.com/problemsets/acmsguru/problem/99999/${problem.index}`;
@@ -261,7 +246,8 @@
         <div class="card">
           <div class="card-header">
             MAIN Solved Problems:
-            <span id="mainSolvedNum" style="color: green"></span>
+            <span id="mainSolvedNum" style="color: green"></span> /
+            <span id="mainTotalNum"></span>
           </div>
           <div class="card-body">
             <h5 class="card-title">Next Unsolved Problems</h5>
@@ -284,7 +270,8 @@
         <div class="card">
           <div class="card-header">
             ACMSGURU Solved Problems:
-            <span id="acmsguruSolvedNum" style="color: green"></span>
+            <span id="acmsguruSolvedNum" style="color: green"></span> /
+            <span id="acmsguruTotalNum"></span>
           </div>
           <div class="card-body">
             <h5 class="card-title">Next Unsolved Problems</h5>
