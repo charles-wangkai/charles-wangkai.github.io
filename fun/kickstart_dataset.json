@@ -5,6 +5,28 @@
             "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2022",
             "rounds": [
                 {
+                    "name": "Round A",
+                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb33e",
+                    "problems": [
+                        {
+                            "name": "Speed Typing",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb33e/00000000009e7021"
+                        },
+                        {
+                            "name": "Challenge Nine",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb33e/00000000009e7997"
+                        },
+                        {
+                            "name": "Palindrome Free Strings",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb33e/00000000009e762e"
+                        },
+                        {
+                            "name": "Interesting Integers",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb33e/00000000009e73ea"
+                        }
+                    ]
+                },
+                {
                     "name": "Coding Practice with Kick Start Session #1",
                     "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4332",
                     "problems": [
