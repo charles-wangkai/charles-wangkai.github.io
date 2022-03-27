@@ -1,6 +1,28 @@
 {
     "rounds": [
         {
+            "name": 2022,
+            "url": "https://codingcompetitions.withgoogle.com/codejamio/round/00000000009d9870",
+            "problems": [
+                {
+                    "name": "Inversions Organize",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/00000000009d9870/0000000000a33e95"
+                },
+                {
+                    "name": "Ingredient Optimization",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/00000000009d9870/0000000000a341ec"
+                },
+                {
+                    "name": "Interesting Outing",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/00000000009d9870/0000000000a33bc7"
+                },
+                {
+                    "name": "Inventor Outlasting",
+                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/00000000009d9870/0000000000a33fb0"
+                }
+            ]
+        },
+        {
             "name": 2021,
             "url": "https://codingcompetitions.withgoogle.com/codejamio/round/00000000004360f2",
             "problems": [
