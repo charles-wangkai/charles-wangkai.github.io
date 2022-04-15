@@ -186,15 +186,11 @@
           })
           .then((data) => {
             return $.ajax({
-              url: "https://jsonp.afeld.me",
-              dataType: "jsonp",
-              data: {
-                url: `${TOPCODER_BASE_URL}/tc?module=ProblemArchive&er=1000000`,
-              },
+              url: `https://wangkai-cors-anywhere.herokuapp.com/${TOPCODER_BASE_URL}/tc?module=ProblemArchive&er=1000000`,
             });
           })
           .then((data) => {
-            const $pageSource = $($.parseHTML(data.data));
+            const $pageSource = $($.parseHTML(data));
 
             const $problemRows = $pageSource
               .find("tr")
