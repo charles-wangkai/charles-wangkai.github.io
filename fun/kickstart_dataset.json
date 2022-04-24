@@ -5,6 +5,28 @@
             "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2022",
             "rounds": [
                 {
+                    "name": "Round B",
+                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caa74",
+                    "problems": [
+                        {
+                            "name": "Infinity Area",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caa74/0000000000acf079"
+                        },
+                        {
+                            "name": "Palindromic Factors",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caa74/0000000000acee89"
+                        },
+                        {
+                            "name": "Unlock the Padlock",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caa74/0000000000acef55"
+                        },
+                        {
+                            "name": "Hamiltonian Tour",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caa74/0000000000acf318"
+                        }
+                    ]
+                },
+                {
                     "name": "Round A",
                     "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb33e",
                     "problems": [
