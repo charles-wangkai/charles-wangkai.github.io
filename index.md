@@ -74,9 +74,9 @@
 
 - [Tennis Game](/fun/tennis_game.html)
 
-- [Codeforces Next Problems](/fun/codeforces_next_problems.html)
+- [Codeforces Tracker](/fun/codeforces_tracker.html)
 
-- [TopCoder Next Problems](/fun/topcoder_next_problems.html)
+- [TopCoder Tracker](/fun/topcoder_tracker.html)
 
 - [Google Code Jam Tracker](/fun/codejam_tracker.html)
 
