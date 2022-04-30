@@ -161,30 +161,6 @@
             .concat(acmsguruProblems)
             .filter((problem) => problem.solved);
 
-          const tagToCount = new Map();
-          for (const problem of solvedProblems) {
-            for (const tag of problem.tags) {
-              tagToCount.set(
-                tag,
-                (tagToCount.has(tag) ? tagToCount.get(tag) : 0) + 1
-              );
-            }
-          }
-          tagToCount.forEach((count, tag) => {
-            $("#solvedTags tbody").append(`
-              <tr>
-                <th scope="row">${tag}</th>
-                <td>${count}</td>
-              </tr>
-              `);
-          });
-
-          $("#solvedTags").DataTable({
-            paging: false,
-            order: [[1, "desc"]],
-            dom: "ift",
-          });
-
           solvedProblems.forEach((problem) => {
             let url;
             if (problem.problemset === "MAIN") {
@@ -210,6 +186,30 @@
             columnDefs: [{ orderable: false, targets: 3 }],
             order: [[6, "desc"]],
             dom: "ifplt",
+          });
+
+          const tagToCount = new Map();
+          for (const problem of solvedProblems) {
+            for (const tag of problem.tags) {
+              tagToCount.set(
+                tag,
+                (tagToCount.has(tag) ? tagToCount.get(tag) : 0) + 1
+              );
+            }
+          }
+          tagToCount.forEach((count, tag) => {
+            $("#solvedTags tbody").append(`
+              <tr>
+                <th scope="row">${tag}</th>
+                <td>${count}</td>
+              </tr>
+              `);
+          });
+
+          $("#solvedTags").DataTable({
+            paging: false,
+            order: [[1, "desc"]],
+            dom: "ift",
           });
         }
 
@@ -316,25 +316,6 @@
     <div class="row m-1 mt-5">
       <div class="col-sm">
         <div class="card">
-          <div class="card-header">Solved Tags</div>
-          <div class="card-body">
-            <table id="solvedTags" class="table table-striped">
-              <thead>
-                <tr>
-                  <th scope="col">Tag</th>
-                  <th scope="col">Count</th>
-                </tr>
-              </thead>
-              <tbody></tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row m-1 mt-5">
-      <div class="col-sm">
-        <div class="card">
           <div class="card-header">Solved Problems</div>
           <div class="card-body">
             <table id="solvedProblems" class="table table-striped">
@@ -347,6 +328,25 @@
                   <th scope="col">Difficulty</th>
                   <th scope="col">Solved Count</th>
                   <th scope="col">Solved Time</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row m-1 mt-5">
+      <div class="col-sm">
+        <div class="card">
+          <div class="card-header">Solved Tags</div>
+          <div class="card-body">
+            <table id="solvedTags" class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Tag</th>
+                  <th scope="col">Count</th>
                 </tr>
               </thead>
               <tbody></tbody>
