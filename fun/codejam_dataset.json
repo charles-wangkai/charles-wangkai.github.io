@@ -5,6 +5,28 @@
             "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2022",
             "rounds": [
                 {
+                    "name": "Round 2",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000008778ec",
+                    "problems": [
+                        {
+                            "name": "Spiraling Into Control",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000008778ec/0000000000b15a74"
+                        },
+                        {
+                            "name": "Pixelated Circle",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000008778ec/0000000000b158f7"
+                        },
+                        {
+                            "name": "Saving the Jelly",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000008778ec/0000000000b158f8"
+                        },
+                        {
+                            "name": "I, O Bot",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000008778ec/0000000000b15167"
+                        }
+                    ]
+                },
+                {
                     "name": "Round 1C",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/0000000000877b42",
                     "problems": [
