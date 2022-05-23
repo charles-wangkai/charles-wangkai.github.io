@@ -5,6 +5,28 @@
             "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2022",
             "rounds": [
                 {
+                    "name": "Round C",
+                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb4d1",
+                    "problems": [
+                        {
+                            "name": "New Password",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb4d1/0000000000b20f15"
+                        },
+                        {
+                            "name": "Range Partition",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb4d1/0000000000b20deb"
+                        },
+                        {
+                            "name": "Ants on a Stick",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb4d1/0000000000b209bc"
+                        },
+                        {
+                            "name": "Palindromic Deletions",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb4d1/0000000000b20d16"
+                        }
+                    ]
+                },
+                {
                     "name": "Round B",
                     "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caa74",
                     "problems": [
