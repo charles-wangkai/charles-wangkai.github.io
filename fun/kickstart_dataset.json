@@ -5,6 +5,54 @@
             "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2022",
             "rounds": [
                 {
+                    "name": "Round D",
+                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caea6",
+                    "problems": [
+                        {
+                            "name": "Image Labeler",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caea6/0000000000b76e11"
+                        },
+                        {
+                            "name": "Maximum Gain",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caea6/0000000000b76fae"
+                        },
+                        {
+                            "name": "Touchbar Typing",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caea6/0000000000b76f44"
+                        },
+                        {
+                            "name": "Suspects and Witnesses",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caea6/0000000000b76db9"
+                        }
+                    ]
+                },
+                {
+                    "name": "Coding Practice with Kick Start Session #2",
+                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4a94",
+                    "problems": [
+                        {
+                            "name": "Sample Problem",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4a94/0000000000b5503a"
+                        },
+                        {
+                            "name": "Sherlock and Parentheses",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4a94/0000000000b5496b"
+                        },
+                        {
+                            "name": "Building Palindromes",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4a94/0000000000b54d3b"
+                        },
+                        {
+                            "name": "Irregular Expressions",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4a94/0000000000b55464"
+                        },
+                        {
+                            "name": "Parcels",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4a94/0000000000b55465"
+                        }
+                    ]
+                },
+                {
                     "name": "Round C",
                     "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb4d1",
                     "problems": [
