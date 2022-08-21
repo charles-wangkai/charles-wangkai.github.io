@@ -1,6 +1,7 @@
 import html
 import json
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 
 
 driver = webdriver.Firefox()
@@ -11,7 +12,7 @@ def crawl_years():
     years = []
 
     driver.get("https://codingcompetitions.withgoogle.com/kickstart/archive")
-    for elem in driver.find_elements_by_xpath("//a[contains(@class, 'card-row-cell')]"):
+    for elem in driver.find_elements(By.XPATH, "//a[contains(@class, 'card-row-cell')]"):
         prefix = 'archive-card-'
         id = elem.get_attribute('id')
         if id.startswith(prefix):
@@ -31,10 +32,10 @@ def crawl_rounds(year):
     rounds = []
 
     driver.get(year['url'])
-    for elem in driver.find_elements_by_xpath("//div[contains(@class, 'schedule-row') and @role='row']"):
+    for elem in driver.find_elements(By.XPATH, "//div[contains(@class, 'schedule-row') and @role='row']"):
         rounds.append({
-            'name': ' '.join(regulate_round_name(year['name'], elem.find_element_by_xpath('.//span').text.split(' '))),
-            'url': elem.find_element_by_xpath('.//a').get_attribute('href')
+            'name': ' '.join(regulate_round_name(year['name'], elem.find_element(By.XPATH, './/span').text.split(' '))),
+            'url': elem.find_element(By.XPATH, './/a').get_attribute('href')
         })
 
     return rounds
@@ -44,10 +45,10 @@ def crawl_problems(round_url):
     problems = []
 
     driver.get(round_url)
-    for elem in driver.find_elements_by_xpath("//div[contains(@class, 'problems-nav-selector-item-container')]"):
+    for elem in driver.find_elements(By.XPATH, "//div[contains(@class, 'problems-nav-selector-item-container')]"):
         problems.append({
-            'name': html.unescape(elem.find_element_by_xpath(".//p").get_attribute('innerHTML').strip()),
-            'url': elem.find_element_by_xpath('.//a').get_attribute('href')
+            'name': html.unescape(elem.find_element(By.XPATH, ".//p").get_attribute('innerHTML').strip()),
+            'url': elem.find_element(By.XPATH, './/a').get_attribute('href')
         })
 
     return problems

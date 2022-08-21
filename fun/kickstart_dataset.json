@@ -5,6 +5,28 @@
             "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2022",
             "rounds": [
                 {
+                    "name": "Round E",
+                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb0f5",
+                    "problems": [
+                        {
+                            "name": "Coloring Game",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb0f5/0000000000ba856a"
+                        },
+                        {
+                            "name": "Students and Mentors",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb0f5/0000000000ba84ae"
+                        },
+                        {
+                            "name": "Matching Palindrome",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb0f5/0000000000ba82c5"
+                        },
+                        {
+                            "name": "Pizza Delivery",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb0f5/0000000000ba86e6"
+                        }
+                    ]
+                },
+                {
                     "name": "Round D",
                     "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caea6",
                     "problems": [
