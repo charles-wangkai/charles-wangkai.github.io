@@ -1,6 +1,57 @@
 {
     "seasons": [
         {
+            "name": "2022",
+            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022",
+            "contests": [
+                {
+                    "name": "qualification-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/qualification-round",
+                    "problems": [
+                        {
+                            "name": "Second Hands",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/qualification-round/problems/A"
+                        },
+                        {
+                            "name": "Second Friend",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/qualification-round/problems/B1"
+                        },
+                        {
+                            "name": "Second Second Friend",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/qualification-round/problems/B2"
+                        },
+                        {
+                            "name": "Second Meaning",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/qualification-round/problems/C1"
+                        },
+                        {
+                            "name": "Second Second Meaning",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/qualification-round/problems/C2"
+                        },
+                        {
+                            "name": "Second Flight",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/qualification-round/problems/D"
+                        }
+                    ]
+                },
+                {
+                    "name": "round-1",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/round-1",
+                    "problems": []
+                },
+                {
+                    "name": "round-2",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/round-2",
+                    "problems": []
+                },
+                {
+                    "name": "round-3",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/round-3",
+                    "problems": []
+                }
+            ]
+        },
+        {
             "name": "2021",
             "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021",
             "contests": [
@@ -85,7 +136,62 @@
                 {
                     "name": "round-3",
                     "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-3",
-                    "problems": []
+                    "problems": [
+                        {
+                            "name": "Rep-ore-ting",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-3/problems/A"
+                        },
+                        {
+                            "name": "Auth-ore-ization",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-3/problems/B"
+                        },
+                        {
+                            "name": "Perf-ore-mance",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-3/problems/C"
+                        },
+                        {
+                            "name": "Expl-ore-ation - Chapter 1",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-3/problems/D1"
+                        },
+                        {
+                            "name": "Expl-ore-ation - Chapter 2",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-3/problems/D2"
+                        },
+                        {
+                            "name": "Expl-ore-ation - Chapter 3",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/round-3/problems/D3"
+                        }
+                    ]
+                },
+                {
+                    "name": "final-round",
+                    "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/final-round",
+                    "problems": [
+                        {
+                            "name": "And",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/final-round/problems/A"
+                        },
+                        {
+                            "name": "SSSSSS",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/final-round/problems/B"
+                        },
+                        {
+                            "name": "Hire Flyers",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/final-round/problems/C"
+                        },
+                        {
+                            "name": "Vacation",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/final-round/problems/D"
+                        },
+                        {
+                            "name": "Antisocial",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/final-round/problems/E"
+                        },
+                        {
+                            "name": "Table Flipping",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/final-round/problems/F"
+                        }
+                    ]
                 }
             ]
         },
@@ -1212,7 +1318,20 @@
                 {
                     "name": "round-2",
                     "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-2",
-                    "problems": []
+                    "problems": [
+                        {
+                            "name": "Bonus Assignments",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-2/problems/A"
+                        },
+                        {
+                            "name": "Scott's New Trick",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-2/problems/B"
+                        },
+                        {
+                            "name": "Studious Student II",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2011/round-2/problems/C"
+                        }
+                    ]
                 },
                 {
                     "name": "final-round",
