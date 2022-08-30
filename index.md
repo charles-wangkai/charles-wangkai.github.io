@@ -4,11 +4,11 @@
 
 - [Google Code Jam 2020](/certificates/certificate_google_code_jam_2020.png): Round 3. Ranked 497th out of 44000+.
 
-- [Facebook Hacker Cup 2020](https://www.facebook.com/codingcompetitions/hacker-cup/2020/round-2/scoreboard): Round 2. Ranked 654th out of 32000+.
+- [Meta Hacker Cup 2020](https://www.facebook.com/codingcompetitions/hacker-cup/2020/round-2/scoreboard): Round 2. Ranked 654th out of 32000+.
 
 - [Google Code Jam 2019](/certificates/certificate_google_code_jam_2019.pdf): Round 3. Ranked 372nd out of 35000+.
 
-- [Facebook Hacker Cup 2019](https://www.facebook.com/codingcompetitions/hacker-cup/2019/round-2/scoreboard): Round 2. Ranked 463th out of 6000+.
+- [Meta Hacker Cup 2019](https://www.facebook.com/codingcompetitions/hacker-cup/2019/round-2/scoreboard): Round 2. Ranked 463th out of 6000+.
 
 - [Google Code Jam to I/O 2020](https://codingcompetitions.withgoogle.com/codejamio/round/000000000019ff03): Ranked 59th out of 2500+.
 
@@ -84,7 +84,7 @@
 
 - [Google Kick Start Tracker](/fun/kickstart_tracker.html)
 
-- [Facebook Hacker Cup Tracker](/fun/hackercup_tracker.html)
+- [Meta Hacker Cup Tracker](/fun/hackercup_tracker.html)
 
 - [Project Euler Tracker](/fun/projecteuler_tracker.html)
 

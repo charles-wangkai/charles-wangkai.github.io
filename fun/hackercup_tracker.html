@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Facebook Hacker Cup Tracker</title>
+    <title>Meta Hacker Cup Tracker</title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.datatables.net/1.11.1/js/jquery.dataTables.min.js"></script>
@@ -122,6 +122,7 @@
             filterTypeToOrder[
               $("input[type=radio][name=filterType]:checked").val()
             ],
+          dom: "ift",
         });
 
         $("input[type=radio][name=filterType]").change(function () {
