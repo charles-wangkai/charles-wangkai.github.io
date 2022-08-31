@@ -5,6 +5,32 @@
             "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2022",
             "rounds": [
                 {
+                    "name": "Coding Practice with Kick Start Session #3",
+                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f49d7",
+                    "problems": [
+                        {
+                            "name": "Sample Problem",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f49d7/0000000000bcee64"
+                        },
+                        {
+                            "name": "Record Breaker",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f49d7/0000000000bcf2ed"
+                        },
+                        {
+                            "name": "Wiggle Walk",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f49d7/0000000000bcf0fd"
+                        },
+                        {
+                            "name": "GBus count",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f49d7/0000000000bcf2ee"
+                        },
+                        {
+                            "name": "Sherlock and Watson Gym Secrets",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f49d7/0000000000bcf0aa"
+                        }
+                    ]
+                },
+                {
                     "name": "Round E",
                     "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb0f5",
                     "problems": [
