@@ -37,7 +37,28 @@
                 {
                     "name": "round-1",
                     "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/round-1",
-                    "problems": []
+                    "problems": [
+                        {
+                            "name": "Consecutive Cuts - Chapter 1",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/round-1/problems/A1"
+                        },
+                        {
+                            "name": "Consecutive Cuts - Chapter 2",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/round-1/problems/A2"
+                        },
+                        {
+                            "name": "Watering Well - Chapter 1",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/round-1/problems/B1"
+                        },
+                        {
+                            "name": "Watering Well - Chapter 2",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/round-1/problems/B2"
+                        },
+                        {
+                            "name": "Lemonade Life",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/round-1/problems/C"
+                        }
+                    ]
                 },
                 {
                     "name": "round-2",
