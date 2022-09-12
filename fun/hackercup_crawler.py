@@ -1,7 +1,6 @@
 import json
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import time
 
 FACEBOOK_DOMAIN = "https://www.facebook.com"
 HACKERCUP_URL_PREFIX = "/codingcompetitions/hacker-cup"
@@ -49,17 +48,11 @@ def crawl_contests(season):
 
 
 def crawl_problem_name(problem_url):
-    while True:
-        driver.get(problem_url)
-        try:
-            title = driver.find_element(
-                By.XPATH,
-                "//div[contains(@class, 'qntmu8s7') and contains(@class, 'igjjae4c') and contains(@class, 'tq4zoyjo') and contains(@class, 'bq6c9xl4')]",
-            ).text
-
-            break
-        except:
-            time.sleep(60)
+    driver.get(problem_url)
+    title = driver.find_element(
+        By.XPATH,
+        "//div[contains(@class, 'qntmu8s7') and contains(@class, 'igjjae4c') and contains(@class, 'tq4zoyjo') and contains(@class, 'bq6c9xl4')]",
+    ).text
 
     return title[title.find(":") + 2 :]
 
@@ -81,9 +74,18 @@ def crawl_problems(season, contest):
 
 
 def main():
-    dataset = {"seasons": crawl_seasons()}
+    with open("hackercup_dataset.json") as f:
+        dataset = json.load(f)
+    dataset["seasons"].pop(0)
 
-    for season in dataset["seasons"]:
+    seasons = crawl_seasons()
+
+    for season in seasons:
+        if any(s["name"] == season["name"] for s in dataset["seasons"]):
+            break
+
+        dataset["seasons"].insert(0, season)
+
         season["contests"] = crawl_contests(season)
 
         for contest in season["contests"]:
