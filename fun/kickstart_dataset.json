@@ -5,6 +5,28 @@
             "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2022",
             "rounds": [
                 {
+                    "name": "Round F",
+                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb409",
+                    "problems": [
+                        {
+                            "name": "Sort the Fabrics",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb409/0000000000beefbb"
+                        },
+                        {
+                            "name": "Water Container System",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb409/0000000000bef79e"
+                        },
+                        {
+                            "name": "Story of Seasons",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb409/0000000000bef319"
+                        },
+                        {
+                            "name": "Scheduling a Meeting",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb409/0000000000bef943"
+                        }
+                    ]
+                },
+                {
                     "name": "Coding Practice with Kick Start Session #3",
                     "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f49d7",
                     "problems": [
