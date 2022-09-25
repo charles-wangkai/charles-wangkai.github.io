@@ -63,7 +63,32 @@
                 {
                     "name": "round-2",
                     "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/round-2",
-                    "problems": []
+                    "problems": [
+                        {
+                            "name": "Perfectly Balanced - Chapter 1",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/round-2/problems/A1"
+                        },
+                        {
+                            "name": "Perfectly Balanced - Chapter 2",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/round-2/problems/A2"
+                        },
+                        {
+                            "name": "Balance Sheet",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/round-2/problems/B"
+                        },
+                        {
+                            "name": "Balance Scale",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/round-2/problems/C"
+                        },
+                        {
+                            "name": "Work-Life Balance - Chapter 1",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/round-2/problems/D1"
+                        },
+                        {
+                            "name": "Work-Life Balance - Chapter 2",
+                            "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2022/round-2/problems/D2"
+                        }
+                    ]
                 },
                 {
                     "name": "round-3",
