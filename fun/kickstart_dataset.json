@@ -5,6 +5,28 @@
             "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2022",
             "rounds": [
                 {
+                    "name": "Round G",
+                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb2e1",
+                    "problems": [
+                        {
+                            "name": "Walktober",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb2e1/0000000000c174f2"
+                        },
+                        {
+                            "name": "Curling",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb2e1/0000000000c17c82"
+                        },
+                        {
+                            "name": "Happy Subarrays",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb2e1/0000000000c17491"
+                        },
+                        {
+                            "name": "Cute Little Butterfly",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb2e1/0000000000c17b68"
+                        }
+                    ]
+                },
+                {
                     "name": "Round F",
                     "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb409",
                     "problems": [
