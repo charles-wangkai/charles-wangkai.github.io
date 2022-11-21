@@ -5,6 +5,28 @@
             "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2022",
             "rounds": [
                 {
+                    "name": "Round H",
+                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb1b6",
+                    "problems": [
+                        {
+                            "name": "Running in Circles",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb1b6/0000000000c4766e"
+                        },
+                        {
+                            "name": "Magical Well Of Lilies",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb1b6/0000000000c47e79"
+                        },
+                        {
+                            "name": "Electricity",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb1b6/0000000000c47c8e"
+                        },
+                        {
+                            "name": "Level Design",
+                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb1b6/0000000000c47792"
+                        }
+                    ]
+                },
+                {
                     "name": "Round G",
                     "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb2e1",
                     "problems": [
