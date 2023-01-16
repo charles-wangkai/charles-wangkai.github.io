@@ -57,15 +57,22 @@
         function renderMain(problems, problemStatistics, submissions) {
           prepareMainProblems(problems, problemStatistics, submissions);
 
-          const solvedNum = problems.filter((problem) => problem.solved).length;
+          const solvedProblems = problems.filter((problem) => problem.solved);
+          const sortedDifficulties = solvedProblems
+            .map((problem) => problem.rating)
+            .filter((x) => x)
+            .sort((a, b) => a - b);
+          const medianDifficulty =
+            sortedDifficulties[Math.floor((sortedDifficulties.length - 1) / 2)];
 
           const nextUnsolvedProblems = problems
             .filter((problem) => !problem.solved)
             .sort(compareProblems)
             .slice(0, 5);
 
-          $("#mainSolvedNum").text(solvedNum);
+          $("#mainSolvedNum").text(solvedProblems.length);
           $("#mainTotalNum").text(problems.length);
+          $("#medianDifficulty").text(medianDifficulty);
 
           nextUnsolvedProblems.forEach((problem) => {
             const url = `https://codeforces.com/problemset/problem/${problem.contestId}/${problem.index}`;
@@ -313,7 +320,10 @@
     <div class="row m-1 mt-5">
       <div class="col-sm">
         <div class="card">
-          <div class="card-header">Solved Problems</div>
+          <div class="card-header">
+            Solved Problems (Median Difficulty =
+            <span id="medianDifficulty"></span>)
+          </div>
           <div class="card-body">
             <table id="solvedProblems" class="table table-striped">
               <thead>
