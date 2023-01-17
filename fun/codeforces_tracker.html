@@ -62,8 +62,17 @@
             .map((problem) => problem.rating)
             .filter((x) => x)
             .sort((a, b) => a - b);
-          const medianDifficulty =
-            sortedDifficulties[Math.floor((sortedDifficulties.length - 1) / 2)];
+          const medianIndex = Math.floor((sortedDifficulties.length - 1) / 2);
+          const medianDifficulty = sortedDifficulties[medianIndex];
+          let rightSameDifficultyCount = 0;
+          for (
+            let i = medianIndex + 1;
+            i < sortedDifficulties.length &&
+            sortedDifficulties[i] === medianDifficulty;
+            ++i
+          ) {
+            ++rightSameDifficultyCount;
+          }
 
           const nextUnsolvedProblems = problems
             .filter((problem) => !problem.solved)
@@ -73,6 +82,7 @@
           $("#mainSolvedNum").text(solvedProblems.length);
           $("#mainTotalNum").text(problems.length);
           $("#medianDifficulty").text(medianDifficulty);
+          $("#rightSameDifficultyCount").text(rightSameDifficultyCount);
 
           nextUnsolvedProblems.forEach((problem) => {
             const url = `https://codeforces.com/problemset/problem/${problem.contestId}/${problem.index}`;
@@ -322,7 +332,8 @@
         <div class="card">
           <div class="card-header">
             Solved Problems (Median Difficulty =
-            <span id="medianDifficulty"></span>)
+            <span id="medianDifficulty"></span>, Right Same Difficulty Count =
+            <span id="rightSameDifficultyCount"></span>)
           </div>
           <div class="card-body">
             <table id="solvedProblems" class="table table-striped">
