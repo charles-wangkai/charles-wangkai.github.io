@@ -5,6 +5,54 @@
             "url": "https://codingcompetitions.withgoogle.com/codejam/archive/2022",
             "rounds": [
                 {
+                    "name": "World Finals",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000087762e",
+                    "problems": [
+                        {
+                            "name": "Wonderland Chase",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000087762e/0000000000b9c499"
+                        },
+                        {
+                            "name": "Goose, Goose, Ducks?",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000087762e/0000000000b9ce14"
+                        },
+                        {
+                            "name": "Slide Parade",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000087762e/0000000000b9cb13"
+                        },
+                        {
+                            "name": "Schr\u00f6dinger and Pavlov",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000087762e/0000000000b9c73a"
+                        },
+                        {
+                            "name": "Triangles",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/000000000087762e/0000000000b9c555"
+                        }
+                    ]
+                },
+                {
+                    "name": "Round 3",
+                    "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000008779b4",
+                    "problems": [
+                        {
+                            "name": "Revenge of GoroSort",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000008779b4/0000000000b45189"
+                        },
+                        {
+                            "name": "Duck, Duck, Geese",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000008779b4/0000000000b45244"
+                        },
+                        {
+                            "name": "Mascot Maze",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000008779b4/0000000000b44a4f"
+                        },
+                        {
+                            "name": "Win As Second",
+                            "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000008779b4/0000000000b4518a"
+                        }
+                    ]
+                },
+                {
                     "name": "Round 2",
                     "url": "https://codingcompetitions.withgoogle.com/codejam/round/00000000008778ec",
                     "problems": [
