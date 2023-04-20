@@ -1,5 +1,19 @@
 [Resume](/resume/kai_wang_resume.pdf)
 
+## Industry Application
+
+- Measurement, Test, and Calibration
+
+- Power Quality Monitoring and Analysis
+
+## Device and Firmware
+
+- Power Quality Analyzer Equipment
+
+- Monitoring Equipment for PV Power Generation
+
+- Thermal Imager
+
 ## Competitive Programming & Contests
 
 - [Google Code Jam 2020](/certificates/certificate_google_code_jam_2020.png): Round 3. Ranked 497th out of 44000+.
