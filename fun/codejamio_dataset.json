@@ -1,198 +1,163 @@
 {
-    "rounds": [
+  "rounds": [
+    {
+      "name": 2022,
+
+      "problems": [
         {
-            "name": 2022,
-            "url": "https://codingcompetitions.withgoogle.com/codejamio/round/00000000009d9870",
-            "problems": [
-                {
-                    "name": "Inversions Organize",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/00000000009d9870/0000000000a33e95"
-                },
-                {
-                    "name": "Ingredient Optimization",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/00000000009d9870/0000000000a341ec"
-                },
-                {
-                    "name": "Interesting Outing",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/00000000009d9870/0000000000a33bc7"
-                },
-                {
-                    "name": "Inventor Outlasting",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/00000000009d9870/0000000000a33fb0"
-                }
-            ]
+          "name": "Inversions Organize"
         },
         {
-            "name": 2021,
-            "url": "https://codingcompetitions.withgoogle.com/codejamio/round/00000000004360f2",
-            "problems": [
-                {
-                    "name": "Impartial Offerings",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/00000000004360f2/0000000000777098"
-                },
-                {
-                    "name": "Inconstant Ordering",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/00000000004360f2/00000000007772ed"
-                },
-                {
-                    "name": "Introductions Organization",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/00000000004360f2/000000000077796b"
-                },
-                {
-                    "name": "Irrefutable Outcome",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/00000000004360f2/0000000000777c68"
-                }
-            ]
+          "name": "Ingredient Optimization"
         },
         {
-            "name": 2020,
-            "url": "https://codingcompetitions.withgoogle.com/codejamio/round/000000000019ff03",
-            "problems": [
-                {
-                    "name": "Interleaved Output: Part 1",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/000000000019ff03/00000000001b5e88"
-                },
-                {
-                    "name": "Imbalance Obviation",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/000000000019ff03/00000000001b5e24"
-                },
-                {
-                    "name": "Interleaved Output: Part 2",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/000000000019ff03/00000000001b5cd7"
-                },
-                {
-                    "name": "Impromptu Outdoor Gallery",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/000000000019ff03/00000000001b5e89"
-                }
-            ]
+          "name": "Interesting Outing"
         },
         {
-            "name": 2019,
-            "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050fc5",
-            "problems": [
-                {
-                    "name": "Grid Escape",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050fc5/0000000000054e9c"
-                },
-                {
-                    "name": "Parcel Posts",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050fc5/0000000000054e9a"
-                },
-                {
-                    "name": "Sheepwalking",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050fc5/0000000000054edd"
-                },
-                {
-                    "name": "War of the Words",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050fc5/0000000000054ea5"
-                }
-            ]
-        },
-        {
-            "name": 2018,
-            "url": "https://codingcompetitions.withgoogle.com/codejamio/round/000000000005102c",
-            "problems": [
-                {
-                    "name": "Burger Optimization",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/000000000005102c/0000000000050dd4"
-                },
-                {
-                    "name": "CEO Search",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/000000000005102c/0000000000050dd5"
-                },
-                {
-                    "name": "Centrists",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/000000000005102c/0000000000050dd6"
-                },
-                {
-                    "name": "Tricky Trios",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/000000000005102c/0000000000050fc4"
-                }
-            ]
-        },
-        {
-            "name": 2017,
-            "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050ece",
-            "problems": [
-                {
-                    "name": "Ticket Trouble",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050ece/0000000000050df6"
-                },
-                {
-                    "name": "Understudies",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050ece/0000000000050ed4"
-                },
-                {
-                    "name": "Word Search",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050ece/0000000000050df7"
-                },
-                {
-                    "name": "Where Ya Gonna Call?",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050ece/0000000000050ed5"
-                }
-            ]
-        },
-        {
-            "name": 2016,
-            "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000051059",
-            "problems": [
-                {
-                    "name": "Cody's Jams",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000051059/000000000005105a"
-                },
-                {
-                    "name": "Dance Around The Clock",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000051059/000000000005105b"
-                },
-                {
-                    "name": "Polynesiaglot",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000051059/000000000005105c"
-                },
-                {
-                    "name": "Password Security",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000051059/0000000000050df5"
-                }
-            ]
-        },
-        {
-            "name": 2015,
-            "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050df1",
-            "problems": [
-                {
-                    "name": "I/O Error",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050df1/0000000000050ed2"
-                },
-                {
-                    "name": "Power Levels",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050df1/0000000000050fec"
-                },
-                {
-                    "name": "Googlander",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050df1/0000000000050ed3"
-                },
-                {
-                    "name": "Dreary Design",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050df1/0000000000050df4"
-                }
-            ]
-        },
-        {
-            "name": 2014,
-            "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050ed0",
-            "problems": [
-                {
-                    "name": "Saturnalia",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050ed0/0000000000050df2"
-                },
-                {
-                    "name": "Zathras",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050ed0/0000000000050ed1"
-                },
-                {
-                    "name": "Seating Chart",
-                    "url": "https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050ed0/0000000000050df3"
-                }
-            ]
+          "name": "Inventor Outlasting"
         }
-    ]
+      ]
+    },
+    {
+      "name": 2021,
+
+      "problems": [
+        {
+          "name": "Impartial Offerings"
+        },
+        {
+          "name": "Inconstant Ordering"
+        },
+        {
+          "name": "Introductions Organization"
+        },
+        {
+          "name": "Irrefutable Outcome"
+        }
+      ]
+    },
+    {
+      "name": 2020,
+
+      "problems": [
+        {
+          "name": "Interleaved Output: Part 1"
+        },
+        {
+          "name": "Imbalance Obviation"
+        },
+        {
+          "name": "Interleaved Output: Part 2"
+        },
+        {
+          "name": "Impromptu Outdoor Gallery"
+        }
+      ]
+    },
+    {
+      "name": 2019,
+
+      "problems": [
+        {
+          "name": "Grid Escape"
+        },
+        {
+          "name": "Parcel Posts"
+        },
+        {
+          "name": "Sheepwalking"
+        },
+        {
+          "name": "War of the Words"
+        }
+      ]
+    },
+    {
+      "name": 2018,
+
+      "problems": [
+        {
+          "name": "Burger Optimization"
+        },
+        {
+          "name": "CEO Search"
+        },
+        {
+          "name": "Centrists"
+        },
+        {
+          "name": "Tricky Trios"
+        }
+      ]
+    },
+    {
+      "name": 2017,
+
+      "problems": [
+        {
+          "name": "Ticket Trouble"
+        },
+        {
+          "name": "Understudies"
+        },
+        {
+          "name": "Word Search"
+        },
+        {
+          "name": "Where Ya Gonna Call?"
+        }
+      ]
+    },
+    {
+      "name": 2016,
+
+      "problems": [
+        {
+          "name": "Cody's Jams"
+        },
+        {
+          "name": "Dance Around The Clock"
+        },
+        {
+          "name": "Polynesiaglot"
+        },
+        {
+          "name": "Password Security"
+        }
+      ]
+    },
+    {
+      "name": 2015,
+
+      "problems": [
+        {
+          "name": "I/O Error"
+        },
+        {
+          "name": "Power Levels"
+        },
+        {
+          "name": "Googlander"
+        },
+        {
+          "name": "Dreary Design"
+        }
+      ]
+    },
+    {
+      "name": 2014,
+
+      "problems": [
+        {
+          "name": "Saturnalia"
+        },
+        {
+          "name": "Zathras"
+        },
+        {
+          "name": "Seating Chart"
+        }
+      ]
+    }
+  ]
 }

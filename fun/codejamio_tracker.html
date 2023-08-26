@@ -54,9 +54,12 @@
           }
         }
 
-        data = await getGithubApi(`${GITHUB_API_BASE_URL}/git/ref/heads/main`, {
-          cache: false,
-        });
+        let data = await getGithubApi(
+          `${GITHUB_API_BASE_URL}/git/ref/heads/main`,
+          {
+            cache: false,
+          }
+        );
         data = await getGithubApi(data.object.url);
         data = await getGithubApi(`${data.tree.url}?recursive=1`);
 
@@ -83,7 +86,7 @@
           $("#problems tbody").append(`
               <tr>
                 <th scope="row"><a href="${problem.problem.url}">${problem.problem.name}</a></th>
-                <td><a href="${problem.round.url}">${problem.round.name}</a></td>
+                <td>${problem.round.name}</td>
                 <td><a href="${problem.problem.url}">${problem.index}</a></td>
                 <td>${submission}</td>
               </tr>
