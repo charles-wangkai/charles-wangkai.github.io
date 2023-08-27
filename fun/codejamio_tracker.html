@@ -33,6 +33,7 @@
         let dataset = await $.get({
           url: "codejamio_dataset.json",
           dataType: "json",
+          cache: false,
         });
 
         let problems = [];
