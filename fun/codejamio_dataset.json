@@ -77,7 +77,8 @@
 
       "problems": [
         {
-          "name": "Burger Optimization"
+          "name": "Burger Optimization",
+          "url": "https://github.com/google/coding-competitions-archive/raw/main/codejam_to_io/2018/code_jam_to_io_for_women/burger_optimization/statement.pdf"
         },
         {
           "name": "CEO Search"
