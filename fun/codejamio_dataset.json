@@ -2,7 +2,6 @@
   "rounds": [
     {
       "name": 2022,
-
       "problems": [
         {
           "name": "Inversions Organize"
@@ -20,7 +19,6 @@
     },
     {
       "name": 2021,
-
       "problems": [
         {
           "name": "Impartial Offerings"
@@ -38,7 +36,6 @@
     },
     {
       "name": 2020,
-
       "problems": [
         {
           "name": "Interleaved Output: Part 1"
@@ -56,10 +53,10 @@
     },
     {
       "name": 2019,
-
       "problems": [
         {
-          "name": "Grid Escape"
+          "name": "Grid Escape",
+          "url": "https://github.com/google/coding-competitions-archive/raw/main/codejam_to_io/2019/code_jam_to_io_for_women/grid_escape/statement.pdf"
         },
         {
           "name": "Parcel Posts"
@@ -74,7 +71,6 @@
     },
     {
       "name": 2018,
-
       "problems": [
         {
           "name": "Burger Optimization",
@@ -96,7 +92,6 @@
     },
     {
       "name": 2017,
-
       "problems": [
         {
           "name": "Ticket Trouble",
@@ -118,7 +113,6 @@
     },
     {
       "name": 2016,
-
       "problems": [
         {
           "name": "Cody's Jams",
@@ -140,7 +134,6 @@
     },
     {
       "name": 2015,
-
       "problems": [
         {
           "name": "I/O Error",
@@ -162,7 +155,6 @@
     },
     {
       "name": 2014,
-
       "problems": [
         {
           "name": "Saturnalia",
