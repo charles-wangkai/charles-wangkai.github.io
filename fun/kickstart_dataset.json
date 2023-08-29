@@ -1134,7 +1134,8 @@
           "name": "Round A",
           "problems": [
             {
-              "name": "Sorting"
+              "name": "Sorting",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2013/round_a/sorting/statement.pdf"
             },
             {
               "name": "Read Phone Number"
