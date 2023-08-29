@@ -1,1506 +1,1170 @@
 {
-    "years": [
+  "years": [
+    {
+      "name": "2022",
+      "rounds": [
         {
-            "name": "2022",
-            "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2022",
-            "rounds": [
-                {
-                    "name": "Round H",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb1b6",
-                    "problems": [
-                        {
-                            "name": "Running in Circles",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb1b6/0000000000c4766e"
-                        },
-                        {
-                            "name": "Magical Well Of Lilies",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb1b6/0000000000c47e79"
-                        },
-                        {
-                            "name": "Electricity",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb1b6/0000000000c47c8e"
-                        },
-                        {
-                            "name": "Level Design",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb1b6/0000000000c47792"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round G",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb2e1",
-                    "problems": [
-                        {
-                            "name": "Walktober",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb2e1/0000000000c174f2"
-                        },
-                        {
-                            "name": "Curling",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb2e1/0000000000c17c82"
-                        },
-                        {
-                            "name": "Happy Subarrays",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb2e1/0000000000c17491"
-                        },
-                        {
-                            "name": "Cute Little Butterfly",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb2e1/0000000000c17b68"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round F",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb409",
-                    "problems": [
-                        {
-                            "name": "Sort the Fabrics",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb409/0000000000beefbb"
-                        },
-                        {
-                            "name": "Water Container System",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb409/0000000000bef79e"
-                        },
-                        {
-                            "name": "Story of Seasons",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb409/0000000000bef319"
-                        },
-                        {
-                            "name": "Scheduling a Meeting",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb409/0000000000bef943"
-                        }
-                    ]
-                },
-                {
-                    "name": "Coding Practice with Kick Start Session #3",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f49d7",
-                    "problems": [
-                        {
-                            "name": "Sample Problem",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f49d7/0000000000bcee64"
-                        },
-                        {
-                            "name": "Record Breaker",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f49d7/0000000000bcf2ed"
-                        },
-                        {
-                            "name": "Wiggle Walk",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f49d7/0000000000bcf0fd"
-                        },
-                        {
-                            "name": "GBus count",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f49d7/0000000000bcf2ee"
-                        },
-                        {
-                            "name": "Sherlock and Watson Gym Secrets",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f49d7/0000000000bcf0aa"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round E",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb0f5",
-                    "problems": [
-                        {
-                            "name": "Coloring Game",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb0f5/0000000000ba856a"
-                        },
-                        {
-                            "name": "Students and Mentors",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb0f5/0000000000ba84ae"
-                        },
-                        {
-                            "name": "Matching Palindrome",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb0f5/0000000000ba82c5"
-                        },
-                        {
-                            "name": "Pizza Delivery",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb0f5/0000000000ba86e6"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round D",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caea6",
-                    "problems": [
-                        {
-                            "name": "Image Labeler",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caea6/0000000000b76e11"
-                        },
-                        {
-                            "name": "Maximum Gain",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caea6/0000000000b76fae"
-                        },
-                        {
-                            "name": "Touchbar Typing",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caea6/0000000000b76f44"
-                        },
-                        {
-                            "name": "Suspects and Witnesses",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caea6/0000000000b76db9"
-                        }
-                    ]
-                },
-                {
-                    "name": "Coding Practice with Kick Start Session #2",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4a94",
-                    "problems": [
-                        {
-                            "name": "Sample Problem",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4a94/0000000000b5503a"
-                        },
-                        {
-                            "name": "Sherlock and Parentheses",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4a94/0000000000b5496b"
-                        },
-                        {
-                            "name": "Building Palindromes",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4a94/0000000000b54d3b"
-                        },
-                        {
-                            "name": "Irregular Expressions",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4a94/0000000000b55464"
-                        },
-                        {
-                            "name": "Parcels",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4a94/0000000000b55465"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round C",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb4d1",
-                    "problems": [
-                        {
-                            "name": "New Password",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb4d1/0000000000b20f15"
-                        },
-                        {
-                            "name": "Range Partition",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb4d1/0000000000b20deb"
-                        },
-                        {
-                            "name": "Ants on a Stick",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb4d1/0000000000b209bc"
-                        },
-                        {
-                            "name": "Palindromic Deletions",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb4d1/0000000000b20d16"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round B",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caa74",
-                    "problems": [
-                        {
-                            "name": "Infinity Area",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caa74/0000000000acf079"
-                        },
-                        {
-                            "name": "Palindromic Factors",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caa74/0000000000acee89"
-                        },
-                        {
-                            "name": "Unlock the Padlock",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caa74/0000000000acef55"
-                        },
-                        {
-                            "name": "Hamiltonian Tour",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008caa74/0000000000acf318"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round A",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb33e",
-                    "problems": [
-                        {
-                            "name": "Speed Typing",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb33e/00000000009e7021"
-                        },
-                        {
-                            "name": "Challenge Nine",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb33e/00000000009e7997"
-                        },
-                        {
-                            "name": "Palindrome Free Strings",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb33e/00000000009e762e"
-                        },
-                        {
-                            "name": "Interesting Integers",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008cb33e/00000000009e73ea"
-                        }
-                    ]
-                },
-                {
-                    "name": "Coding Practice with Kick Start Session #1",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4332",
-                    "problems": [
-                        {
-                            "name": "Sample Problem",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4332/0000000000942404"
-                        },
-                        {
-                            "name": "Centauri Prime",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4332/0000000000941ec5"
-                        },
-                        {
-                            "name": "H-index",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4332/0000000000941e56"
-                        },
-                        {
-                            "name": "Hex",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4332/0000000000942527"
-                        },
-                        {
-                            "name": "Milk Tea",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000008f4332/0000000000943934"
-                        }
-                    ]
-                }
-            ]
+          "name": "Round H",
+          "problems": [
+            {
+              "name": "Running in Circles"
+            },
+            {
+              "name": "Magical Well Of Lilies"
+            },
+            {
+              "name": "Electricity"
+            },
+            {
+              "name": "Level Design"
+            }
+          ]
         },
         {
-            "name": "2021",
-            "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2021",
-            "rounds": [
-                {
-                    "name": "Round H",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435914",
-                    "problems": [
-                        {
-                            "name": "Transform the String",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435914/00000000008da461"
-                        },
-                        {
-                            "name": "Painter",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435914/00000000008d9a88"
-                        },
-                        {
-                            "name": "Silly Substitutions",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435914/00000000008d94f5"
-                        },
-                        {
-                            "name": "Dependent Events",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435914/00000000008d9970"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round G",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000004362d6",
-                    "problems": [
-                        {
-                            "name": "Dogs and Cats",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000004362d6/00000000008b3771"
-                        },
-                        {
-                            "name": "Staying Hydrated",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000004362d6/00000000008b3a1c"
-                        },
-                        {
-                            "name": "Banana Bunches",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000004362d6/00000000008b44ef"
-                        },
-                        {
-                            "name": "Simple Polygon",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000004362d6/00000000008b36f9"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round F",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435bae",
-                    "problems": [
-                        {
-                            "name": "Trash Bins",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435bae/0000000000887c32"
-                        },
-                        {
-                            "name": "Festival",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435bae/0000000000887dba"
-                        },
-                        {
-                            "name": "Star Trappers",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435bae/0000000000888d45"
-                        },
-                        {
-                            "name": "Graph Travel",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435bae/0000000000888764"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round E",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000043585c",
-                    "problems": [
-                        {
-                            "name": "Shuffled Anagrams",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000043585c/000000000085a152"
-                        },
-                        {
-                            "name": "Birthday Cake",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000043585c/000000000085a285"
-                        },
-                        {
-                            "name": "Palindromic Crossword",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000043585c/0000000000859dcd"
-                        },
-                        {
-                            "name": "Increasing Sequence Card Game",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000043585c/000000000085a709"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round D",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000004361e3",
-                    "problems": [
-                        {
-                            "name": "Arithmetic Square",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000004361e3/000000000082b813"
-                        },
-                        {
-                            "name": "Cutting Intervals",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000004361e3/000000000082b933"
-                        },
-                        {
-                            "name": "Final Exam",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000004361e3/000000000082bffc"
-                        },
-                        {
-                            "name": "Primes and Queries",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000004361e3/000000000082bcf4"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round C",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435c44",
-                    "problems": [
-                        {
-                            "name": "Smaller Strings",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435c44/00000000007ebe5e"
-                        },
-                        {
-                            "name": "Alien Generator",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435c44/00000000007ec1cb"
-                        },
-                        {
-                            "name": "Rock Paper Scissors",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435c44/00000000007ec28e"
-                        },
-                        {
-                            "name": "Binary Operator",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435c44/00000000007ec290"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round B",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435a5b",
-                    "problems": [
-                        {
-                            "name": "Increasing Substring",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435a5b/000000000077a882"
-                        },
-                        {
-                            "name": "Longest Progression",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435a5b/000000000077a3a5"
-                        },
-                        {
-                            "name": "Consecutive Primes",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435a5b/000000000077a8e6"
-                        },
-                        {
-                            "name": "Truck Delivery",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435a5b/000000000077a885"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round A",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000436140",
-                    "problems": [
-                        {
-                            "name": "K-Goodness String",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000436140/000000000068cca3"
-                        },
-                        {
-                            "name": "L Shaped Plots",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000436140/000000000068c509"
-                        },
-                        {
-                            "name": "Rabbit House",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000436140/000000000068cb14"
-                        },
-                        {
-                            "name": "Checksum",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000436140/000000000068c2c3"
-                        }
-                    ]
-                }
-            ]
+          "name": "Round G",
+          "problems": [
+            {
+              "name": "Walktober"
+            },
+            {
+              "name": "Curling"
+            },
+            {
+              "name": "Happy Subarrays"
+            },
+            {
+              "name": "Cute Little Butterfly"
+            }
+          ]
         },
         {
-            "name": "2020",
-            "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2020",
-            "rounds": [
-                {
-                    "name": "Round H",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff49",
-                    "problems": [
-                        {
-                            "name": "Retype",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff49/000000000043adc7"
-                        },
-                        {
-                            "name": "Boring Numbers",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff49/000000000043b0c6"
-                        },
-                        {
-                            "name": "Rugby",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff49/000000000043b027"
-                        },
-                        {
-                            "name": "Friends",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff49/000000000043aee7"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round G",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000001a0069",
-                    "problems": [
-                        {
-                            "name": "Kick_Start",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000001a0069/0000000000414bfb"
-                        },
-                        {
-                            "name": "Maximum Coins",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000001a0069/0000000000414a23"
-                        },
-                        {
-                            "name": "Combination Lock",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000001a0069/0000000000414a24"
-                        },
-                        {
-                            "name": "Merge Cards",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000001a0069/0000000000415054"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round F",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff48",
-                    "problems": [
-                        {
-                            "name": "ATM Queue",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff48/00000000003f4ed8"
-                        },
-                        {
-                            "name": "Metal Harvest",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff48/00000000003f4b8b"
-                        },
-                        {
-                            "name": "Painters' Duel",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff48/00000000003f47fb"
-                        },
-                        {
-                            "name": "Yeetzhee",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff48/00000000003f4dea"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round E",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff47",
-                    "problems": [
-                        {
-                            "name": "Longest Arithmetic",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff47/00000000003bf4ed"
-                        },
-                        {
-                            "name": "High Buildings",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff47/00000000003bef73"
-                        },
-                        {
-                            "name": "Toys",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff47/00000000003bede9"
-                        },
-                        {
-                            "name": "Golden Stone",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff47/00000000003bef29"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round D",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff08",
-                    "problems": [
-                        {
-                            "name": "Record Breaker",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff08/0000000000387171"
-                        },
-                        {
-                            "name": "Alien Piano",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff08/0000000000387174"
-                        },
-                        {
-                            "name": "Beauty of tree",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff08/0000000000386edd"
-                        },
-                        {
-                            "name": "Locked Doors",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff08/0000000000386d5c"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round C",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff43",
-                    "problems": [
-                        {
-                            "name": "Countdown",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff43/00000000003380d2"
-                        },
-                        {
-                            "name": "Stable Wall",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff43/00000000003379bb"
-                        },
-                        {
-                            "name": "Perfect Subarray",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff43/00000000003381cb"
-                        },
-                        {
-                            "name": "Candies",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff43/0000000000337b4d"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round B",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ffc8",
-                    "problems": [
-                        {
-                            "name": "Bike Tour",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ffc8/00000000002d82e6"
-                        },
-                        {
-                            "name": "Bus Routes",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ffc8/00000000002d83bf"
-                        },
-                        {
-                            "name": "Robot Path Decoding",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ffc8/00000000002d83dc"
-                        },
-                        {
-                            "name": "Wandering Robot",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ffc8/00000000002d8565"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round A",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ffc7",
-                    "problems": [
-                        {
-                            "name": "Allocation",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ffc7/00000000001d3f56"
-                        },
-                        {
-                            "name": "Plates",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ffc7/00000000001d40bb"
-                        },
-                        {
-                            "name": "Workout",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ffc7/00000000001d3f5b"
-                        },
-                        {
-                            "name": "Bundling",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ffc7/00000000001d3ff3"
-                        }
-                    ]
-                }
-            ]
+          "name": "Round F",
+          "problems": [
+            {
+              "name": "Sort the Fabrics"
+            },
+            {
+              "name": "Water Container System"
+            },
+            {
+              "name": "Story of Seasons"
+            },
+            {
+              "name": "Scheduling a Meeting"
+            }
+          ]
         },
         {
-            "name": "2019",
-            "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2019",
-            "rounds": [
-                {
-                    "name": "Round H",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050edd",
-                    "problems": [
-                        {
-                            "name": "H-index",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050edd/00000000001a274e"
-                        },
-                        {
-                            "name": "Diagonal Puzzle",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050edd/00000000001a2835"
-                        },
-                        {
-                            "name": "Elevanagram",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050edd/00000000001a286d"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round G",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e02",
-                    "problems": [
-                        {
-                            "name": "Book Reading",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e02/000000000018fd0d"
-                        },
-                        {
-                            "name": "The Equation",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e02/000000000018fe36"
-                        },
-                        {
-                            "name": "Shifts",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e02/000000000018fd5e"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round F",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050edc",
-                    "problems": [
-                        {
-                            "name": "Flattening",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050edc/000000000018666c"
-                        },
-                        {
-                            "name": "Teach Me",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050edc/00000000001864bc"
-                        },
-                        {
-                            "name": "Spectating Villages",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050edc/000000000018666b"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round E",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050edb",
-                    "problems": [
-                        {
-                            "name": "Cherries Mesh",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050edb/0000000000170721"
-                        },
-                        {
-                            "name": "Code-Eat Switcher",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050edb/00000000001707b8"
-                        },
-                        {
-                            "name": "Street Checkers",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050edb/00000000001707b9"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round D",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051061",
-                    "problems": [
-                        {
-                            "name": "X or What?",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051061/0000000000161426"
-                        },
-                        {
-                            "name": "Latest Guests",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051061/0000000000161427"
-                        },
-                        {
-                            "name": "Food Stalls",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051061/0000000000161476"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round C",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ff2",
-                    "problems": [
-                        {
-                            "name": "Wiggle Walk",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ff2/0000000000150aac"
-                        },
-                        {
-                            "name": "Circuit Board",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ff2/0000000000150aae"
-                        },
-                        {
-                            "name": "Catch Some",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ff2/0000000000150a0d"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round B",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050eda",
-                    "problems": [
-                        {
-                            "name": "Building Palindromes",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050eda/0000000000119866"
-                        },
-                        {
-                            "name": "Energy Stones",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050eda/00000000001198c3"
-                        },
-                        {
-                            "name": "Diverse Subarray",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050eda/00000000001198c1"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round A",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e01",
-                    "problems": [
-                        {
-                            "name": "Training",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e01/00000000000698d6"
-                        },
-                        {
-                            "name": "Parcels",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e01/000000000006987d"
-                        },
-                        {
-                            "name": "Contention",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e01/0000000000069881"
-                        }
-                    ]
-                },
-                {
-                    "name": "Practice Round",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060",
-                    "problems": [
-                        {
-                            "name": "Number Guessing",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/00000000000588f4"
-                        },
-                        {
-                            "name": "Mural",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/0000000000058b89"
-                        },
-                        {
-                            "name": "Kickstart Alarm",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051060/0000000000058a56"
-                        }
-                    ]
-                }
-            ]
+          "name": "Coding Practice with Kick Start Session #3",
+          "problems": [
+            {
+              "name": "Sample Problem"
+            },
+            {
+              "name": "Record Breaker"
+            },
+            {
+              "name": "Wiggle Walk"
+            },
+            {
+              "name": "GBus count"
+            },
+            {
+              "name": "Sherlock and Watson Gym Secrets"
+            }
+          ]
         },
         {
-            "name": "2018",
-            "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2018",
-            "rounds": [
-                {
-                    "name": "Round H",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ee2",
-                    "problems": [
-                        {
-                            "name": "Big Buttons",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ee2/0000000000051136"
-                        },
-                        {
-                            "name": "Mural",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ee2/000000000005118a"
-                        },
-                        {
-                            "name": "Let Me Count The Ways",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ee2/0000000000051189"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round G",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051066",
-                    "problems": [
-                        {
-                            "name": "Product Triplets",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051066/0000000000051187"
-                        },
-                        {
-                            "name": "Combining Classes",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051066/0000000000051007"
-                        },
-                        {
-                            "name": "Cave Escape",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000051066/0000000000051135"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round F",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e07",
-                    "problems": [
-                        {
-                            "name": "Common Anagrams",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e07/00000000000510f2"
-                        },
-                        {
-                            "name": "Specializing Villages",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e07/0000000000051134"
-                        },
-                        {
-                            "name": "Palindromic Sequence",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e07/0000000000051186"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round E",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ff5",
-                    "problems": [
-                        {
-                            "name": "Board Game",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ff5/0000000000051184"
-                        },
-                        {
-                            "name": "Milk Tea",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ff5/0000000000051185"
-                        },
-                        {
-                            "name": "Yogurt",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ff5/00000000000510f1"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round D",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ee1",
-                    "problems": [
-                        {
-                            "name": "Candies",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ee1/00000000000510ef"
-                        },
-                        {
-                            "name": "Paragliding",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ee1/0000000000051006"
-                        },
-                        {
-                            "name": "Funniest Word Search",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ee1/00000000000510f0"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round C",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ee0",
-                    "problems": [
-                        {
-                            "name": "Planet Distance",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ee0/0000000000051005"
-                        },
-                        {
-                            "name": "Fairies and Witches",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ee0/0000000000051132"
-                        },
-                        {
-                            "name": "Kickstart Alarm",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ee0/0000000000051133"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round B",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ff4",
-                    "problems": [
-                        {
-                            "name": "No Nine",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ff4/0000000000051183"
-                        },
-                        {
-                            "name": "Sherlock and the Bit Strings",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ff4/000000000005107b"
-                        },
-                        {
-                            "name": "King's Circle",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ff4/00000000000510ee"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round A",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050edf",
-                    "problems": [
-                        {
-                            "name": "Even Digits",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050edf/00000000000510ed"
-                        },
-                        {
-                            "name": "Lucky Dip",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050edf/0000000000050e1d"
-                        },
-                        {
-                            "name": "Scrambled Words",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050edf/0000000000051004"
-                        }
-                    ]
-                }
-            ]
+          "name": "Round E",
+          "problems": [
+            {
+              "name": "Coloring Game"
+            },
+            {
+              "name": "Students and Mentors"
+            },
+            {
+              "name": "Matching Palindrome"
+            },
+            {
+              "name": "Pizza Delivery"
+            }
+          ]
         },
         {
-            "name": "2017",
-            "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2017",
-            "rounds": [
-                {
-                    "name": "Round G",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201b7d",
-                    "problems": [
-                        {
-                            "name": "Huge Numbers",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201b7d/0000000000201c03"
-                        },
-                        {
-                            "name": "Cards Game",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201b7d/0000000000201c9c"
-                        },
-                        {
-                            "name": "Matrix Cutting",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201b7d/0000000000201d2b"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round F",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201d29",
-                    "problems": [
-                        {
-                            "name": "Cake",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201d29/0000000000201d2a"
-                        },
-                        {
-                            "name": "Kicksort",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201d29/0000000000201b7c"
-                        },
-                        {
-                            "name": "Dance Battle",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201d29/0000000000201c02"
-                        },
-                        {
-                            "name": "Catch Them All",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201d29/0000000000201c9b"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round E",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201bfe",
-                    "problems": [
-                        {
-                            "name": "Trapezoid Counting",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201bfe/0000000000201d24"
-                        },
-                        {
-                            "name": "Copy & Paste",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201bfe/0000000000201c96"
-                        },
-                        {
-                            "name": "Blackhole",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201bfe/0000000000201b78"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round D",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201b77",
-                    "problems": [
-                        {
-                            "name": "Sightseeing",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201b77/0000000000201bfd"
-                        },
-                        {
-                            "name": "Sherlock and Matrix Game",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201b77/0000000000201c95"
-                        },
-                        {
-                            "name": "Trash",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201b77/0000000000201d23"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round C",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201c98",
-                    "problems": [
-                        {
-                            "name": "Ambiguous Cipher",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201c98/0000000000201d26"
-                        },
-                        {
-                            "name": "X Squared",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201c98/0000000000201b7a"
-                        },
-                        {
-                            "name": "Magical Thinking v2",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201c98/0000000000201c00"
-                        },
-                        {
-                            "name": "The 4M Corporation",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201c98/0000000000201c99"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round B",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201d27",
-                    "problems": [
-                        {
-                            "name": "Math Encoder",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201d27/0000000000201b7b"
-                        },
-                        {
-                            "name": "Center",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201d27/0000000000201c01"
-                        },
-                        {
-                            "name": "Christmas Tree",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201d27/0000000000201c9a"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round A",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201c97",
-                    "problems": [
-                        {
-                            "name": "Square Counting",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201c97/0000000000201d25"
-                        },
-                        {
-                            "name": "Pattern Overlap",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201c97/0000000000201b79"
-                        },
-                        {
-                            "name": "Two Cubes",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201c97/0000000000201bff"
-                        }
-                    ]
-                }
-            ]
+          "name": "Round D",
+          "problems": [
+            {
+              "name": "Image Labeler"
+            },
+            {
+              "name": "Maximum Gain"
+            },
+            {
+              "name": "Touchbar Typing"
+            },
+            {
+              "name": "Suspects and Witnesses"
+            }
+          ]
         },
         {
-            "name": "2016",
-            "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2016",
-            "rounds": [
-                {
-                    "name": "Round E",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201ca0",
-                    "problems": [
-                        {
-                            "name": "Diwali lightings",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201ca0/0000000000201d2f"
-                        },
-                        {
-                            "name": "Beautiful Numbers",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201ca0/0000000000201dba"
-                        },
-                        {
-                            "name": "Partioning Number",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201ca0/0000000000201c08"
-                        },
-                        {
-                            "name": "Sorting Array",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201ca0/0000000000201ca1"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round D",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201db8",
-                    "problems": [
-                        {
-                            "name": "Vote",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201db8/0000000000201c06"
-                        },
-                        {
-                            "name": "Sitting",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201db8/0000000000201c9e"
-                        },
-                        {
-                            "name": "Codejamon Cipher",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201db8/0000000000201d2e"
-                        },
-                        {
-                            "name": "Stretch Rope",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201db8/0000000000201db9"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round C",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201c0a",
-                    "problems": [
-                        {
-                            "name": "Monster Path",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201c0a/0000000000201ca4"
-                        },
-                        {
-                            "name": "Safe Squares",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201c0a/0000000000201d31"
-                        },
-                        {
-                            "name": "Evaluation",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201c0a/0000000000201dbc"
-                        },
-                        {
-                            "name": "Soldiers",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201c0a/0000000000201c0b"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round B",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201c0c",
-                    "problems": [
-                        {
-                            "name": "Sherlock and Parentheses",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201c0c/0000000000201ca5"
-                        },
-                        {
-                            "name": "Sherlock and Watson Gym Secrets",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201c0c/0000000000201d32"
-                        },
-                        {
-                            "name": "Watson and Intervals",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201c0c/0000000000201dbd"
-                        },
-                        {
-                            "name": "Sherlock and Permutation Sorting",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201c0c/0000000000201c0d"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round A",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201ca2",
-                    "problems": [
-                        {
-                            "name": "Country Leader",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201ca2/0000000000201d30"
-                        },
-                        {
-                            "name": "Rain",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201ca2/0000000000201dbb"
-                        },
-                        {
-                            "name": "Jane's Flower Shop",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201ca2/0000000000201c09"
-                        },
-                        {
-                            "name": "Clash Royale",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000201ca2/0000000000201ca3"
-                        }
-                    ]
-                }
-            ]
+          "name": "Coding Practice with Kick Start Session #2",
+          "problems": [
+            {
+              "name": "Sample Problem"
+            },
+            {
+              "name": "Sherlock and Parentheses"
+            },
+            {
+              "name": "Building Palindromes"
+            },
+            {
+              "name": "Irregular Expressions"
+            },
+            {
+              "name": "Parcels"
+            }
+          ]
         },
         {
-            "name": "2015",
-            "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2015",
-            "rounds": [
-                {
-                    "name": "Round E",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434819",
-                    "problems": [
-                        {
-                            "name": "Lazy Spelling Bee",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434819/0000000000434b41"
-                        },
-                        {
-                            "name": "Robot Rock Band",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434819/0000000000434ae0"
-                        },
-                        {
-                            "name": "Not So Random",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434819/00000000004347b8"
-                        },
-                        {
-                            "name": "Sums of Sums",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434819/00000000004348e6"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round D",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000004349ac",
-                    "problems": [
-                        {
-                            "name": "Dynamic Grid",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000004349ac/0000000000434c6c"
-                        },
-                        {
-                            "name": "gBalloon",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000004349ac/0000000000434dfe"
-                        },
-                        {
-                            "name": "IP Address Summarization",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000004349ac/0000000000434880"
-                        },
-                        {
-                            "name": "Virtual Rabbit",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/00000000004349ac/0000000000434949"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round C",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000043487f",
-                    "problems": [
-                        {
-                            "name": "gRanks",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000043487f/0000000000434948"
-                        },
-                        {
-                            "name": "gFiles",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000043487f/000000000043474d"
-                        },
-                        {
-                            "name": "gGames",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000043487f/0000000000434da1"
-                        },
-                        {
-                            "name": "gMatrix",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000043487f/0000000000434c0f"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round B",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434a7a",
-                    "problems": [
-                        {
-                            "name": "Travel",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434a7a/0000000000434ba8"
-                        },
-                        {
-                            "name": "gWheels",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434a7a/0000000000434818"
-                        },
-                        {
-                            "name": "gNumbers",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434a7a/0000000000434b40"
-                        },
-                        {
-                            "name": "Albocede DNA",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434a7a/0000000000434add"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round A",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434b3f",
-                    "problems": [
-                        {
-                            "name": "Googol String",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434b3f/0000000000434adc"
-                        },
-                        {
-                            "name": "gCube",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434b3f/00000000004347b7"
-                        },
-                        {
-                            "name": "gCampus",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434b3f/00000000004348e5"
-                        },
-                        {
-                            "name": "gSnake",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434b3f/00000000004349ab"
-                        }
-                    ]
-                },
-                {
-                    "name": "Practice Round",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434c0e",
-                    "problems": [
-                        {
-                            "name": "Moist",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434c0e/0000000000434ba7"
-                        },
-                        {
-                            "name": "Captain Hammer",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434c0e/0000000000434a79"
-                        },
-                        {
-                            "name": "Bad Horse",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434c0e/0000000000434cd3"
-                        }
-                    ]
-                }
-            ]
+          "name": "Round C",
+          "problems": [
+            {
+              "name": "New Password"
+            },
+            {
+              "name": "Range Partition"
+            },
+            {
+              "name": "Ants on a Stick"
+            },
+            {
+              "name": "Palindromic Deletions"
+            }
+          ]
         },
         {
-            "name": "2014",
-            "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2014",
-            "rounds": [
-                {
-                    "name": "Round D",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434b3e",
-                    "problems": [
-                        {
-                            "name": "Cube IV",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434b3e/0000000000434adb"
-                        },
-                        {
-                            "name": "GBus count",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434b3e/00000000004347b6"
-                        },
-                        {
-                            "name": "Sort a scrambled itinerary",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434b3e/00000000004348e4"
-                        },
-                        {
-                            "name": "Itz Chess",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434b3e/00000000004349aa"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round C",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434d9f",
-                    "problems": [
-                        {
-                            "name": "Minesweeper",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434d9f/0000000000434c0c"
-                        },
-                        {
-                            "name": "Taking Metro",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434d9f/0000000000434cd2"
-                        },
-                        {
-                            "name": "Broken Calculator",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434d9f/0000000000434a77"
-                        },
-                        {
-                            "name": "Tetris",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434d9f/0000000000434ba3"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round B",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434947",
-                    "problems": [
-                        {
-                            "name": "Password Attacker",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434947/000000000043474c"
-                        },
-                        {
-                            "name": "New Years Eve",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434947/0000000000434d9d"
-                        },
-                        {
-                            "name": "Card Game",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434947/0000000000434c0b"
-                        },
-                        {
-                            "name": "Parentheses Order",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434947/0000000000434cd1"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round A",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434d9c",
-                    "problems": [
-                        {
-                            "name": "Super 2048",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434d9c/0000000000434cd0"
-                        },
-                        {
-                            "name": "Seven-segment Display",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434d9c/0000000000434c09"
-                        },
-                        {
-                            "name": "Cut Tiles",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434d9c/0000000000434ba2"
-                        },
-                        {
-                            "name": "Addition",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434d9c/0000000000434a76"
-                        }
-                    ]
-                }
-            ]
+          "name": "Round B",
+          "problems": [
+            {
+              "name": "Infinity Area"
+            },
+            {
+              "name": "Palindromic Factors"
+            },
+            {
+              "name": "Unlock the Padlock"
+            },
+            {
+              "name": "Hamiltonian Tour"
+            }
+          ]
         },
         {
-            "name": "2013",
-            "url": "https://codingcompetitions.withgoogle.com/kickstart/archive/2013",
-            "rounds": [
-                {
-                    "name": "Round B",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434ad7",
-                    "problems": [
-                        {
-                            "name": "Sudoku Checker",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434ad7/00000000004347b3"
-                        },
-                        {
-                            "name": "Ignore all my comments",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434ad7/0000000000434dfc"
-                        },
-                        {
-                            "name": "Dragon Maze",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434ad7/0000000000434c67"
-                        },
-                        {
-                            "name": "Meet and party",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434ad7/00000000004348e0"
-                        },
-                        {
-                            "name": "Hex",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434ad7/00000000004349a6"
-                        }
-                    ]
-                },
-                {
-                    "name": "Round A",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434ba1",
-                    "problems": [
-                        {
-                            "name": "Sorting",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434ba1/0000000000434ad6"
-                        },
-                        {
-                            "name": "Read Phone Number",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434ba1/0000000000434813"
-                        },
-                        {
-                            "name": "Rational Number Tree",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434ba1/0000000000434b3c"
-                        },
-                        {
-                            "name": "Cross the maze",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434ba1/00000000004347b2"
-                        },
-                        {
-                            "name": "Spaceship Defence",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434ba1/00000000004348df"
-                        }
-                    ]
-                },
-                {
-                    "name": "Practice Round",
-                    "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434944",
-                    "problems": [
-                        {
-                            "name": "Moist",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434944/0000000000434c05"
-                        },
-                        {
-                            "name": "Captain Hammer",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434944/0000000000434d9a"
-                        },
-                        {
-                            "name": "Bad Horse",
-                            "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000434944/0000000000434749"
-                        }
-                    ]
-                }
-            ]
+          "name": "Round A",
+          "problems": [
+            {
+              "name": "Speed Typing"
+            },
+            {
+              "name": "Challenge Nine"
+            },
+            {
+              "name": "Palindrome Free Strings"
+            },
+            {
+              "name": "Interesting Integers"
+            }
+          ]
+        },
+        {
+          "name": "Coding Practice with Kick Start Session #1",
+          "problems": [
+            {
+              "name": "Sample Problem"
+            },
+            {
+              "name": "Centauri Prime"
+            },
+            {
+              "name": "H-index"
+            },
+            {
+              "name": "Hex"
+            },
+            {
+              "name": "Milk Tea"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "name": "2021",
+      "rounds": [
+        {
+          "name": "Round H",
+          "problems": [
+            {
+              "name": "Transform the String"
+            },
+            {
+              "name": "Painter"
+            },
+            {
+              "name": "Silly Substitutions"
+            },
+            {
+              "name": "Dependent Events"
+            }
+          ]
+        },
+        {
+          "name": "Round G",
+          "problems": [
+            {
+              "name": "Dogs and Cats"
+            },
+            {
+              "name": "Staying Hydrated"
+            },
+            {
+              "name": "Banana Bunches"
+            },
+            {
+              "name": "Simple Polygon"
+            }
+          ]
+        },
+        {
+          "name": "Round F",
+          "problems": [
+            {
+              "name": "Trash Bins"
+            },
+            {
+              "name": "Festival"
+            },
+            {
+              "name": "Star Trappers"
+            },
+            {
+              "name": "Graph Travel"
+            }
+          ]
+        },
+        {
+          "name": "Round E",
+          "problems": [
+            {
+              "name": "Shuffled Anagrams"
+            },
+            {
+              "name": "Birthday Cake"
+            },
+            {
+              "name": "Palindromic Crossword"
+            },
+            {
+              "name": "Increasing Sequence Card Game"
+            }
+          ]
+        },
+        {
+          "name": "Round D",
+          "problems": [
+            {
+              "name": "Arithmetic Square"
+            },
+            {
+              "name": "Cutting Intervals"
+            },
+            {
+              "name": "Final Exam"
+            },
+            {
+              "name": "Primes and Queries"
+            }
+          ]
+        },
+        {
+          "name": "Round C",
+          "problems": [
+            {
+              "name": "Smaller Strings"
+            },
+            {
+              "name": "Alien Generator"
+            },
+            {
+              "name": "Rock Paper Scissors"
+            },
+            {
+              "name": "Binary Operator"
+            }
+          ]
+        },
+        {
+          "name": "Round B",
+          "problems": [
+            {
+              "name": "Increasing Substring"
+            },
+            {
+              "name": "Longest Progression"
+            },
+            {
+              "name": "Consecutive Primes"
+            },
+            {
+              "name": "Truck Delivery"
+            }
+          ]
+        },
+        {
+          "name": "Round A",
+          "problems": [
+            {
+              "name": "K-Goodness String"
+            },
+            {
+              "name": "L Shaped Plots"
+            },
+            {
+              "name": "Rabbit House"
+            },
+            {
+              "name": "Checksum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2020",
+      "rounds": [
+        {
+          "name": "Round H",
+          "problems": [
+            {
+              "name": "Retype"
+            },
+            {
+              "name": "Boring Numbers"
+            },
+            {
+              "name": "Rugby"
+            },
+            {
+              "name": "Friends"
+            }
+          ]
+        },
+        {
+          "name": "Round G",
+          "problems": [
+            {
+              "name": "Kick_Start"
+            },
+            {
+              "name": "Maximum Coins"
+            },
+            {
+              "name": "Combination Lock"
+            },
+            {
+              "name": "Merge Cards"
+            }
+          ]
+        },
+        {
+          "name": "Round F",
+          "problems": [
+            {
+              "name": "ATM Queue"
+            },
+            {
+              "name": "Metal Harvest"
+            },
+            {
+              "name": "Painters' Duel"
+            },
+            {
+              "name": "Yeetzhee"
+            }
+          ]
+        },
+        {
+          "name": "Round E",
+          "problems": [
+            {
+              "name": "Longest Arithmetic"
+            },
+            {
+              "name": "High Buildings"
+            },
+            {
+              "name": "Toys"
+            },
+            {
+              "name": "Golden Stone"
+            }
+          ]
+        },
+        {
+          "name": "Round D",
+          "problems": [
+            {
+              "name": "Record Breaker"
+            },
+            {
+              "name": "Alien Piano"
+            },
+            {
+              "name": "Beauty of tree"
+            },
+            {
+              "name": "Locked Doors"
+            }
+          ]
+        },
+        {
+          "name": "Round C",
+          "problems": [
+            {
+              "name": "Countdown"
+            },
+            {
+              "name": "Stable Wall"
+            },
+            {
+              "name": "Perfect Subarray"
+            },
+            {
+              "name": "Candies"
+            }
+          ]
+        },
+        {
+          "name": "Round B",
+          "problems": [
+            {
+              "name": "Bike Tour"
+            },
+            {
+              "name": "Bus Routes"
+            },
+            {
+              "name": "Robot Path Decoding"
+            },
+            {
+              "name": "Wandering Robot"
+            }
+          ]
+        },
+        {
+          "name": "Round A",
+          "problems": [
+            {
+              "name": "Allocation"
+            },
+            {
+              "name": "Plates"
+            },
+            {
+              "name": "Workout"
+            },
+            {
+              "name": "Bundling"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2019",
+      "rounds": [
+        {
+          "name": "Round H",
+          "problems": [
+            {
+              "name": "H-index"
+            },
+            {
+              "name": "Diagonal Puzzle"
+            },
+            {
+              "name": "Elevanagram"
+            }
+          ]
+        },
+        {
+          "name": "Round G",
+          "problems": [
+            {
+              "name": "Book Reading"
+            },
+            {
+              "name": "The Equation"
+            },
+            {
+              "name": "Shifts"
+            }
+          ]
+        },
+        {
+          "name": "Round F",
+          "problems": [
+            {
+              "name": "Flattening"
+            },
+            {
+              "name": "Teach Me"
+            },
+            {
+              "name": "Spectating Villages"
+            }
+          ]
+        },
+        {
+          "name": "Round E",
+          "problems": [
+            {
+              "name": "Cherries Mesh"
+            },
+            {
+              "name": "Code-Eat Switcher"
+            },
+            {
+              "name": "Street Checkers"
+            }
+          ]
+        },
+        {
+          "name": "Round D",
+          "problems": [
+            {
+              "name": "X or What?"
+            },
+            {
+              "name": "Latest Guests"
+            },
+            {
+              "name": "Food Stalls"
+            }
+          ]
+        },
+        {
+          "name": "Round C",
+          "problems": [
+            {
+              "name": "Wiggle Walk"
+            },
+            {
+              "name": "Circuit Board"
+            },
+            {
+              "name": "Catch Some"
+            }
+          ]
+        },
+        {
+          "name": "Round B",
+          "problems": [
+            {
+              "name": "Building Palindromes"
+            },
+            {
+              "name": "Energy Stones"
+            },
+            {
+              "name": "Diverse Subarray"
+            }
+          ]
+        },
+        {
+          "name": "Round A",
+          "problems": [
+            {
+              "name": "Training"
+            },
+            {
+              "name": "Parcels"
+            },
+            {
+              "name": "Contention"
+            }
+          ]
+        },
+        {
+          "name": "Practice Round",
+          "problems": [
+            {
+              "name": "Number Guessing"
+            },
+            {
+              "name": "Mural"
+            },
+            {
+              "name": "Kickstart Alarm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2018",
+      "rounds": [
+        {
+          "name": "Round H",
+          "problems": [
+            {
+              "name": "Big Buttons"
+            },
+            {
+              "name": "Mural"
+            },
+            {
+              "name": "Let Me Count The Ways"
+            }
+          ]
+        },
+        {
+          "name": "Round G",
+          "problems": [
+            {
+              "name": "Product Triplets"
+            },
+            {
+              "name": "Combining Classes"
+            },
+            {
+              "name": "Cave Escape"
+            }
+          ]
+        },
+        {
+          "name": "Round F",
+          "problems": [
+            {
+              "name": "Common Anagrams"
+            },
+            {
+              "name": "Specializing Villages"
+            },
+            {
+              "name": "Palindromic Sequence"
+            }
+          ]
+        },
+        {
+          "name": "Round E",
+          "problems": [
+            {
+              "name": "Board Game"
+            },
+            {
+              "name": "Milk Tea"
+            },
+            {
+              "name": "Yogurt"
+            }
+          ]
+        },
+        {
+          "name": "Round D",
+          "problems": [
+            {
+              "name": "Candies"
+            },
+            {
+              "name": "Paragliding"
+            },
+            {
+              "name": "Funniest Word Search"
+            }
+          ]
+        },
+        {
+          "name": "Round C",
+          "problems": [
+            {
+              "name": "Planet Distance"
+            },
+            {
+              "name": "Fairies and Witches"
+            },
+            {
+              "name": "Kickstart Alarm"
+            }
+          ]
+        },
+        {
+          "name": "Round B",
+          "problems": [
+            {
+              "name": "No Nine"
+            },
+            {
+              "name": "Sherlock and the Bit Strings"
+            },
+            {
+              "name": "King's Circle"
+            }
+          ]
+        },
+        {
+          "name": "Round A",
+          "problems": [
+            {
+              "name": "Even Digits"
+            },
+            {
+              "name": "Lucky Dip"
+            },
+            {
+              "name": "Scrambled Words"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2017",
+      "rounds": [
+        {
+          "name": "Round G",
+          "problems": [
+            {
+              "name": "Huge Numbers"
+            },
+            {
+              "name": "Cards Game"
+            },
+            {
+              "name": "Matrix Cutting"
+            }
+          ]
+        },
+        {
+          "name": "Round F",
+          "problems": [
+            {
+              "name": "Cake"
+            },
+            {
+              "name": "Kicksort"
+            },
+            {
+              "name": "Dance Battle"
+            },
+            {
+              "name": "Catch Them All"
+            }
+          ]
+        },
+        {
+          "name": "Round E",
+          "problems": [
+            {
+              "name": "Trapezoid Counting"
+            },
+            {
+              "name": "Copy & Paste"
+            },
+            {
+              "name": "Blackhole"
+            }
+          ]
+        },
+        {
+          "name": "Round D",
+          "problems": [
+            {
+              "name": "Sightseeing"
+            },
+            {
+              "name": "Sherlock and Matrix Game"
+            },
+            {
+              "name": "Trash"
+            }
+          ]
+        },
+        {
+          "name": "Round C",
+          "problems": [
+            {
+              "name": "Ambiguous Cipher"
+            },
+            {
+              "name": "X Squared"
+            },
+            {
+              "name": "Magical Thinking v2"
+            },
+            {
+              "name": "The 4M Corporation"
+            }
+          ]
+        },
+        {
+          "name": "Round B",
+          "problems": [
+            {
+              "name": "Math Encoder"
+            },
+            {
+              "name": "Center"
+            },
+            {
+              "name": "Christmas Tree"
+            }
+          ]
+        },
+        {
+          "name": "Round A",
+          "problems": [
+            {
+              "name": "Square Counting"
+            },
+            {
+              "name": "Pattern Overlap"
+            },
+            {
+              "name": "Two Cubes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2016",
+      "rounds": [
+        {
+          "name": "Round E",
+          "problems": [
+            {
+              "name": "Diwali lightings"
+            },
+            {
+              "name": "Beautiful Numbers"
+            },
+            {
+              "name": "Partioning Number"
+            },
+            {
+              "name": "Sorting Array"
+            }
+          ]
+        },
+        {
+          "name": "Round D",
+          "problems": [
+            {
+              "name": "Vote"
+            },
+            {
+              "name": "Sitting"
+            },
+            {
+              "name": "Codejamon Cipher"
+            },
+            {
+              "name": "Stretch Rope"
+            }
+          ]
+        },
+        {
+          "name": "Round C",
+          "problems": [
+            {
+              "name": "Monster Path"
+            },
+            {
+              "name": "Safe Squares"
+            },
+            {
+              "name": "Evaluation"
+            },
+            {
+              "name": "Soldiers"
+            }
+          ]
+        },
+        {
+          "name": "Round B",
+          "problems": [
+            {
+              "name": "Sherlock and Parentheses"
+            },
+            {
+              "name": "Sherlock and Watson Gym Secrets"
+            },
+            {
+              "name": "Watson and Intervals"
+            },
+            {
+              "name": "Sherlock and Permutation Sorting"
+            }
+          ]
+        },
+        {
+          "name": "Round A",
+          "problems": [
+            {
+              "name": "Country Leader"
+            },
+            {
+              "name": "Rain"
+            },
+            {
+              "name": "Jane's Flower Shop"
+            },
+            {
+              "name": "Clash Royale"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2015",
+      "rounds": [
+        {
+          "name": "Round E",
+          "problems": [
+            {
+              "name": "Lazy Spelling Bee"
+            },
+            {
+              "name": "Robot Rock Band"
+            },
+            {
+              "name": "Not So Random"
+            },
+            {
+              "name": "Sums of Sums"
+            }
+          ]
+        },
+        {
+          "name": "Round D",
+          "problems": [
+            {
+              "name": "Dynamic Grid"
+            },
+            {
+              "name": "gBalloon"
+            },
+            {
+              "name": "IP Address Summarization"
+            },
+            {
+              "name": "Virtual Rabbit"
+            }
+          ]
+        },
+        {
+          "name": "Round C",
+          "problems": [
+            {
+              "name": "gRanks"
+            },
+            {
+              "name": "gFiles"
+            },
+            {
+              "name": "gGames"
+            },
+            {
+              "name": "gMatrix"
+            }
+          ]
+        },
+        {
+          "name": "Round B",
+          "problems": [
+            {
+              "name": "Travel"
+            },
+            {
+              "name": "gWheels"
+            },
+            {
+              "name": "gNumbers"
+            },
+            {
+              "name": "Albocede DNA"
+            }
+          ]
+        },
+        {
+          "name": "Round A",
+          "problems": [
+            {
+              "name": "Googol String"
+            },
+            {
+              "name": "gCube"
+            },
+            {
+              "name": "gCampus"
+            },
+            {
+              "name": "gSnake"
+            }
+          ]
+        },
+        {
+          "name": "Practice Round",
+          "problems": [
+            {
+              "name": "Moist"
+            },
+            {
+              "name": "Captain Hammer"
+            },
+            {
+              "name": "Bad Horse"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2014",
+      "rounds": [
+        {
+          "name": "Round D",
+          "problems": [
+            {
+              "name": "Cube IV"
+            },
+            {
+              "name": "GBus count"
+            },
+            {
+              "name": "Sort a scrambled itinerary"
+            },
+            {
+              "name": "Itz Chess"
+            }
+          ]
+        },
+        {
+          "name": "Round C",
+          "problems": [
+            {
+              "name": "Minesweeper"
+            },
+            {
+              "name": "Taking Metro"
+            },
+            {
+              "name": "Broken Calculator"
+            },
+            {
+              "name": "Tetris"
+            }
+          ]
+        },
+        {
+          "name": "Round B",
+          "problems": [
+            {
+              "name": "Password Attacker"
+            },
+            {
+              "name": "New Years Eve"
+            },
+            {
+              "name": "Card Game"
+            },
+            {
+              "name": "Parentheses Order"
+            }
+          ]
+        },
+        {
+          "name": "Round A",
+          "problems": [
+            {
+              "name": "Super 2048"
+            },
+            {
+              "name": "Seven-segment Display"
+            },
+            {
+              "name": "Cut Tiles"
+            },
+            {
+              "name": "Addition"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2013",
+      "rounds": [
+        {
+          "name": "Round B",
+          "problems": [
+            {
+              "name": "Sudoku Checker"
+            },
+            {
+              "name": "Ignore all my comments"
+            },
+            {
+              "name": "Dragon Maze"
+            },
+            {
+              "name": "Meet and party"
+            },
+            {
+              "name": "Hex"
+            }
+          ]
+        },
+        {
+          "name": "Round A",
+          "problems": [
+            {
+              "name": "Sorting"
+            },
+            {
+              "name": "Read Phone Number"
+            },
+            {
+              "name": "Rational Number Tree"
+            },
+            {
+              "name": "Cross the maze"
+            },
+            {
+              "name": "Spaceship Defence"
+            }
+          ]
+        },
+        {
+          "name": "Practice Round",
+          "problems": [
+            {
+              "name": "Moist"
+            },
+            {
+              "name": "Captain Hammer"
+            },
+            {
+              "name": "Bad Horse"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

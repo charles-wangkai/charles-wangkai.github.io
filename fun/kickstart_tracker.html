@@ -63,16 +63,19 @@
           }
         }
 
-        data = await getGithubApi(`${GITHUB_API_BASE_URL}/git/ref/heads/main`, {
-          cache: false,
-        });
+        let data = await getGithubApi(
+          `${GITHUB_API_BASE_URL}/git/ref/heads/main`,
+          {
+            cache: false,
+          }
+        );
         data = await getGithubApi(data.object.url);
         data = await getGithubApi(`${data.tree.url}?recursive=1`);
 
         const githubPaths = new Set(data.tree.map((object) => object.path));
 
         problems.forEach((problem) => {
-          const path = `${problem.year.name}/${problem.round.name}/${problem.problem.name}/Solution.java`;
+          const path = `${problem.year.name}/${problem.round.name}/${problem.problem.name}/Main.java`;
 
           if (githubPaths.has(path)) {
             problem.submissionUrl = `https://github.com/charles-wangkai/kickstart/blob/main/${encodeURIComponent(
