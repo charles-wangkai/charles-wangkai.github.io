@@ -38,7 +38,8 @@
       "name": 2020,
       "problems": [
         {
-          "name": "Interleaved Output: Part 1"
+          "name": "Interleaved Output: Part 1",
+          "url": "https://github.com/google/coding-competitions-archive/raw/main/codejam_to_io/2020/code_jam_to_io_for_women/interleaved_output_part_1/statement.pdf"
         },
         {
           "name": "Imbalance Obviation"
