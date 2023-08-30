@@ -1092,7 +1092,8 @@
           "name": "Round A",
           "problems": [
             {
-              "name": "Super 2048"
+              "name": "Super 2048",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2014/round_a/super_2048/statement.pdf"
             },
             {
               "name": "Seven-segment Display"
