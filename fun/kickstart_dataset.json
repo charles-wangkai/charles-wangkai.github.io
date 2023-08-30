@@ -1058,7 +1058,8 @@
           "name": "Round C",
           "problems": [
             {
-              "name": "Minesweeper"
+              "name": "Minesweeper",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2014/round_c/minesweeper/statement.pdf"
             },
             {
               "name": "Taking Metro"
