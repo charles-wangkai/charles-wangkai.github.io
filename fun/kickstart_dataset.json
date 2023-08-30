@@ -1075,7 +1075,8 @@
           "name": "Round B",
           "problems": [
             {
-              "name": "Password Attacker"
+              "name": "Password Attacker",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2014/round_b/password_attacker/statement.pdf"
             },
             {
               "name": "New Years Eve"
