@@ -979,7 +979,8 @@
               "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2015/round_c/gfiles/statement.pdf"
             },
             {
-              "name": "gGames"
+              "name": "gGames",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2015/round_c/ggames/statement.pdf"
             },
             {
               "name": "gMatrix"
