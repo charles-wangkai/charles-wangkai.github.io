@@ -988,7 +988,8 @@
           "name": "Round B",
           "problems": [
             {
-              "name": "Travel"
+              "name": "Travel",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2015/round_b/travel/statement.pdf"
             },
             {
               "name": "gWheels"
