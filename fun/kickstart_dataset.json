@@ -1041,7 +1041,8 @@
           "name": "Round D",
           "problems": [
             {
-              "name": "Cube IV"
+              "name": "Cube IV",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2014/round_d/cube_iv/statement.pdf"
             },
             {
               "name": "GBus count"
