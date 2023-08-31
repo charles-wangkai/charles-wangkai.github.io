@@ -1022,7 +1022,8 @@
           "name": "Practice Round",
           "problems": [
             {
-              "name": "Moist"
+              "name": "Moist",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2015/practice_round/moist/statement.pdf"
             },
             {
               "name": "Captain Hammer"
