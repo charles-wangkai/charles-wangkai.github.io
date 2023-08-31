@@ -954,7 +954,8 @@
           "name": "Round D",
           "problems": [
             {
-              "name": "Dynamic Grid"
+              "name": "Dynamic Grid",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2015/round_d/dynamic_grid/statement.pdf"
             },
             {
               "name": "gBalloon"
