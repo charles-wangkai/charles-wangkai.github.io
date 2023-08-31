@@ -971,7 +971,8 @@
           "name": "Round C",
           "problems": [
             {
-              "name": "gRanks"
+              "name": "gRanks",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2015/round_c/granks/statement.pdf"
             },
             {
               "name": "gFiles"
