@@ -937,7 +937,8 @@
           "name": "Round E",
           "problems": [
             {
-              "name": "Lazy Spelling Bee"
+              "name": "Lazy Spelling Bee",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2015/round_e/lazy_spelling_bee/statement.pdf"
             },
             {
               "name": "Robot Rock Band"
