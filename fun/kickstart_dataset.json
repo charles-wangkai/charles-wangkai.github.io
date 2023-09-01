@@ -752,7 +752,8 @@
           "name": "Round F",
           "problems": [
             {
-              "name": "Cake"
+              "name": "Cake",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2017/round_f/cake/statement.pdf"
             },
             {
               "name": "Kicksort"
