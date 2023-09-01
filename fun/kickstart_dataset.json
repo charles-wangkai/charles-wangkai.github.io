@@ -864,7 +864,8 @@
           "name": "Round D",
           "problems": [
             {
-              "name": "Vote"
+              "name": "Vote",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2016/round_d/vote/statement.pdf"
             },
             {
               "name": "Sitting"
