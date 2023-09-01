@@ -881,7 +881,8 @@
           "name": "Round C",
           "problems": [
             {
-              "name": "Monster Path"
+              "name": "Monster Path",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2016/round_c/monster_path/statement.pdf"
             },
             {
               "name": "Safe Squares"
