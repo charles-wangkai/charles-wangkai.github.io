@@ -738,7 +738,8 @@
           "name": "Round G",
           "problems": [
             {
-              "name": "Huge Numbers"
+              "name": "Huge Numbers",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2017/round_g/huge_numbers/statement.pdf"
             },
             {
               "name": "Cards Game"
