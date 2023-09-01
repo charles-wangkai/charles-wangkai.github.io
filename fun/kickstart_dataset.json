@@ -915,7 +915,8 @@
           "name": "Round A",
           "problems": [
             {
-              "name": "Country Leader"
+              "name": "Country Leader",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2016/round_a/country_leader/statement.pdf"
             },
             {
               "name": "Rain"
