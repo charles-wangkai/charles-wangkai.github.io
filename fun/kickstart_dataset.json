@@ -797,7 +797,8 @@
           "name": "Round C",
           "problems": [
             {
-              "name": "Ambiguous Cipher"
+              "name": "Ambiguous Cipher",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2017/round_c/ambiguous_cipher/statement.pdf"
             },
             {
               "name": "X Squared"
