@@ -814,7 +814,8 @@
           "name": "Round B",
           "problems": [
             {
-              "name": "Math Encoder"
+              "name": "Math Encoder",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2017/round_b/math_encoder/statement.pdf"
             },
             {
               "name": "Center"
