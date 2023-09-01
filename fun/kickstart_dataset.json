@@ -828,7 +828,8 @@
           "name": "Round A",
           "problems": [
             {
-              "name": "Square Counting"
+              "name": "Square Counting",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2017/round_a/square_counting/statement.pdf"
             },
             {
               "name": "Pattern Overlap"
