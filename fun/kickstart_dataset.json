@@ -783,7 +783,8 @@
           "name": "Round D",
           "problems": [
             {
-              "name": "Sightseeing"
+              "name": "Sightseeing",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2017/round_d/sightseeing/statement.pdf"
             },
             {
               "name": "Sherlock and Matrix Game"
