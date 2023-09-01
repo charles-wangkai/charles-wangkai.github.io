@@ -847,7 +847,8 @@
           "name": "Round E",
           "problems": [
             {
-              "name": "Diwali lightings"
+              "name": "Diwali lightings",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2016/round_e/diwali_lightings/statement.pdf"
             },
             {
               "name": "Beautiful Numbers"
