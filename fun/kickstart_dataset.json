@@ -898,7 +898,8 @@
           "name": "Round B",
           "problems": [
             {
-              "name": "Sherlock and Parentheses"
+              "name": "Sherlock and Parentheses",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2016/round_b/sherlock_and_parentheses/statement.pdf"
             },
             {
               "name": "Sherlock and Watson Gym Secrets"
