@@ -621,7 +621,8 @@
           "name": "Round H",
           "problems": [
             {
-              "name": "Big Buttons"
+              "name": "Big Buttons",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2018/round_h/big_buttons/statement.pdf"
             },
             {
               "name": "Mural"
