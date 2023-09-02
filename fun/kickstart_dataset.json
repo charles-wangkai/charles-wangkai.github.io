@@ -649,7 +649,8 @@
           "name": "Round F",
           "problems": [
             {
-              "name": "Common Anagrams"
+              "name": "Common Anagrams",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2018/round_f/common_anagrams/statement.pdf"
             },
             {
               "name": "Specializing Villages"
