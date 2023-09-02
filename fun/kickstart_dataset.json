@@ -719,7 +719,8 @@
           "name": "Round A",
           "problems": [
             {
-              "name": "Even Digits"
+              "name": "Even Digits",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2018/round_a/even_digits/statement.pdf"
             },
             {
               "name": "Lucky Dip"
