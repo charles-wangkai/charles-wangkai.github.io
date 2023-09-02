@@ -663,7 +663,8 @@
           "name": "Round E",
           "problems": [
             {
-              "name": "Board Game"
+              "name": "Board Game",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2018/round_e/board_game/statement.pdf"
             },
             {
               "name": "Milk Tea"
