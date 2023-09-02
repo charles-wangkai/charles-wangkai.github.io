@@ -691,7 +691,8 @@
           "name": "Round C",
           "problems": [
             {
-              "name": "Planet Distance"
+              "name": "Planet Distance",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2018/round_c/planet_distance/statement.pdf"
             },
             {
               "name": "Fairies and Witches"
