@@ -705,7 +705,8 @@
           "name": "Round B",
           "problems": [
             {
-              "name": "No Nine"
+              "name": "No Nine",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2018/round_b/no_nine/statement.pdf"
             },
             {
               "name": "Sherlock and the Bit Strings"
