@@ -635,7 +635,8 @@
           "name": "Round G",
           "problems": [
             {
-              "name": "Product Triplets"
+              "name": "Product Triplets",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2018/round_g/product_triplets/statement.pdf"
             },
             {
               "name": "Combining Classes"
