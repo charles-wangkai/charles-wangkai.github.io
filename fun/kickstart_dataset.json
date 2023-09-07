@@ -602,7 +602,8 @@
           "name": "Practice Round",
           "problems": [
             {
-              "name": "Number Guessing"
+              "name": "Number Guessing",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2019/practice_round/number_guessing/statement.pdf"
             },
             {
               "name": "Mural"
