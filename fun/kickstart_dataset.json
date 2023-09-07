@@ -560,7 +560,8 @@
           "name": "Round C",
           "problems": [
             {
-              "name": "Wiggle Walk"
+              "name": "Wiggle Walk",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2019/round_c/wiggle_walk/statement.pdf"
             },
             {
               "name": "Circuit Board"
