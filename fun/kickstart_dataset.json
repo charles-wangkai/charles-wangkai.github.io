@@ -574,7 +574,8 @@
           "name": "Round B",
           "problems": [
             {
-              "name": "Building Palindromes"
+              "name": "Building Palindromes",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2019/round_b/building_palindromes/statement.pdf"
             },
             {
               "name": "Energy Stones"
