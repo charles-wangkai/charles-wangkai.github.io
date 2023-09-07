@@ -504,7 +504,8 @@
           "name": "Round G",
           "problems": [
             {
-              "name": "Book Reading"
+              "name": "Book Reading",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2019/round_g/book_reading/statement.pdf"
             },
             {
               "name": "The Equation"
