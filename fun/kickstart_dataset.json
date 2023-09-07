@@ -588,7 +588,8 @@
           "name": "Round A",
           "problems": [
             {
-              "name": "Training"
+              "name": "Training",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2019/round_a/training/statement.pdf"
             },
             {
               "name": "Parcels"
