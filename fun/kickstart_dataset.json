@@ -532,7 +532,8 @@
           "name": "Round E",
           "problems": [
             {
-              "name": "Cherries Mesh"
+              "name": "Cherries Mesh",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2019/round_e/cherries_mesh/statement.pdf"
             },
             {
               "name": "Code-Eat Switcher"
