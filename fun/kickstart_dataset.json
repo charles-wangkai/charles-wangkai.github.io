@@ -518,7 +518,8 @@
           "name": "Round F",
           "problems": [
             {
-              "name": "Flattening"
+              "name": "Flattening",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2019/round_f/flattening/statement.pdf"
             },
             {
               "name": "Teach Me"
