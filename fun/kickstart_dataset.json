@@ -490,7 +490,8 @@
           "name": "Round H",
           "problems": [
             {
-              "name": "H-index"
+              "name": "H-index",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2019/round_h/h-index/statement.pdf"
             },
             {
               "name": "Diagonal Puzzle"
