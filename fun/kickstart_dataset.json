@@ -546,7 +546,8 @@
           "name": "Round D",
           "problems": [
             {
-              "name": "X or What?"
+              "name": "X or What?",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2019/round_d/x_or_what/statement.pdf"
             },
             {
               "name": "Latest Guests"
