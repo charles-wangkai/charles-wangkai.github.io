@@ -349,7 +349,8 @@
           "name": "Round H",
           "problems": [
             {
-              "name": "Retype"
+              "name": "Retype",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2020/round_h/retype/statement.pdf"
             },
             {
               "name": "Boring Numbers"
