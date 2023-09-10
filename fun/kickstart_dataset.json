@@ -417,7 +417,8 @@
           "name": "Round D",
           "problems": [
             {
-              "name": "Record Breaker"
+              "name": "Record Breaker",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2020/round_d/record_breaker/statement.pdf"
             },
             {
               "name": "Alien Piano"
