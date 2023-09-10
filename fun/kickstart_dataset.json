@@ -451,7 +451,8 @@
           "name": "Round B",
           "problems": [
             {
-              "name": "Bike Tour"
+              "name": "Bike Tour",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2020/round_b/bike_tour/statement.pdf"
             },
             {
               "name": "Bus Routes"
