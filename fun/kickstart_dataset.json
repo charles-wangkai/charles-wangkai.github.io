@@ -400,7 +400,8 @@
           "name": "Round E",
           "problems": [
             {
-              "name": "Longest Arithmetic"
+              "name": "Longest Arithmetic",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2020/round_e/longest_arithmetic/statement.pdf"
             },
             {
               "name": "High Buildings"
