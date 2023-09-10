@@ -434,7 +434,8 @@
           "name": "Round C",
           "problems": [
             {
-              "name": "Countdown"
+              "name": "Countdown",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2020/round_c/countdown/statement.pdf"
             },
             {
               "name": "Stable Wall"
