@@ -366,7 +366,8 @@
           "name": "Round G",
           "problems": [
             {
-              "name": "Kick_Start"
+              "name": "Kick_Start",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2020/round_g/kick_start/statement.pdf"
             },
             {
               "name": "Maximum Coins"
