@@ -327,7 +327,8 @@
           "name": "Round A",
           "problems": [
             {
-              "name": "K-Goodness String"
+              "name": "K-Goodness String",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2021/round_a/k-goodness_string/statement.pdf"
             },
             {
               "name": "L Shaped Plots"
