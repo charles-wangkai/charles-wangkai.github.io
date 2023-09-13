@@ -242,7 +242,8 @@
           "name": "Round F",
           "problems": [
             {
-              "name": "Trash Bins"
+              "name": "Trash Bins",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2021/round_f/trash_bins/statement.pdf"
             },
             {
               "name": "Festival"
