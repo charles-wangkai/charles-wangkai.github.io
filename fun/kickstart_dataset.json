@@ -208,7 +208,8 @@
           "name": "Round H",
           "problems": [
             {
-              "name": "Transform the String"
+              "name": "Transform the String",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2021/round_h/transform_the_string/statement.pdf"
             },
             {
               "name": "Painter"
