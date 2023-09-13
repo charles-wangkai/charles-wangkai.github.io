@@ -310,7 +310,8 @@
           "name": "Round B",
           "problems": [
             {
-              "name": "Increasing Substring"
+              "name": "Increasing Substring",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2021/round_b/increasing_substring/statement.pdf"
             },
             {
               "name": "Longest Progression"
