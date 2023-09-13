@@ -225,7 +225,8 @@
           "name": "Round G",
           "problems": [
             {
-              "name": "Dogs and Cats"
+              "name": "Dogs and Cats",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2021/round_g/dogs_and_cats/statement.pdf"
             },
             {
               "name": "Staying Hydrated"
