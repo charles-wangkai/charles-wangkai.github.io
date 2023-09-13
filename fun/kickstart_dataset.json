@@ -276,7 +276,8 @@
           "name": "Round D",
           "problems": [
             {
-              "name": "Arithmetic Square"
+              "name": "Arithmetic Square",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2021/round_d/arithmetic_square/statement.pdf"
             },
             {
               "name": "Cutting Intervals"
