@@ -259,7 +259,8 @@
           "name": "Round E",
           "problems": [
             {
-              "name": "Shuffled Anagrams"
+              "name": "Shuffled Anagrams",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2021/round_e/shuffled_anagrams/statement.pdf"
             },
             {
               "name": "Birthday Cake"
