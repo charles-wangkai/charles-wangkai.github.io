@@ -166,7 +166,8 @@
           "name": "Round A",
           "problems": [
             {
-              "name": "Speed Typing"
+              "name": "Speed Typing",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2022/round_a/speed_typing/statement.pdf"
             },
             {
               "name": "Challenge Nine"
