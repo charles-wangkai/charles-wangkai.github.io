@@ -95,7 +95,8 @@
           "name": "Round D",
           "problems": [
             {
-              "name": "Image Labeler"
+              "name": "Image Labeler",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2022/round_d/image_labeler/statement.pdf"
             },
             {
               "name": "Maximum Gain"
