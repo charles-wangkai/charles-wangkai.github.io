@@ -78,7 +78,8 @@
           "name": "Round E",
           "problems": [
             {
-              "name": "Coloring Game"
+              "name": "Coloring Game",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2022/round_e/coloring_game/statement.pdf"
             },
             {
               "name": "Students and Mentors"
