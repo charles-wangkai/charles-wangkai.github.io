@@ -149,7 +149,8 @@
           "name": "Round B",
           "problems": [
             {
-              "name": "Infinity Area"
+              "name": "Infinity Area",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2022/round_b/infinity_area/statement.pdf"
             },
             {
               "name": "Palindromic Factors"
