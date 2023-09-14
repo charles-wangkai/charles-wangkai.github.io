@@ -132,7 +132,8 @@
           "name": "Round C",
           "problems": [
             {
-              "name": "New Password"
+              "name": "New Password",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2022/round_c/new_password/statement.pdf"
             },
             {
               "name": "Range Partition"
