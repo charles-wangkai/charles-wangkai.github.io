@@ -41,7 +41,8 @@
           "name": "Round F",
           "problems": [
             {
-              "name": "Sort the Fabrics"
+              "name": "Sort the Fabrics",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2022/round_f/sort_the_fabrics/statement.pdf"
             },
             {
               "name": "Water Container System"
