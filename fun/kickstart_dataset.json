@@ -24,7 +24,8 @@
           "name": "Round G",
           "problems": [
             {
-              "name": "Walktober"
+              "name": "Walktober",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2022/round_g/walktober/statement.pdf"
             },
             {
               "name": "Curling"
