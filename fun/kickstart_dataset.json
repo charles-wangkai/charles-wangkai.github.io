@@ -7,7 +7,8 @@
           "name": "Round H",
           "problems": [
             {
-              "name": "Running in Circles"
+              "name": "Running in Circles",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/kickstart/2022/round_h/running_in_circles/statement.pdf"
             },
             {
               "name": "Magical Well Of Lilies"
