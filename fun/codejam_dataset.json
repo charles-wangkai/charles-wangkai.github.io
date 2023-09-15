@@ -1622,7 +1622,8 @@
           "name": "Round 2",
           "problems": [
             {
-              "name": "Crazy Rows"
+              "name": "Crazy Rows",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/codejam/2009/round_2/crazy_rows/statement.pdf"
             },
             {
               "name": "A Digging Problem"
