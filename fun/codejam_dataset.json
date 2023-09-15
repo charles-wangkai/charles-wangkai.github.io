@@ -1847,7 +1847,8 @@
           "name": "Qualification Round",
           "problems": [
             {
-              "name": "Fly Swatter"
+              "name": "Fly Swatter",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/codejam/2008/qualification_round/fly_swatter/statement.pdf"
             },
             {
               "name": "Saving the Universe"
