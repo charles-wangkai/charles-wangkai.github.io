@@ -1720,7 +1720,8 @@
           "name": "EMEA Semifinal",
           "problems": [
             {
-              "name": "Painting a Fence"
+              "name": "Painting a Fence",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/codejam/2008/emea_semifinal/painting_a_fence/statement.pdf"
             },
             {
               "name": "Scaled Triangle"
