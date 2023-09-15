@@ -1805,7 +1805,8 @@
           "name": "Round 1C",
           "problems": [
             {
-              "name": "Text Messaging Outrage"
+              "name": "Text Messaging Outrage",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/codejam/2008/round_1c/text_messaging_outrage/statement.pdf"
             },
             {
               "name": "Ugly Numbers"
