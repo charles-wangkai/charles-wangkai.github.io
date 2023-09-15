@@ -73,7 +73,7 @@
         const githubPaths = new Set(data.tree.map((object) => object.path));
 
         problems.forEach((problem) => {
-          const path = `${problem.year.name}/${problem.round.name}/${problem.problem.name}/Solution.java`;
+          const path = `${problem.year.name}/${problem.round.name}/${problem.problem.name}/Main.java`;
 
           if (githubPaths.has(path)) {
             problem.submissionUrl = `https://github.com/charles-wangkai/codejam/blob/master/${encodeURIComponent(
@@ -90,8 +90,8 @@
           $("#problems tbody").append(`
               <tr>
                 <th scope="row"><a href="${problem.problem.url}">${problem.problem.name}</a></th>
-                <td><a href="${problem.year.url}">${problem.year.name}</a></td>
-                <td><a href="${problem.round.url}">${problem.round.name}</a></td>
+                <td>${problem.year.name}</td>
+                <td>${problem.round.name}</td>
                 <td><a href="${problem.problem.url}">${problem.index}</a></td>
                 <td>${submission}</td>
               </tr>
