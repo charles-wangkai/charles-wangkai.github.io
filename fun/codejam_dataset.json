@@ -1788,7 +1788,8 @@
           "name": "Round 2",
           "problems": [
             {
-              "name": "Cheating a Boolean Tree"
+              "name": "Cheating a Boolean Tree",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/codejam/2008/round_2/cheating_a_boolean_tree/statement.pdf"
             },
             {
               "name": "Triangle Areas"
