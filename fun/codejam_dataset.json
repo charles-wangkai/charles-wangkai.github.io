@@ -1645,7 +1645,8 @@
               "name": "Center of Mass"
             },
             {
-              "name": "Bribe the Prisoners"
+              "name": "Bribe the Prisoners",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/codejam/2009/round_1c/bribe_the_prisoners/statement.pdf"
             }
           ]
         },
