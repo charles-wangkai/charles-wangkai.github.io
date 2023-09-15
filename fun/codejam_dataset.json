@@ -1700,7 +1700,8 @@
           "name": "World Finals",
           "problems": [
             {
-              "name": "Juice"
+              "name": "Juice",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/codejam/2008/world_finals/juice/statement.pdf"
             },
             {
               "name": "Ping Pong Balls"
