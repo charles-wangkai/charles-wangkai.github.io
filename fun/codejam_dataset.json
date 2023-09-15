@@ -1833,7 +1833,8 @@
           "name": "Round 1A",
           "problems": [
             {
-              "name": "Minimum Scalar Product"
+              "name": "Minimum Scalar Product",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/codejam/2008/round_1a/minimum_scalar_product/statement.pdf"
             },
             {
               "name": "Milkshakes"
