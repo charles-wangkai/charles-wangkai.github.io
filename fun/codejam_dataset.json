@@ -1819,7 +1819,8 @@
           "name": "Round 1B",
           "problems": [
             {
-              "name": "Crop Triangles"
+              "name": "Crop Triangles",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/codejam/2008/round_1b/crop_triangles/statement.pdf"
             },
             {
               "name": "Number Sets"
