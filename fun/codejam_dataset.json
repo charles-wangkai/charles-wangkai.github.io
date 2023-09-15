@@ -1737,7 +1737,8 @@
           "name": "AMER Semifinal",
           "problems": [
             {
-              "name": "Mixing Bowls"
+              "name": "Mixing Bowls",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/codejam/2008/amer_semifinal/mixing_bowls/statement.pdf"
             },
             {
               "name": "Test Passing Probability"
