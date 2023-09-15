@@ -1754,7 +1754,8 @@
           "name": "APAC Semifinal",
           "problems": [
             {
-              "name": "What are Birds?"
+              "name": "What are Birds?",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/codejam/2008/apac_semifinal/what_are_birds/statement.pdf"
             },
             {
               "name": "Apocalypse Soon"
