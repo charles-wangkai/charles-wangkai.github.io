@@ -1588,7 +1588,8 @@
               "name": "Min Perimeter"
             },
             {
-              "name": "Wi-fi Towers"
+              "name": "Wi-fi Towers",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/codejam/2009/world_finals/wi-fi_towers/statement.pdf"
             },
             {
               "name": "Doubly-sorted Grid"
