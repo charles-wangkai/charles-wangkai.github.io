@@ -1,19 +1,5 @@
 [Resume](/resume/kai_wang_resume.pdf)
 
-## Industry Application
-
-- Measurement, Test, and Calibration
-
-- Power Quality Monitoring and Analysis
-
-## Device and Firmware
-
-- Power Quality Analyzer Equipment
-
-- Monitoring Equipment for PV Power Generation
-
-- Thermal Imager
-
 ## Competitive Programming & Contests
 
 - [Google Code Jam 2020](/certificates/certificate_google_code_jam_2020.png): Round 3. Ranked 497th out of 44000+.
@@ -24,11 +10,11 @@
 
 - [Meta Hacker Cup 2019](https://www.facebook.com/codingcompetitions/hacker-cup/2019/round-2/scoreboard): Round 2. Ranked 463th out of 6000+.
 
-- [Google Code Jam to I/O 2020](https://codingcompetitions.withgoogle.com/codejamio/round/000000000019ff03): Ranked 59th out of 2500+.
+- Google Code Jam to I/O 2020: Ranked 59th out of 2500+.
 
-- [Google Distributed Code Jam 2016](https://code.google.com/codejam/contest/7244486/scoreboard): Round 2. Ranked 175th out of 800+.
+- Google Distributed Code Jam 2016: Round 2. Ranked 175th out of 800+.
 
-- [Google CTF 2021](https://capturetheflag.withgoogle.com/scoreboard/junior_groot): Ranked 177th.
+- Google CTF 2023: Ranked 136th out of 600+.
 
 - [Bioinformatics Contest 2021](/certificates/certificate_bioinformatics_contest_2021.pdf): Ranked 499th.
 
@@ -41,20 +27,6 @@
 - Project Euler:
 
   ![](https://projecteuler.net/profile/goalboy.png)
-
-## Web Application
-
-- [Restaurant](https://confusion-bootstrap.herokuapp.com) (based on Bootstrap)
-
-- [Restaurant](https://confusion-react-frontend.herokuapp.com) (based on React)
-
-- [Restaurant](https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40goalboy/confusion-37db062f61bf4add8068c398a72d8a14-signed.apk) (Android App, based on React Native)
-
-- [Restaurant](https://confusion-react-nodejs.herokuapp.com) (based on Node.js, Express, MongoDB)
-
-- [Restaurant](https://confusion-reactjs-firebase.herokuapp.com) (based on Firebase)
-
-- [Restaurant](https://confusion-react-loopback.herokuapp.com) (based on LoopBack, MongoDB)
 
 ## Unity
 
