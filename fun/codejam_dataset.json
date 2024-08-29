@@ -1582,7 +1582,8 @@
           "name": "World Finals",
           "problems": [
             {
-              "name": "Year of More Code Jam"
+              "name": "Year of More Code Jam",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/codejam/2009/world_finals/year_of_more_code_jam/statement.pdf"
             },
             {
               "name": "Min Perimeter"
