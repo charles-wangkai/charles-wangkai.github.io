@@ -1613,7 +1613,8 @@
               "name": "Alphabetomials"
             },
             {
-              "name": "Football Team"
+              "name": "Football Team",
+              "url": "https://github.com/google/coding-competitions-archive/raw/main/codejam/2009/round_3/football_team/statement.pdf"
             },
             {
               "name": "Interesting Ranges"
