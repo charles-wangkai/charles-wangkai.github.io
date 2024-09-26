@@ -1,4 +1,6 @@
-[Resume](/resume/kai_wang_resume.pdf)
+[Resume (English)](/resume/kai_wang_resume.pdf)
+
+[Resume (Chinese)](/resume/王恺_简历.pdf)
 
 ## Competitive Programming & Contests
 

@@ -1,0 +1,116 @@
+% !TeX TS-program = xelatex
+
+\documentclass{resume}
+\ResumeName{王恺}
+
+% 如果想插入照片，请使用以下两个库。
+% \usepackage{graphicx}
+% \usepackage{tikz}
+
+\begin{document}
+
+\ResumeContacts{
+  (+86) 13811539414,%
+  \ResumeUrl{mailto:charles.wangkai@gmail.com}{charles.wangkai@gmail.com},%
+  \ResumeUrl{https://github.com/charles-wangkai}{github.com/charles-wangkai}%
+}
+
+% 如果想插入照片，请取消此代码的注释。
+% 但是默认不推荐插入照片，因为这不是简历的重点。
+% 如果默认的照片插入格式不能满足你的需求，你可以尝试调整照片的大小，或者使用其他的插入照片的方法。
+% 不然，也可以先渲染 PDF 简历，然后用其他工具在 PDF 上叠加照片。
+% \begin{tikzpicture}[remember picture, overlay]
+%   \node [anchor=north east, inner sep=1cm]  at (current page.north east) 
+%      {\includegraphics[width=2cm]{image.png}};
+% \end{tikzpicture}
+
+\ResumeTitle
+
+\section{工作经历}
+\ResumeItem{北京索佳科技有限公司}
+[高级软件工程师]
+[2021—2024]
+外包项目
+\begin{itemize}
+  \item 开发了用于传感器数据可视化的实时处理应用程序的后端部分。(Rust)
+  \item 设计并开发了基于 Web 的辅助翻译编辑器的后端部分。(Java, Spring Boot, Elasticsearch)
+\end{itemize}
+
+\ResumeItem{安彼迎信息科技（北京）有限公司 (Airbnb)}
+[高级软件工程师]
+[2020—2021]
+社区支持平台
+\begin{itemize}
+  \item 构建了可复用的数据处理服务。(Java, 微服务)
+  \item 基于用户行为分析重新组织帮助文章的结构以减少客户工单量。(A/B 测试)
+\end{itemize}
+
+\ResumeItem{北京百观科技有限公司 (BigOne Lab)}
+[高级软件工程师]
+[2017—2020]
+金融数据智能平台
+\begin{itemize}
+  \item 探索并应用公司内部技术实验室的创新方法。(AWS Lambda, Google Apps Script, Slack Bot, 自然语言处理)
+  \item 开发网络爬虫来提取公共数据。(Python, Redis, MongoDB, 逆向工程)
+\end{itemize}
+
+\ResumeItem{上海简米网络科技有限公司 (Ping++)}
+[大数据工程师]
+[2015—2017]
+商业智能平台
+\begin{itemize}
+  \item 设计并实现了数据加工和存储的整个流程、用户 ID 映射、关键指标。
+  \item 为一家合作便利店训练了一个销售额预测模型并投入使用。
+\end{itemize}
+
+\ResumeItem{亚马逊（中国）投资有限公司 (Amazon)}
+[软件工程师]
+[2014—2015]
+第三方商户平台
+\begin{itemize}
+  \item 将来自第三方快递公司的物流信息整合到亚马逊系统中以供分析和展示。
+  \item 建立了通过查询数据仓库得到的运营报告以供监控和分析。
+\end{itemize}
+
+\ResumeItem{国际商业机器（中国）有限公司 (IBM 中国开发中心)}
+[软件工程师]
+[2009—2014]
+IBM Z 大型机软件许可证管理系统
+\begin{itemize}
+  \item 通过分离数据源和样式转换重新设计了客户使用报告的生成流程。
+  \item 发起并开发了测试数据生成器工具，节省了 85\% 的手动工作。
+\end{itemize}
+
+\section{教育经历}
+\ResumeItem
+[北京工业大学|硕士研究生]
+{北京工业大学}
+[\textnormal{计算机应用技术 | GPA: 3.5/4.0 |} 硕士研究生]
+[2006.09—2009.07]
+
+\ResumeItem
+[北京工业大学|本科]
+{北京工业大学}
+[\textnormal{计算机科学与技术 | 实验班，GPA: 3.6/4.0 |} 本科]
+[2002.09—2006.07]
+
+\section{编程练习和比赛}
+\begin{itemize}
+  \item \textbf{Meta Hacker Cup (2023):} 晋级到第 2 轮，在一共 20000+ 参与者中{\ResumeUrl{https://charles-wangkai.github.io/certificates/certificate_meta_hacker_cup_2023.png}{排名第 803 名}}。
+  \item \textbf{\ResumeUrl{https://codeforces.com}{Codeforces}:} 已解决 3200+ 道题，排前 150 名。(ID: goalboy)
+  \item \textbf{\ResumeUrl{https://projecteuler.net}{Project Euler}:} 等级 13 级，已解决 329 道题。(ID: goalboy)
+\end{itemize}
+
+\section{技术能力}
+\begin{itemize}
+  \item 编程不受特定语言限制。常用 Java, Python, Rust, SQL；熟悉 C, C++, JavaScript。
+  \item 擅长数据结构和算法，后端开发，系统架构。
+\end{itemize}
+
+\section{最喜爱的编程书籍}
+\begin{itemize}
+  \item ``Programming Pearls'' 即《编程珠玑》
+  \item ``Clean Code: A Handbook of Agile Software Craftsmanship'' 即《代码整洁之道》
+\end{itemize}
+
+\end{document}
